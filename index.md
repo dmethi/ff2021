@@ -29,5 +29,11 @@
 
 ## Player Values
 {% include_relative week2/values.html %}
+* **Rank** -- Player's positional rank this far into the season.
 * **Value Over Replacement Starter (VORS)** -- Points per game over a baseline starter at each position. For QB, that's QB12 on the season, for RB, that's RB30 on the season, for WR, that's WR30 on the season, for TE, that's TE12 on the season, and for K, that's K12 on the season.
+* **VORS Interpretation** -- Derrick Henry this far into the season has been worth almost 20 points per game over RB30, providing a massive edge at the position for the Madurais. No other player in the league has this much of an edge over a replacement starter.
 * **Value Over Replacement Player (VORP)** -- Points per game over the next best available waiver wire pick at each position. 
+* **VORP Interpretation** -- Even though Kyler is worth over 13 points per game over the replacement starter, he's only worth about 10 points per game over the replacement player signaling that there is solid depth available on the waiver wire at the QB position. 
+* **Value Over Bench Player (VOBP)** -- Points per game over the next best bench player (non-starter) on the player's team (or next best waiver wire player if the owner has no backups at that position to their starters). 
+* **VOBP Interpretation** -- Travis Kelce is worth over 12 points per game over Higbee, clearly signaling that Kelce is Shivang's MVP so far this year and that he will be quite fucked if anything happens to Kelce. 
+* **Overall Thoughts** -- To me, this validates the strategy of prioritizing RBs in drafts -- 8 of the top 14 players in VOBP are running backs, demonstrating their importance to everyone's teams and the shallow depth behind the top options. This also highlights positional scarcity -- even though David Montgomery is only RB12, he's so important to Shivang's team that he's ranked higher in VOBP than Nick Chubb, who is the RB4, showing conclusively that Varun has way more RB depth than Shivang. 
