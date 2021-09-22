@@ -12,3 +12,4 @@ Record | Sleeper Rank | Power Rank
 
 {% include_relative week2/scboom5_polar.html %}
 
+{% include_relative week2/scboom5_filtered.html %}
