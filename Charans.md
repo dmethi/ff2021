@@ -8,8 +8,11 @@ Record | Sleeper Rank | Power Rank
 :--: | :--: | :--:
 1-1 | 9th | 11th   
 
+#### Results
 {% include_relative week2/scboom5_results.html %}
 
+#### Positional Points Breakdown
 {% include_relative week2/scboom5_polar.html %}
 
+#### Roster Breakdown
 {% include_relative week2/scboom5_filtered.html %}
