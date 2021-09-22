@@ -26,3 +26,6 @@
 {% include_relative week2/luck.html %}
 * **Luckiest** -- Jeffrey is an insanely lucky mofo, grading out as by far the luckiest owner this season. He does not deserve to be 2-0. 
 * **Unluckiest** -- Varun and Kishan both have been prey to some horrible luck and are much better than their 0-2 record suggests. 
+
+## Player Values
+{% include_relative week2/values.html %}
