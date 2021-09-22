@@ -2,6 +2,8 @@
 layout: page
 ---
 
+# Week 2
+
 ## Weekly Overview
 ![Overview Table](/week2/table.png)
 * **Sleeper Rank** -- Your league rank
