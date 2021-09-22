@@ -11,3 +11,5 @@ Record | Sleeper Rank | Power Rank
 {% include_relative week2/plumsmuggler99_results.html %}
 
 {% include_relative week2/plumsmuggler99_polar.html %}
+
+{% include_relative week2/plumsmuggler99_filtered.html %}
