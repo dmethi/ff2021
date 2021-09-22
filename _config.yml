@@ -1,3 +1,6 @@
 remote_theme: oinam/oinam-jekyll
 title: House Realest
 decription: An analytical dive into the fantasy football season
+
+url: https://dmethi.github.io
+baseurl: /ff2021
