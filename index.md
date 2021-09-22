@@ -3,7 +3,7 @@ layout: page
 title: Weekly Overview
 ---
 
-<figure class=content-large>
+<figure class="content-large">
 ![Overview Table](/week2/table.png)
 </figure>
 * **Sleeper Rank** -- Your league rank
