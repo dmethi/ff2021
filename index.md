@@ -8,7 +8,7 @@
 * The TE premium strategy is paying dividends for Shivang, the Sitarams, and Anant. 
 
 ### Projected / Actual / Optimal Points
-{% include_relative week2/horizontal_plot.html %}
+{% include_relative week2/horitontal_plot.html %}
 * **Projected Points** -- this is the points that an owner would've received if they started the optimal lineup based on FantasyPros expert projections. 
 * **Actual Points** -- this is the points that an owner has actually scored through 2 weeks. 
 * **Optimal Points** -- this is the points that an owner would've scored if they started the perfect lineup possible and left zero points on their bench. 
