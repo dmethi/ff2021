@@ -11,3 +11,5 @@ Record | Sleeper Rank | Power Rank
 {% include_relative week2/armadurai_results.html %}
 
 {% include_relative week2/armadurai_polar.html %}
+
+{% include_relative week2/armadurai_filtered.html %}
