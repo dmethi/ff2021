@@ -1,5 +1,8 @@
 # Week 2 -- Season Stats
 
+## Weekly Overview
+{% include_relative week2/overview.html %}
+
 ## Positional Points Breakdown
 {% include_relative week2/stacked_bar.html %}
 * **QB** -- Jeffrey is enjoying a massive advantage over the rest of the league, led by Kyler's sensational 2-game stretch that has vaulted him to 2nd in MVP odds. 
