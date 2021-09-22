@@ -1,1170 +1,1919 @@
-<table border="1" class="dataframe">
+<style type="text/css">
+#T_e2e3a_ th {
+  font-size: 8px;
+  text-align: center;
+}
+#T_e2e3a_row0_col0, #T_e2e3a_row0_col1, #T_e2e3a_row0_col2, #T_e2e3a_row0_col3, #T_e2e3a_row0_col4, #T_e2e3a_row0_col5, #T_e2e3a_row1_col0, #T_e2e3a_row1_col1, #T_e2e3a_row1_col2, #T_e2e3a_row1_col3, #T_e2e3a_row1_col4, #T_e2e3a_row1_col5, #T_e2e3a_row2_col0, #T_e2e3a_row2_col1, #T_e2e3a_row2_col2, #T_e2e3a_row2_col3, #T_e2e3a_row2_col4, #T_e2e3a_row2_col5, #T_e2e3a_row3_col0, #T_e2e3a_row3_col1, #T_e2e3a_row3_col2, #T_e2e3a_row3_col3, #T_e2e3a_row3_col4, #T_e2e3a_row3_col5, #T_e2e3a_row4_col0, #T_e2e3a_row4_col1, #T_e2e3a_row4_col2, #T_e2e3a_row4_col3, #T_e2e3a_row4_col4, #T_e2e3a_row4_col5, #T_e2e3a_row5_col0, #T_e2e3a_row5_col1, #T_e2e3a_row5_col2, #T_e2e3a_row5_col3, #T_e2e3a_row5_col4, #T_e2e3a_row5_col5, #T_e2e3a_row6_col0, #T_e2e3a_row6_col1, #T_e2e3a_row6_col2, #T_e2e3a_row6_col3, #T_e2e3a_row6_col4, #T_e2e3a_row6_col5, #T_e2e3a_row7_col0, #T_e2e3a_row7_col1, #T_e2e3a_row7_col2, #T_e2e3a_row7_col3, #T_e2e3a_row7_col4, #T_e2e3a_row7_col5, #T_e2e3a_row8_col0, #T_e2e3a_row8_col1, #T_e2e3a_row8_col2, #T_e2e3a_row8_col3, #T_e2e3a_row8_col4, #T_e2e3a_row8_col5, #T_e2e3a_row9_col0, #T_e2e3a_row9_col1, #T_e2e3a_row9_col2, #T_e2e3a_row9_col3, #T_e2e3a_row9_col4, #T_e2e3a_row9_col5, #T_e2e3a_row10_col0, #T_e2e3a_row10_col1, #T_e2e3a_row10_col2, #T_e2e3a_row10_col3, #T_e2e3a_row10_col4, #T_e2e3a_row10_col5, #T_e2e3a_row11_col0, #T_e2e3a_row11_col1, #T_e2e3a_row11_col2, #T_e2e3a_row11_col3, #T_e2e3a_row11_col4, #T_e2e3a_row11_col5, #T_e2e3a_row12_col0, #T_e2e3a_row12_col1, #T_e2e3a_row12_col2, #T_e2e3a_row12_col3, #T_e2e3a_row12_col4, #T_e2e3a_row12_col5, #T_e2e3a_row13_col0, #T_e2e3a_row13_col1, #T_e2e3a_row13_col2, #T_e2e3a_row13_col3, #T_e2e3a_row13_col4, #T_e2e3a_row13_col5, #T_e2e3a_row14_col0, #T_e2e3a_row14_col1, #T_e2e3a_row14_col2, #T_e2e3a_row14_col3, #T_e2e3a_row14_col4, #T_e2e3a_row14_col5, #T_e2e3a_row15_col0, #T_e2e3a_row15_col1, #T_e2e3a_row15_col2, #T_e2e3a_row15_col3, #T_e2e3a_row15_col4, #T_e2e3a_row15_col5, #T_e2e3a_row16_col0, #T_e2e3a_row16_col1, #T_e2e3a_row16_col2, #T_e2e3a_row16_col3, #T_e2e3a_row16_col4, #T_e2e3a_row16_col5, #T_e2e3a_row17_col0, #T_e2e3a_row17_col1, #T_e2e3a_row17_col2, #T_e2e3a_row17_col3, #T_e2e3a_row17_col4, #T_e2e3a_row17_col5, #T_e2e3a_row18_col0, #T_e2e3a_row18_col1, #T_e2e3a_row18_col2, #T_e2e3a_row18_col3, #T_e2e3a_row18_col4, #T_e2e3a_row18_col5, #T_e2e3a_row19_col0, #T_e2e3a_row19_col1, #T_e2e3a_row19_col2, #T_e2e3a_row19_col3, #T_e2e3a_row19_col4, #T_e2e3a_row19_col5, #T_e2e3a_row20_col0, #T_e2e3a_row20_col1, #T_e2e3a_row20_col2, #T_e2e3a_row20_col3, #T_e2e3a_row20_col4, #T_e2e3a_row20_col5, #T_e2e3a_row21_col0, #T_e2e3a_row21_col1, #T_e2e3a_row21_col2, #T_e2e3a_row21_col3, #T_e2e3a_row21_col4, #T_e2e3a_row21_col5, #T_e2e3a_row22_col0, #T_e2e3a_row22_col1, #T_e2e3a_row22_col2, #T_e2e3a_row22_col3, #T_e2e3a_row22_col4, #T_e2e3a_row22_col5, #T_e2e3a_row23_col0, #T_e2e3a_row23_col1, #T_e2e3a_row23_col2, #T_e2e3a_row23_col3, #T_e2e3a_row23_col4, #T_e2e3a_row23_col5, #T_e2e3a_row24_col0, #T_e2e3a_row24_col1, #T_e2e3a_row24_col2, #T_e2e3a_row24_col3, #T_e2e3a_row24_col4, #T_e2e3a_row24_col5, #T_e2e3a_row25_col0, #T_e2e3a_row25_col1, #T_e2e3a_row25_col2, #T_e2e3a_row25_col3, #T_e2e3a_row25_col4, #T_e2e3a_row25_col5, #T_e2e3a_row26_col0, #T_e2e3a_row26_col1, #T_e2e3a_row26_col2, #T_e2e3a_row26_col3, #T_e2e3a_row26_col4, #T_e2e3a_row26_col5, #T_e2e3a_row27_col0, #T_e2e3a_row27_col1, #T_e2e3a_row27_col2, #T_e2e3a_row27_col3, #T_e2e3a_row27_col4, #T_e2e3a_row27_col5, #T_e2e3a_row28_col0, #T_e2e3a_row28_col1, #T_e2e3a_row28_col2, #T_e2e3a_row28_col3, #T_e2e3a_row28_col4, #T_e2e3a_row28_col5, #T_e2e3a_row29_col0, #T_e2e3a_row29_col1, #T_e2e3a_row29_col2, #T_e2e3a_row29_col3, #T_e2e3a_row29_col4, #T_e2e3a_row29_col5, #T_e2e3a_row30_col0, #T_e2e3a_row30_col1, #T_e2e3a_row30_col2, #T_e2e3a_row30_col3, #T_e2e3a_row30_col4, #T_e2e3a_row30_col5, #T_e2e3a_row31_col0, #T_e2e3a_row31_col1, #T_e2e3a_row31_col2, #T_e2e3a_row31_col3, #T_e2e3a_row31_col4, #T_e2e3a_row31_col5, #T_e2e3a_row32_col0, #T_e2e3a_row32_col1, #T_e2e3a_row32_col2, #T_e2e3a_row32_col3, #T_e2e3a_row32_col4, #T_e2e3a_row32_col5, #T_e2e3a_row33_col0, #T_e2e3a_row33_col1, #T_e2e3a_row33_col2, #T_e2e3a_row33_col3, #T_e2e3a_row33_col4, #T_e2e3a_row33_col5, #T_e2e3a_row34_col0, #T_e2e3a_row34_col1, #T_e2e3a_row34_col2, #T_e2e3a_row34_col3, #T_e2e3a_row34_col4, #T_e2e3a_row34_col5, #T_e2e3a_row35_col0, #T_e2e3a_row35_col1, #T_e2e3a_row35_col2, #T_e2e3a_row35_col3, #T_e2e3a_row35_col4, #T_e2e3a_row35_col5, #T_e2e3a_row36_col0, #T_e2e3a_row36_col1, #T_e2e3a_row36_col2, #T_e2e3a_row36_col3, #T_e2e3a_row36_col4, #T_e2e3a_row36_col5, #T_e2e3a_row37_col0, #T_e2e3a_row37_col1, #T_e2e3a_row37_col2, #T_e2e3a_row37_col3, #T_e2e3a_row37_col4, #T_e2e3a_row37_col5, #T_e2e3a_row38_col0, #T_e2e3a_row38_col1, #T_e2e3a_row38_col2, #T_e2e3a_row38_col3, #T_e2e3a_row38_col4, #T_e2e3a_row38_col5, #T_e2e3a_row39_col0, #T_e2e3a_row39_col1, #T_e2e3a_row39_col2, #T_e2e3a_row39_col3, #T_e2e3a_row39_col4, #T_e2e3a_row39_col5, #T_e2e3a_row40_col0, #T_e2e3a_row40_col1, #T_e2e3a_row40_col2, #T_e2e3a_row40_col3, #T_e2e3a_row40_col4, #T_e2e3a_row40_col5, #T_e2e3a_row41_col0, #T_e2e3a_row41_col1, #T_e2e3a_row41_col2, #T_e2e3a_row41_col3, #T_e2e3a_row41_col4, #T_e2e3a_row41_col5, #T_e2e3a_row42_col0, #T_e2e3a_row42_col1, #T_e2e3a_row42_col2, #T_e2e3a_row42_col3, #T_e2e3a_row42_col4, #T_e2e3a_row42_col5, #T_e2e3a_row43_col0, #T_e2e3a_row43_col1, #T_e2e3a_row43_col2, #T_e2e3a_row43_col3, #T_e2e3a_row43_col4, #T_e2e3a_row43_col5, #T_e2e3a_row44_col0, #T_e2e3a_row44_col1, #T_e2e3a_row44_col2, #T_e2e3a_row44_col3, #T_e2e3a_row44_col4, #T_e2e3a_row44_col5, #T_e2e3a_row45_col0, #T_e2e3a_row45_col1, #T_e2e3a_row45_col2, #T_e2e3a_row45_col3, #T_e2e3a_row45_col4, #T_e2e3a_row45_col5, #T_e2e3a_row46_col0, #T_e2e3a_row46_col1, #T_e2e3a_row46_col2, #T_e2e3a_row46_col3, #T_e2e3a_row46_col4, #T_e2e3a_row46_col5, #T_e2e3a_row47_col0, #T_e2e3a_row47_col1, #T_e2e3a_row47_col2, #T_e2e3a_row47_col3, #T_e2e3a_row47_col4, #T_e2e3a_row47_col5, #T_e2e3a_row48_col0, #T_e2e3a_row48_col1, #T_e2e3a_row48_col2, #T_e2e3a_row48_col3, #T_e2e3a_row48_col4, #T_e2e3a_row48_col5, #T_e2e3a_row49_col0, #T_e2e3a_row49_col1, #T_e2e3a_row49_col2, #T_e2e3a_row49_col3, #T_e2e3a_row49_col4, #T_e2e3a_row49_col5, #T_e2e3a_row50_col0, #T_e2e3a_row50_col1, #T_e2e3a_row50_col2, #T_e2e3a_row50_col3, #T_e2e3a_row50_col4, #T_e2e3a_row50_col5, #T_e2e3a_row51_col0, #T_e2e3a_row51_col1, #T_e2e3a_row51_col2, #T_e2e3a_row51_col3, #T_e2e3a_row51_col4, #T_e2e3a_row51_col5, #T_e2e3a_row52_col0, #T_e2e3a_row52_col1, #T_e2e3a_row52_col2, #T_e2e3a_row52_col3, #T_e2e3a_row52_col4, #T_e2e3a_row52_col5, #T_e2e3a_row53_col0, #T_e2e3a_row53_col1, #T_e2e3a_row53_col2, #T_e2e3a_row53_col3, #T_e2e3a_row53_col4, #T_e2e3a_row53_col5, #T_e2e3a_row54_col0, #T_e2e3a_row54_col1, #T_e2e3a_row54_col2, #T_e2e3a_row54_col3, #T_e2e3a_row54_col4, #T_e2e3a_row54_col5, #T_e2e3a_row55_col0, #T_e2e3a_row55_col1, #T_e2e3a_row55_col2, #T_e2e3a_row55_col3, #T_e2e3a_row55_col4, #T_e2e3a_row55_col5, #T_e2e3a_row56_col0, #T_e2e3a_row56_col1, #T_e2e3a_row56_col2, #T_e2e3a_row56_col3, #T_e2e3a_row56_col4, #T_e2e3a_row56_col5, #T_e2e3a_row57_col0, #T_e2e3a_row57_col1, #T_e2e3a_row57_col2, #T_e2e3a_row57_col3, #T_e2e3a_row57_col4, #T_e2e3a_row57_col5, #T_e2e3a_row58_col0, #T_e2e3a_row58_col1, #T_e2e3a_row58_col2, #T_e2e3a_row58_col3, #T_e2e3a_row58_col4, #T_e2e3a_row58_col5, #T_e2e3a_row59_col0, #T_e2e3a_row59_col1, #T_e2e3a_row59_col2, #T_e2e3a_row59_col3, #T_e2e3a_row59_col4, #T_e2e3a_row59_col5, #T_e2e3a_row60_col0, #T_e2e3a_row60_col1, #T_e2e3a_row60_col2, #T_e2e3a_row60_col3, #T_e2e3a_row60_col4, #T_e2e3a_row60_col5, #T_e2e3a_row61_col0, #T_e2e3a_row61_col1, #T_e2e3a_row61_col2, #T_e2e3a_row61_col3, #T_e2e3a_row61_col4, #T_e2e3a_row61_col5, #T_e2e3a_row62_col0, #T_e2e3a_row62_col1, #T_e2e3a_row62_col2, #T_e2e3a_row62_col3, #T_e2e3a_row62_col4, #T_e2e3a_row62_col5, #T_e2e3a_row63_col0, #T_e2e3a_row63_col1, #T_e2e3a_row63_col2, #T_e2e3a_row63_col3, #T_e2e3a_row63_col4, #T_e2e3a_row63_col5, #T_e2e3a_row64_col0, #T_e2e3a_row64_col1, #T_e2e3a_row64_col2, #T_e2e3a_row64_col3, #T_e2e3a_row64_col4, #T_e2e3a_row64_col5, #T_e2e3a_row65_col0, #T_e2e3a_row65_col1, #T_e2e3a_row65_col2, #T_e2e3a_row65_col3, #T_e2e3a_row65_col4, #T_e2e3a_row65_col5, #T_e2e3a_row66_col0, #T_e2e3a_row66_col1, #T_e2e3a_row66_col2, #T_e2e3a_row66_col3, #T_e2e3a_row66_col4, #T_e2e3a_row66_col5, #T_e2e3a_row67_col0, #T_e2e3a_row67_col1, #T_e2e3a_row67_col2, #T_e2e3a_row67_col3, #T_e2e3a_row67_col4, #T_e2e3a_row67_col5, #T_e2e3a_row68_col0, #T_e2e3a_row68_col1, #T_e2e3a_row68_col2, #T_e2e3a_row68_col3, #T_e2e3a_row68_col4, #T_e2e3a_row68_col5, #T_e2e3a_row69_col0, #T_e2e3a_row69_col1, #T_e2e3a_row69_col2, #T_e2e3a_row69_col3, #T_e2e3a_row69_col4, #T_e2e3a_row69_col5, #T_e2e3a_row70_col0, #T_e2e3a_row70_col1, #T_e2e3a_row70_col2, #T_e2e3a_row70_col3, #T_e2e3a_row70_col4, #T_e2e3a_row70_col5, #T_e2e3a_row71_col0, #T_e2e3a_row71_col1, #T_e2e3a_row71_col2, #T_e2e3a_row71_col3, #T_e2e3a_row71_col4, #T_e2e3a_row71_col5, #T_e2e3a_row72_col0, #T_e2e3a_row72_col1, #T_e2e3a_row72_col2, #T_e2e3a_row72_col3, #T_e2e3a_row72_col4, #T_e2e3a_row72_col5, #T_e2e3a_row73_col0, #T_e2e3a_row73_col1, #T_e2e3a_row73_col2, #T_e2e3a_row73_col3, #T_e2e3a_row73_col4, #T_e2e3a_row73_col5, #T_e2e3a_row74_col0, #T_e2e3a_row74_col1, #T_e2e3a_row74_col2, #T_e2e3a_row74_col3, #T_e2e3a_row74_col4, #T_e2e3a_row74_col5, #T_e2e3a_row75_col0, #T_e2e3a_row75_col1, #T_e2e3a_row75_col2, #T_e2e3a_row75_col3, #T_e2e3a_row75_col4, #T_e2e3a_row75_col5, #T_e2e3a_row76_col0, #T_e2e3a_row76_col1, #T_e2e3a_row76_col2, #T_e2e3a_row76_col3, #T_e2e3a_row76_col4, #T_e2e3a_row76_col5, #T_e2e3a_row77_col0, #T_e2e3a_row77_col1, #T_e2e3a_row77_col2, #T_e2e3a_row77_col3, #T_e2e3a_row77_col4, #T_e2e3a_row77_col5, #T_e2e3a_row78_col0, #T_e2e3a_row78_col1, #T_e2e3a_row78_col2, #T_e2e3a_row78_col3, #T_e2e3a_row78_col4, #T_e2e3a_row78_col5, #T_e2e3a_row79_col0, #T_e2e3a_row79_col1, #T_e2e3a_row79_col2, #T_e2e3a_row79_col3, #T_e2e3a_row79_col4, #T_e2e3a_row79_col5, #T_e2e3a_row80_col0, #T_e2e3a_row80_col1, #T_e2e3a_row80_col2, #T_e2e3a_row80_col3, #T_e2e3a_row80_col4, #T_e2e3a_row80_col5, #T_e2e3a_row81_col0, #T_e2e3a_row81_col1, #T_e2e3a_row81_col2, #T_e2e3a_row81_col3, #T_e2e3a_row81_col4, #T_e2e3a_row81_col5, #T_e2e3a_row82_col0, #T_e2e3a_row82_col1, #T_e2e3a_row82_col2, #T_e2e3a_row82_col3, #T_e2e3a_row82_col4, #T_e2e3a_row82_col5, #T_e2e3a_row83_col0, #T_e2e3a_row83_col1, #T_e2e3a_row83_col2, #T_e2e3a_row83_col3, #T_e2e3a_row83_col4, #T_e2e3a_row83_col5, #T_e2e3a_row84_col0, #T_e2e3a_row84_col1, #T_e2e3a_row84_col2, #T_e2e3a_row84_col3, #T_e2e3a_row84_col4, #T_e2e3a_row84_col5, #T_e2e3a_row85_col0, #T_e2e3a_row85_col1, #T_e2e3a_row85_col2, #T_e2e3a_row85_col3, #T_e2e3a_row85_col4, #T_e2e3a_row85_col5, #T_e2e3a_row86_col0, #T_e2e3a_row86_col1, #T_e2e3a_row86_col2, #T_e2e3a_row86_col3, #T_e2e3a_row86_col4, #T_e2e3a_row86_col5, #T_e2e3a_row87_col0, #T_e2e3a_row87_col1, #T_e2e3a_row87_col2, #T_e2e3a_row87_col3, #T_e2e3a_row87_col4, #T_e2e3a_row87_col5, #T_e2e3a_row88_col0, #T_e2e3a_row88_col1, #T_e2e3a_row88_col2, #T_e2e3a_row88_col3, #T_e2e3a_row88_col4, #T_e2e3a_row88_col5, #T_e2e3a_row89_col0, #T_e2e3a_row89_col1, #T_e2e3a_row89_col2, #T_e2e3a_row89_col3, #T_e2e3a_row89_col4, #T_e2e3a_row89_col5, #T_e2e3a_row90_col0, #T_e2e3a_row90_col1, #T_e2e3a_row90_col2, #T_e2e3a_row90_col3, #T_e2e3a_row90_col4, #T_e2e3a_row90_col5, #T_e2e3a_row91_col0, #T_e2e3a_row91_col1, #T_e2e3a_row91_col2, #T_e2e3a_row91_col3, #T_e2e3a_row91_col4, #T_e2e3a_row91_col5, #T_e2e3a_row92_col0, #T_e2e3a_row92_col1, #T_e2e3a_row92_col2, #T_e2e3a_row92_col3, #T_e2e3a_row92_col4, #T_e2e3a_row92_col5, #T_e2e3a_row93_col0, #T_e2e3a_row93_col1, #T_e2e3a_row93_col2, #T_e2e3a_row93_col3, #T_e2e3a_row93_col4, #T_e2e3a_row93_col5, #T_e2e3a_row94_col0, #T_e2e3a_row94_col1, #T_e2e3a_row94_col2, #T_e2e3a_row94_col3, #T_e2e3a_row94_col4, #T_e2e3a_row94_col5, #T_e2e3a_row95_col0, #T_e2e3a_row95_col1, #T_e2e3a_row95_col2, #T_e2e3a_row95_col3, #T_e2e3a_row95_col4, #T_e2e3a_row95_col5 {
+  font-size: 8pt;
+}
+#T_e2e3a_row0_col6, #T_e2e3a_row0_col8, #T_e2e3a_row1_col7 {
+  background-color: #006837;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row0_col7 {
+  background-color: #0a7b41;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row1_col6 {
+  background-color: #70c164;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row1_col8 {
+  background-color: #06733d;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row2_col6 {
+  background-color: #66bd63;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row2_col7, #T_e2e3a_row11_col8 {
+  background-color: #8ecf67;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row2_col8 {
+  background-color: #08773f;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row3_col6 {
+  background-color: #78c565;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row3_col7 {
+  background-color: #4bb05c;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row3_col8 {
+  background-color: #097940;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row4_col6 {
+  background-color: #7fc866;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row4_col7 {
+  background-color: #57b65f;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row4_col8 {
+  background-color: #0d8044;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row5_col6 {
+  background-color: #a0d669;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row5_col7 {
+  background-color: #15904c;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row5_col8, #T_e2e3a_row6_col8 {
+  background-color: #219c52;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row6_col6 {
+  background-color: #a2d76a;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row6_col7 {
+  background-color: #026c39;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row7_col6 {
+  background-color: #36a657;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row7_col7 {
+  background-color: #60ba62;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row7_col8 {
+  background-color: #42ac5a;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row8_col6, #T_e2e3a_row12_col7, #T_e2e3a_row33_col7 {
+  background-color: #c3e67d;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row8_col7, #T_e2e3a_row11_col6, #T_e2e3a_row30_col8 {
+  background-color: #e5f49b;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row8_col8 {
+  background-color: #54b45f;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row9_col6 {
+  background-color: #e0f295;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row9_col7, #T_e2e3a_row17_col7 {
+  background-color: #75c465;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row9_col8 {
+  background-color: #84ca66;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row10_col6 {
+  background-color: #d1ec86;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row10_col7, #T_e2e3a_row36_col8, #T_e2e3a_row37_col8 {
+  background-color: #f1f9ac;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row10_col8 {
+  background-color: #89cc67;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row11_col7, #T_e2e3a_row28_col7, #T_e2e3a_row35_col6, #T_e2e3a_row46_col8, #T_e2e3a_row49_col7, #T_e2e3a_row54_col6, #T_e2e3a_row56_col6, #T_e2e3a_row62_col7, #T_e2e3a_row66_col7 {
+  background-color: #fffbb8;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row12_col6 {
+  background-color: #9dd569;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row12_col8 {
+  background-color: #a5d86a;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row13_col6, #T_e2e3a_row21_col7, #T_e2e3a_row39_col8 {
+  background-color: #f4fab0;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row13_col7 {
+  background-color: #feeda1;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row13_col8, #T_e2e3a_row14_col8 {
+  background-color: #a7d96b;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row14_col6, #T_e2e3a_row40_col8 {
+  background-color: #f5fbb2;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row14_col7, #T_e2e3a_row31_col8 {
+  background-color: #e6f59d;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row15_col6 {
+  background-color: #f8fcb6;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row15_col7 {
+  background-color: #6ec064;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row15_col8 {
+  background-color: #abdb6d;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row16_col6, #T_e2e3a_row17_col6 {
+  background-color: #fbfdba;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row16_col7, #T_e2e3a_row27_col7, #T_e2e3a_row33_col8, #T_e2e3a_row34_col8 {
+  background-color: #ecf7a6;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row16_col8, #T_e2e3a_row17_col8 {
+  background-color: #b1de71;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row18_col6, #T_e2e3a_row44_col7 {
+  background-color: #fdfebc;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row18_col7, #T_e2e3a_row35_col8, #T_e2e3a_row41_col7, #T_e2e3a_row50_col7 {
+  background-color: #eff8aa;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row18_col8 {
+  background-color: #b3df72;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row19_col6 {
+  background-color: #fffebe;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row19_col7, #T_e2e3a_row38_col8 {
+  background-color: #f2faae;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row19_col8, #T_e2e3a_row26_col7 {
+  background-color: #b7e075;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row20_col6, #T_e2e3a_row22_col8 {
+  background-color: #d7ee8a;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row20_col7, #T_e2e3a_row41_col8, #T_e2e3a_row42_col8 {
+  background-color: #f7fcb4;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row20_col8 {
+  background-color: #cbe982;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row21_col6 {
+  background-color: #d3ec87;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row21_col8 {
+  background-color: #d5ed88;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row22_col6, #T_e2e3a_row39_col7 {
+  background-color: #cdea83;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row22_col7, #T_e2e3a_row36_col6 {
+  background-color: #eef8a8;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row23_col6, #T_e2e3a_row61_col7 {
+  background-color: #feeb9d;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row23_col7, #T_e2e3a_row42_col6, #T_e2e3a_row50_col8, #T_e2e3a_row60_col6 {
+  background-color: #fff5ae;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row23_col8, #T_e2e3a_row24_col8 {
+  background-color: #d9ef8b;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row24_col6, #T_e2e3a_row55_col8, #T_e2e3a_row57_col7 {
+  background-color: #feefa3;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row24_col7, #T_e2e3a_row43_col7, #T_e2e3a_row45_col7, #T_e2e3a_row72_col7, #T_e2e3a_row74_col6 {
+  background-color: #fec877;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row25_col6, #T_e2e3a_row49_col8 {
+  background-color: #fff6b0;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row25_col7, #T_e2e3a_row42_col7, #T_e2e3a_row60_col7, #T_e2e3a_row75_col7 {
+  background-color: #fed481;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row25_col8, #T_e2e3a_row26_col8 {
+  background-color: #dcf08f;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row26_col6, #T_e2e3a_row60_col8 {
+  background-color: #fee999;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row27_col6 {
+  background-color: #fafdb8;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row27_col8 {
+  background-color: #ddf191;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row28_col6, #T_e2e3a_row54_col8 {
+  background-color: #fff1a8;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row28_col8 {
+  background-color: #dff293;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row29_col6, #T_e2e3a_row32_col7, #T_e2e3a_row37_col6, #T_e2e3a_row62_col8 {
+  background-color: #fee593;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row29_col7 {
+  background-color: #daf08d;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row29_col8 {
+  background-color: #e2f397;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row30_col6 {
+  background-color: #fee28f;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row30_col7, #T_e2e3a_row31_col7, #T_e2e3a_row57_col8, #T_e2e3a_row58_col8, #T_e2e3a_row59_col8, #T_e2e3a_row69_col7, #T_e2e3a_row70_col7 {
+  background-color: #feea9b;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row31_col6 {
+  background-color: #fee18d;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row32_col6, #T_e2e3a_row54_col7, #T_e2e3a_row56_col7, #T_e2e3a_row66_col8, #T_e2e3a_row67_col8 {
+  background-color: #fedc88;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row32_col8 {
+  background-color: #ebf7a3;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row33_col6, #T_e2e3a_row40_col6, #T_e2e3a_row68_col8 {
+  background-color: #feda86;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row34_col6 {
+  background-color: #fee08b;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row34_col7 {
+  background-color: #fdaf62;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row35_col7, #T_e2e3a_row64_col8, #T_e2e3a_row65_col8 {
+  background-color: #fede89;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row36_col7, #T_e2e3a_row52_col8, #T_e2e3a_row53_col8 {
+  background-color: #fff2aa;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row37_col7, #T_e2e3a_row74_col8 {
+  background-color: #fdb768;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row38_col6, #T_e2e3a_row51_col8 {
+  background-color: #fff3ac;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row38_col7, #T_e2e3a_row48_col7 {
+  background-color: #fffdbc;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row39_col6 {
+  background-color: #fed07e;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row40_col7, #T_e2e3a_row65_col7, #T_e2e3a_row68_col7 {
+  background-color: #fca55d;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row41_col6 {
+  background-color: #fece7c;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row43_col6, #T_e2e3a_row44_col6, #T_e2e3a_row45_col6 {
+  background-color: #fdbf6f;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row43_col8, #T_e2e3a_row44_col8, #T_e2e3a_row45_col8 {
+  background-color: #fffcba;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row46_col6, #T_e2e3a_row78_col6 {
+  background-color: #fdbd6d;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row46_col7 {
+  background-color: #e9f6a1;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row47_col6, #T_e2e3a_row55_col6, #T_e2e3a_row84_col7 {
+  background-color: #fdbb6c;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row47_col7 {
+  background-color: #fdc574;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row47_col8 {
+  background-color: #fffab6;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row48_col6, #T_e2e3a_row53_col7, #T_e2e3a_row73_col8, #T_e2e3a_row83_col7 {
+  background-color: #fdb96a;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row48_col8, #T_e2e3a_row51_col6 {
+  background-color: #fff7b2;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row49_col6, #T_e2e3a_row50_col6 {
+  background-color: #fdb567;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row51_col7 {
+  background-color: #fed683;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row52_col6, #T_e2e3a_row55_col7 {
+  background-color: #fdc372;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row52_col7, #T_e2e3a_row71_col8, #T_e2e3a_row79_col7 {
+  background-color: #feca79;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row53_col6, #T_e2e3a_row63_col7, #T_e2e3a_row75_col8, #T_e2e3a_row76_col8, #T_e2e3a_row77_col8 {
+  background-color: #fdb163;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row56_col8 {
+  background-color: #feec9f;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row57_col6, #T_e2e3a_row58_col6, #T_e2e3a_row59_col6 {
+  background-color: #fba05b;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row58_col7, #T_e2e3a_row59_col7 {
+  background-color: #feffbe;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row61_col6, #T_e2e3a_row89_col7 {
+  background-color: #fa9857;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row61_col8 {
+  background-color: #fee695;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row62_col6 {
+  background-color: #fa9656;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row63_col6, #T_e2e3a_row79_col8, #T_e2e3a_row88_col7 {
+  background-color: #fca85e;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row63_col8 {
+  background-color: #fee491;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row64_col6, #T_e2e3a_row78_col8 {
+  background-color: #fcaa5f;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row64_col7, #T_e2e3a_row93_col7, #T_e2e3a_row93_col8 {
+  background-color: #ef633f;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row65_col6 {
+  background-color: #fed884;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row66_col6, #T_e2e3a_row67_col6 {
+  background-color: #f88950;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row67_col7 {
+  background-color: #f98e52;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row68_col6, #T_e2e3a_row80_col8, #T_e2e3a_row81_col8, #T_e2e3a_row91_col7, #T_e2e3a_row92_col7 {
+  background-color: #fb9d59;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row69_col6, #T_e2e3a_row70_col6, #T_e2e3a_row86_col6, #T_e2e3a_row87_col6, #T_e2e3a_row94_col7 {
+  background-color: #f57748;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row69_col8, #T_e2e3a_row70_col8, #T_e2e3a_row81_col7 {
+  background-color: #fecc7b;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row71_col6, #T_e2e3a_row90_col7 {
+  background-color: #f88c51;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row71_col7, #T_e2e3a_row83_col8 {
+  background-color: #f99153;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row72_col6, #T_e2e3a_row76_col6, #T_e2e3a_row90_col8 {
+  background-color: #f36b42;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row72_col8 {
+  background-color: #fdc171;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row73_col6, #T_e2e3a_row95_col6 {
+  background-color: #fba35c;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row73_col7, #T_e2e3a_row80_col6, #T_e2e3a_row80_col7 {
+  background-color: #eb5a3a;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row74_col7 {
+  background-color: #fed27f;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row75_col6, #T_e2e3a_row77_col6, #T_e2e3a_row77_col7 {
+  background-color: #ea5739;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row76_col7, #T_e2e3a_row88_col8, #T_e2e3a_row89_col8 {
+  background-color: #f46d43;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row78_col7 {
+  background-color: #fdc776;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row79_col6 {
+  background-color: #e54e35;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row81_col6 {
+  background-color: #e14430;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row82_col6 {
+  background-color: #de402e;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row82_col7, #T_e2e3a_row94_col6, #T_e2e3a_row95_col8 {
+  background-color: #a50026;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row82_col8 {
+  background-color: #f99355;
+  color: #000000;
+  font-size: 8pt;
+}
+#T_e2e3a_row83_col6 {
+  background-color: #db382b;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row84_col6 {
+  background-color: #d62f27;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row84_col8 {
+  background-color: #f7844e;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row85_col6 {
+  background-color: #d42d27;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row85_col7 {
+  background-color: #d22b27;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row85_col8 {
+  background-color: #f7814c;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row86_col7, #T_e2e3a_row86_col8, #T_e2e3a_row87_col7, #T_e2e3a_row87_col8 {
+  background-color: #f67a49;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row88_col6, #T_e2e3a_row89_col6 {
+  background-color: #c62027;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row90_col6 {
+  background-color: #f8864f;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row91_col6, #T_e2e3a_row92_col6 {
+  background-color: #c01a27;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row91_col8, #T_e2e3a_row92_col8 {
+  background-color: #f16640;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row93_col6 {
+  background-color: #ee613e;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row94_col8 {
+  background-color: #e0422f;
+  color: #f1f1f1;
+  font-size: 8pt;
+}
+#T_e2e3a_row95_col7 {
+  background-color: #fff0a6;
+  color: #000000;
+  font-size: 8pt;
+}
+</style>
+<table id="T_e2e3a_">
   <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Sleeper ID</th>
-      <th>Player Name</th>
-      <th>Owner</th>
-      <th>Position</th>
-      <th>pts_half_ppr</th>
-      <th>Rank</th>
-      <th>VORP</th>
-      <th>VORS</th>
-      <th>VOBP</th>
+    <tr>
+      <th class="blank level0" >&nbsp;</th>
+      <th class="col_heading level0 col0" >Sleeper ID</th>
+      <th class="col_heading level0 col1" >Player Name</th>
+      <th class="col_heading level0 col2" >Owner</th>
+      <th class="col_heading level0 col3" >Position</th>
+      <th class="col_heading level0 col4" >pts_half_ppr</th>
+      <th class="col_heading level0 col5" >Rank</th>
+      <th class="col_heading level0 col6" >VORP</th>
+      <th class="col_heading level0 col7" >VORS</th>
+      <th class="col_heading level0 col8" >VOBP</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th>21</th>
-      <td>3198</td>
-      <td>Derrick Henry</td>
-      <td>armadurai</td>
-      <td>RB</td>
-      <td>53.90</td>
-      <td>1.0</td>
-      <td>18.85</td>
-      <td>13.10</td>
-      <td>13.05</td>
-    </tr>
-    <tr>
-      <th>69</th>
-      <td>1466</td>
-      <td>Travis Kelce</td>
-      <td>scboom5</td>
-      <td>TE</td>
-      <td>43.00</td>
-      <td>1.0</td>
-      <td>12.30</td>
-      <td>14.25</td>
-      <td>12.30</td>
-    </tr>
-    <tr>
-      <th>77</th>
-      <td>4199</td>
-      <td>Aaron Jones</td>
-      <td>plumsmuggler99</td>
-      <td>RB</td>
-      <td>41.70</td>
-      <td>3.0</td>
-      <td>12.75</td>
-      <td>7.00</td>
-      <td>12.15</td>
-    </tr>
-    <tr>
-      <th>37</th>
-      <td>4039</td>
-      <td>Cooper Kupp</td>
-      <td>aditya22</td>
-      <td>WR</td>
-      <td>52.60</td>
-      <td>1.0</td>
-      <td>11.95</td>
-      <td>9.65</td>
-      <td>11.95</td>
-    </tr>
-    <tr>
-      <th>25</th>
-      <td>2374</td>
-      <td>Tyler Lockett</td>
-      <td>armadurai</td>
-      <td>WR</td>
-      <td>51.80</td>
-      <td>2.0</td>
-      <td>11.55</td>
-      <td>9.25</td>
-      <td>11.55</td>
-    </tr>
-    <tr>
-      <th>116</th>
-      <td>5844</td>
-      <td>T.J. Hockenson</td>
-      <td>anantjindani</td>
-      <td>TE</td>
-      <td>38.30</td>
-      <td>3.0</td>
-      <td>9.95</td>
-      <td>11.90</td>
-      <td>9.95</td>
-    </tr>
-    <tr>
-      <th>148</th>
-      <td>5849</td>
-      <td>Kyler Murray</td>
-      <td>ChinkTownBois</td>
-      <td>QB</td>
-      <td>69.66</td>
-      <td>1.0</td>
-      <td>9.91</td>
-      <td>13.99</td>
-      <td>9.91</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>4034</td>
-      <td>Christian McCaffrey</td>
-      <td>dmethi</td>
-      <td>RB</td>
-      <td>45.40</td>
-      <td>2.0</td>
-      <td>14.60</td>
-      <td>8.85</td>
-      <td>8.65</td>
-    </tr>
-    <tr>
-      <th>108</th>
-      <td>4029</td>
-      <td>Dalvin Cook</td>
-      <td>YouSmellLikeDaal</td>
-      <td>RB</td>
-      <td>32.20</td>
-      <td>5.0</td>
-      <td>8.00</td>
-      <td>2.25</td>
-      <td>8.00</td>
-    </tr>
-    <tr>
-      <th>40</th>
-      <td>2505</td>
-      <td>Darren Waller</td>
-      <td>aditya22</td>
-      <td>TE</td>
-      <td>30.50</td>
-      <td>4.0</td>
-      <td>6.05</td>
-      <td>8.00</td>
-      <td>6.05</td>
-    </tr>
-    <tr>
-      <th>153</th>
-      <td>4018</td>
-      <td>Joe Mixon</td>
-      <td>ChinkTownBois</td>
-      <td>RB</td>
-      <td>30.60</td>
-      <td>7.0</td>
-      <td>7.20</td>
-      <td>1.45</td>
-      <td>5.80</td>
-    </tr>
-    <tr>
-      <th>62</th>
-      <td>5892</td>
-      <td>David Montgomery</td>
-      <td>scboom5</td>
-      <td>RB</td>
-      <td>27.70</td>
-      <td>12.0</td>
-      <td>5.75</td>
-      <td>0.00</td>
-      <td>5.60</td>
-    </tr>
-    <tr>
-      <th>49</th>
-      <td>4988</td>
-      <td>Nick Chubb</td>
-      <td>varunagarwal</td>
-      <td>RB</td>
-      <td>36.40</td>
-      <td>4.0</td>
-      <td>10.10</td>
-      <td>4.35</td>
-      <td>4.60</td>
-    </tr>
-    <tr>
-      <th>106</th>
-      <td>4273</td>
-      <td>Chris Carson</td>
-      <td>YouSmellLikeDaal</td>
-      <td>RB</td>
-      <td>25.30</td>
-      <td>16.0</td>
-      <td>4.55</td>
-      <td>-1.20</td>
-      <td>4.55</td>
-    </tr>
-    <tr>
-      <th>41</th>
-      <td>1689</td>
-      <td>Adam Thielen</td>
-      <td>aditya22</td>
-      <td>WR</td>
-      <td>37.60</td>
-      <td>4.0</td>
-      <td>4.45</td>
-      <td>2.15</td>
-      <td>4.45</td>
-    </tr>
-    <tr>
-      <th>163</th>
-      <td>4046</td>
-      <td>Patrick Mahomes</td>
-      <td>ramen005</td>
-      <td>QB</td>
-      <td>58.30</td>
-      <td>2.0</td>
-      <td>4.23</td>
-      <td>8.31</td>
-      <td>4.23</td>
-    </tr>
-    <tr>
-      <th>83</th>
-      <td>1426</td>
-      <td>DeAndre Hopkins</td>
-      <td>plumsmuggler99</td>
-      <td>WR</td>
-      <td>36.70</td>
-      <td>6.0</td>
-      <td>4.00</td>
-      <td>1.70</td>
-      <td>4.00</td>
-    </tr>
-    <tr>
-      <th>111</th>
-      <td>167</td>
-      <td>Tom Brady</td>
-      <td>YouSmellLikeDaal</td>
-      <td>QB</td>
-      <td>57.80</td>
-      <td>3.0</td>
-      <td>3.98</td>
-      <td>8.06</td>
-      <td>3.98</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2309</td>
-      <td>Amari Cooper</td>
-      <td>dmethi</td>
-      <td>WR</td>
-      <td>36.30</td>
-      <td>8.0</td>
-      <td>3.80</td>
-      <td>1.50</td>
-      <td>3.80</td>
-    </tr>
-    <tr>
-      <th>79</th>
-      <td>3321</td>
-      <td>Tyreek Hill</td>
-      <td>plumsmuggler99</td>
-      <td>WR</td>
-      <td>36.00</td>
-      <td>9.0</td>
-      <td>3.65</td>
-      <td>1.35</td>
-      <td>3.65</td>
-    </tr>
-    <tr>
-      <th>89</th>
-      <td>4663</td>
-      <td>Austin Ekeler</td>
-      <td>ishanchakravarty</td>
-      <td>RB</td>
-      <td>29.70</td>
-      <td>9.0</td>
-      <td>6.75</td>
-      <td>1.00</td>
-      <td>2.55</td>
-    </tr>
-    <tr>
-      <th>157</th>
-      <td>6790</td>
-      <td>D'Andre Swift</td>
-      <td>ramen005</td>
-      <td>RB</td>
-      <td>30.20</td>
-      <td>8.0</td>
-      <td>7.00</td>
-      <td>1.25</td>
-      <td>2.00</td>
-    </tr>
-    <tr>
-      <th>45</th>
-      <td>5916</td>
-      <td>Darrell Henderson</td>
-      <td>varunagarwal</td>
-      <td>RB</td>
-      <td>30.90</td>
-      <td>6.0</td>
-      <td>7.35</td>
-      <td>1.60</td>
-      <td>1.85</td>
-    </tr>
-    <tr>
-      <th>137</th>
-      <td>4037</td>
-      <td>Chris Godwin</td>
-      <td>aaggarwal22</td>
-      <td>WR</td>
-      <td>32.20</td>
-      <td>13.0</td>
-      <td>1.75</td>
-      <td>-0.55</td>
-      <td>1.75</td>
-    </tr>
-    <tr>
-      <th>33</th>
-      <td>6813</td>
-      <td>Jonathan Taylor</td>
-      <td>aditya22</td>
-      <td>RB</td>
-      <td>20.40</td>
-      <td>27.0</td>
-      <td>2.10</td>
-      <td>-3.65</td>
-      <td>1.70</td>
-    </tr>
-    <tr>
-      <th>115</th>
-      <td>6151</td>
-      <td>Miles Sanders</td>
-      <td>anantjindani</td>
-      <td>RB</td>
-      <td>21.70</td>
-      <td>23.0</td>
-      <td>2.75</td>
-      <td>-3.00</td>
-      <td>1.55</td>
-    </tr>
-    <tr>
-      <th>19</th>
-      <td>5095</td>
-      <td>Daniel Carlson</td>
-      <td>armadurai</td>
-      <td>K</td>
-      <td>28.00</td>
-      <td>1.0</td>
-      <td>1.50</td>
-      <td>5.00</td>
-      <td>1.50</td>
-    </tr>
-    <tr>
-      <th>162</th>
-      <td>4068</td>
-      <td>Mike Williams</td>
-      <td>ramen005</td>
-      <td>WR</td>
-      <td>36.80</td>
-      <td>5.0</td>
-      <td>4.05</td>
-      <td>1.75</td>
-      <td>1.40</td>
-    </tr>
-    <tr>
-      <th>114</th>
-      <td>6786</td>
-      <td>CeeDee Lamb</td>
-      <td>anantjindani</td>
-      <td>WR</td>
-      <td>33.30</td>
-      <td>12.0</td>
-      <td>2.30</td>
-      <td>0.00</td>
-      <td>1.25</td>
-    </tr>
-    <tr>
-      <th>46</th>
-      <td>5857</td>
-      <td>Noah Fant</td>
-      <td>varunagarwal</td>
-      <td>TE</td>
-      <td>20.50</td>
-      <td>5.0</td>
-      <td>1.05</td>
-      <td>3.00</td>
-      <td>1.05</td>
-    </tr>
-    <tr>
-      <th>35</th>
-      <td>5927</td>
-      <td>Terry McLaurin</td>
-      <td>aditya22</td>
-      <td>WR</td>
-      <td>30.40</td>
-      <td>17.0</td>
-      <td>0.85</td>
-      <td>-1.45</td>
-      <td>0.85</td>
-    </tr>
-    <tr>
-      <th>133</th>
-      <td>4983</td>
-      <td>D.J. Moore</td>
-      <td>aaggarwal22</td>
-      <td>WR</td>
-      <td>30.30</td>
-      <td>18.0</td>
-      <td>0.80</td>
-      <td>-1.50</td>
-      <td>0.80</td>
-    </tr>
-    <tr>
-      <th>104</th>
-      <td>4950</td>
-      <td>Christian Kirk</td>
-      <td>YouSmellLikeDaal</td>
-      <td>WR</td>
-      <td>29.50</td>
-      <td>19.0</td>
-      <td>0.40</td>
-      <td>-1.90</td>
-      <td>0.40</td>
-    </tr>
-    <tr>
-      <th>125</th>
-      <td>1234</td>
-      <td>Russell Wilson</td>
-      <td>anantjindani</td>
-      <td>QB</td>
-      <td>50.38</td>
-      <td>4.0</td>
-      <td>0.27</td>
-      <td>4.35</td>
-      <td>0.27</td>
-    </tr>
-    <tr>
-      <th>39</th>
-      <td>3242</td>
-      <td>Kenyan Drake</td>
-      <td>aditya22</td>
-      <td>RB</td>
-      <td>17.50</td>
-      <td>32.0</td>
-      <td>0.65</td>
-      <td>-5.10</td>
-      <td>0.25</td>
-    </tr>
-    <tr>
-      <th>127</th>
-      <td>7561</td>
-      <td>Elijah Mitchell</td>
-      <td>aaggarwal22</td>
-      <td>RB</td>
-      <td>22.70</td>
-      <td>18.0</td>
-      <td>3.25</td>
-      <td>-2.50</td>
-      <td>0.05</td>
-    </tr>
-    <tr>
-      <th>155</th>
-      <td>7098</td>
-      <td>Ty'Son Williams</td>
-      <td>ramen005</td>
-      <td>RB</td>
-      <td>26.20</td>
-      <td>15.0</td>
-      <td>5.00</td>
-      <td>-0.75</td>
-      <td>0.00</td>
-    </tr>
-    <tr>
-      <th>121</th>
-      <td>2431</td>
-      <td>Mike Davis</td>
-      <td>anantjindani</td>
-      <td>RB</td>
-      <td>18.50</td>
-      <td>30.0</td>
-      <td>1.15</td>
-      <td>-4.60</td>
-      <td>-0.05</td>
-    </tr>
-    <tr>
-      <th>165</th>
-      <td>3200</td>
-      <td>Sterling Shepard</td>
-      <td>ramen005</td>
-      <td>WR</td>
-      <td>33.80</td>
-      <td>11.0</td>
-      <td>2.55</td>
-      <td>0.25</td>
-      <td>-0.10</td>
-    </tr>
-    <tr>
-      <th>50</th>
-      <td>4881</td>
-      <td>Lamar Jackson</td>
-      <td>varunagarwal</td>
-      <td>QB</td>
-      <td>49.26</td>
-      <td>6.0</td>
-      <td>-0.29</td>
-      <td>3.79</td>
-      <td>-0.29</td>
-    </tr>
-    <tr>
-      <th>71</th>
-      <td>5980</td>
-      <td>Myles Gaskin</td>
-      <td>plumsmuggler99</td>
-      <td>RB</td>
-      <td>16.70</td>
-      <td>36.0</td>
-      <td>0.25</td>
-      <td>-5.50</td>
-      <td>-0.35</td>
-    </tr>
-    <tr>
-      <th>94</th>
-      <td>2251</td>
-      <td>Logan Thomas</td>
-      <td>ishanchakravarty</td>
-      <td>TE</td>
-      <td>17.50</td>
-      <td>7.0</td>
-      <td>-0.45</td>
-      <td>1.50</td>
-      <td>-0.45</td>
-    </tr>
-    <tr>
-      <th>138</th>
-      <td>4035</td>
-      <td>Alvin Kamara</td>
-      <td>aaggarwal22</td>
-      <td>RB</td>
-      <td>21.60</td>
-      <td>25.0</td>
-      <td>2.70</td>
-      <td>-3.05</td>
-      <td>-0.50</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>4036</td>
-      <td>Corey Davis</td>
-      <td>dmethi</td>
-      <td>WR</td>
-      <td>26.00</td>
-      <td>24.0</td>
-      <td>-1.35</td>
-      <td>-3.65</td>
-      <td>-1.35</td>
-    </tr>
-    <tr>
-      <th>132</th>
-      <td>5022</td>
-      <td>Dallas Goedert</td>
-      <td>aaggarwal22</td>
-      <td>TE</td>
-      <td>15.60</td>
-      <td>9.0</td>
-      <td>-1.40</td>
-      <td>0.55</td>
-      <td>-1.40</td>
-    </tr>
-    <tr>
-      <th>110</th>
-      <td>2216</td>
-      <td>Mike Evans</td>
-      <td>YouSmellLikeDaal</td>
-      <td>WR</td>
-      <td>25.90</td>
-      <td>25.0</td>
-      <td>-1.40</td>
-      <td>-3.70</td>
-      <td>-1.40</td>
-    </tr>
-    <tr>
-      <th>97</th>
-      <td>1433</td>
-      <td>Brandon McManus</td>
-      <td>ishanchakravarty</td>
-      <td>K</td>
-      <td>22.00</td>
-      <td>5.0</td>
-      <td>-1.50</td>
-      <td>2.00</td>
-      <td>-1.50</td>
-    </tr>
-    <tr>
-      <th>101</th>
-      <td>6794</td>
-      <td>Justin Jefferson</td>
-      <td>YouSmellLikeDaal</td>
-      <td>WR</td>
-      <td>25.54</td>
-      <td>28.0</td>
-      <td>-1.58</td>
-      <td>-3.88</td>
-      <td>-1.58</td>
-    </tr>
-    <tr>
-      <th>99</th>
-      <td>7553</td>
-      <td>Kyle Pitts</td>
-      <td>YouSmellLikeDaal</td>
-      <td>TE</td>
-      <td>14.90</td>
-      <td>10.0</td>
-      <td>-1.75</td>
-      <td>0.20</td>
-      <td>-1.75</td>
-    </tr>
-    <tr>
-      <th>76</th>
-      <td>4602</td>
-      <td>Robert Tonyan</td>
-      <td>plumsmuggler99</td>
-      <td>TE</td>
-      <td>14.50</td>
-      <td>12.0</td>
-      <td>-1.95</td>
-      <td>0.00</td>
-      <td>-1.95</td>
-    </tr>
-    <tr>
-      <th>158</th>
-      <td>6083</td>
-      <td>Matt Gay</td>
-      <td>ramen005</td>
-      <td>K</td>
-      <td>21.00</td>
-      <td>6.0</td>
-      <td>-2.00</td>
-      <td>1.50</td>
-      <td>-2.00</td>
-    </tr>
-    <tr>
-      <th>154</th>
-      <td>7528</td>
-      <td>Najee Harris</td>
-      <td>ramen005</td>
-      <td>RB</td>
-      <td>22.00</td>
-      <td>22.0</td>
-      <td>2.90</td>
-      <td>-2.85</td>
-      <td>-2.10</td>
-    </tr>
-    <tr>
-      <th>123</th>
-      <td>1479</td>
-      <td>Keenan Allen</td>
-      <td>anantjindani</td>
-      <td>WR</td>
-      <td>26.30</td>
-      <td>23.0</td>
-      <td>-1.20</td>
-      <td>-3.50</td>
-      <td>-2.25</td>
-    </tr>
-    <tr>
-      <th>26</th>
-      <td>2133</td>
-      <td>Davante Adams</td>
-      <td>armadurai</td>
-      <td>WR</td>
-      <td>24.20</td>
-      <td>31.0</td>
-      <td>-2.25</td>
-      <td>-4.55</td>
-      <td>-2.25</td>
-    </tr>
-    <tr>
-      <th>48</th>
-      <td>5000</td>
-      <td>Chase Edmonds</td>
-      <td>varunagarwal</td>
-      <td>RB</td>
-      <td>22.60</td>
-      <td>19.0</td>
-      <td>3.20</td>
-      <td>-2.55</td>
-      <td>-2.30</td>
-    </tr>
-    <tr>
-      <th>93</th>
-      <td>2449</td>
-      <td>Stefon Diggs</td>
-      <td>ishanchakravarty</td>
-      <td>WR</td>
-      <td>25.40</td>
-      <td>29.0</td>
-      <td>-1.65</td>
-      <td>-3.95</td>
-      <td>-2.60</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>5890</td>
-      <td>Damien Harris</td>
-      <td>dmethi</td>
-      <td>RB</td>
-      <td>22.60</td>
-      <td>20.0</td>
-      <td>3.20</td>
-      <td>-2.55</td>
-      <td>-2.75</td>
-    </tr>
-    <tr>
-      <th>164</th>
-      <td>367</td>
-      <td>Jared Cook</td>
-      <td>ramen005</td>
-      <td>TE</td>
-      <td>12.40</td>
-      <td>15.0</td>
-      <td>-3.00</td>
-      <td>-1.05</td>
-      <td>-3.00</td>
-    </tr>
-    <tr>
-      <th>66</th>
-      <td>49</td>
-      <td>Robbie Gould</td>
-      <td>scboom5</td>
-      <td>K</td>
-      <td>19.00</td>
-      <td>10.0</td>
-      <td>-3.00</td>
-      <td>0.50</td>
-      <td>-3.00</td>
-    </tr>
-    <tr>
-      <th>42</th>
-      <td>1266</td>
-      <td>Greg Zuerlein</td>
-      <td>aditya22</td>
-      <td>K</td>
-      <td>19.00</td>
-      <td>7.0</td>
-      <td>-3.00</td>
-      <td>0.50</td>
-      <td>-3.00</td>
-    </tr>
-    <tr>
-      <th>22</th>
-      <td>3164</td>
-      <td>Ezekiel Elliott</td>
-      <td>armadurai</td>
-      <td>RB</td>
-      <td>21.60</td>
-      <td>24.0</td>
-      <td>2.70</td>
-      <td>-3.05</td>
-      <td>-3.10</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>5012</td>
-      <td>Mark Andrews</td>
-      <td>dmethi</td>
-      <td>TE</td>
-      <td>11.70</td>
-      <td>17.0</td>
-      <td>-3.35</td>
-      <td>-1.40</td>
-      <td>-3.35</td>
-    </tr>
-    <tr>
-      <th>124</th>
-      <td>1264</td>
-      <td>Justin Tucker</td>
-      <td>anantjindani</td>
-      <td>K</td>
-      <td>18.00</td>
-      <td>12.0</td>
-      <td>-3.50</td>
-      <td>0.00</td>
-      <td>-3.50</td>
-    </tr>
-    <tr>
-      <th>87</th>
-      <td>4981</td>
-      <td>Calvin Ridley</td>
-      <td>ishanchakravarty</td>
-      <td>WR</td>
-      <td>23.40</td>
-      <td>32.0</td>
-      <td>-2.65</td>
-      <td>-4.95</td>
-      <td>-3.60</td>
-    </tr>
-    <tr>
-      <th>151</th>
-      <td>4866</td>
-      <td>Saquon Barkley</td>
-      <td>ChinkTownBois</td>
-      <td>RB</td>
-      <td>11.10</td>
-      <td>46.0</td>
-      <td>-2.55</td>
-      <td>-8.30</td>
-      <td>-3.95</td>
-    </tr>
-    <tr>
-      <th>85</th>
-      <td>6945</td>
-      <td>Antonio Gibson</td>
-      <td>ishanchakravarty</td>
-      <td>RB</td>
-      <td>16.60</td>
-      <td>37.0</td>
-      <td>0.20</td>
-      <td>-5.55</td>
-      <td>-4.00</td>
-    </tr>
-    <tr>
-      <th>95</th>
-      <td>2152</td>
-      <td>Teddy Bridgewater</td>
-      <td>ishanchakravarty</td>
-      <td>QB</td>
-      <td>41.68</td>
-      <td>12.0</td>
-      <td>-4.08</td>
-      <td>0.00</td>
-      <td>-4.08</td>
-    </tr>
-    <tr>
-      <th>15</th>
-      <td>1352</td>
-      <td>Robert Woods</td>
-      <td>dmethi</td>
-      <td>WR</td>
-      <td>20.40</td>
-      <td>40.0</td>
-      <td>-4.15</td>
-      <td>-6.45</td>
-      <td>-4.15</td>
-    </tr>
-    <tr>
-      <th>47</th>
-      <td>5846</td>
-      <td>D.K. Metcalf</td>
-      <td>varunagarwal</td>
-      <td>WR</td>
-      <td>22.30</td>
-      <td>35.0</td>
-      <td>-3.20</td>
-      <td>-5.50</td>
-      <td>-4.20</td>
-    </tr>
-    <tr>
-      <th>107</th>
-      <td>4227</td>
-      <td>Harrison Butker</td>
-      <td>YouSmellLikeDaal</td>
-      <td>K</td>
-      <td>15.00</td>
-      <td>17.0</td>
-      <td>-5.00</td>
-      <td>-1.50</td>
-      <td>-5.00</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>7042</td>
-      <td>Tyler Bass</td>
-      <td>dmethi</td>
-      <td>K</td>
-      <td>15.00</td>
-      <td>18.0</td>
-      <td>-5.00</td>
-      <td>-1.50</td>
-      <td>-5.00</td>
-    </tr>
-    <tr>
-      <th>51</th>
-      <td>4040</td>
-      <td>JuJu Smith-Schuster</td>
-      <td>varunagarwal</td>
-      <td>WR</td>
-      <td>20.60</td>
-      <td>39.0</td>
-      <td>-4.05</td>
-      <td>-6.35</td>
-      <td>-5.05</td>
-    </tr>
-    <tr>
-      <th>17</th>
-      <td>6826</td>
-      <td>Cole Kmet</td>
-      <td>armadurai</td>
-      <td>TE</td>
-      <td>7.20</td>
-      <td>35.0</td>
-      <td>-5.60</td>
-      <td>-3.65</td>
-      <td>-5.60</td>
-    </tr>
-    <tr>
-      <th>129</th>
-      <td>6820</td>
-      <td>Clyde Edwards-Helaire</td>
-      <td>aaggarwal22</td>
-      <td>RB</td>
-      <td>10.30</td>
-      <td>48.0</td>
-      <td>-2.95</td>
-      <td>-8.70</td>
-      <td>-6.15</td>
-    </tr>
-    <tr>
-      <th>146</th>
-      <td>5937</td>
-      <td>Diontae Johnson</td>
-      <td>ChinkTownBois</td>
-      <td>WR</td>
-      <td>27.10</td>
-      <td>22.0</td>
-      <td>-0.80</td>
-      <td>-3.10</td>
-      <td>-6.20</td>
-    </tr>
-    <tr>
-      <th>52</th>
-      <td>391</td>
-      <td>Ryan Succop</td>
-      <td>varunagarwal</td>
-      <td>K</td>
-      <td>12.00</td>
-      <td>20.0</td>
-      <td>-6.50</td>
-      <td>-3.00</td>
-      <td>-6.50</td>
-    </tr>
-    <tr>
-      <th>92</th>
-      <td>3423</td>
-      <td>Robby Anderson</td>
-      <td>ishanchakravarty</td>
-      <td>WR</td>
-      <td>17.50</td>
-      <td>52.0</td>
-      <td>-5.60</td>
-      <td>-7.90</td>
-      <td>-6.55</td>
-    </tr>
-    <tr>
-      <th>28</th>
-      <td>1144</td>
-      <td>Cole Beasley</td>
-      <td>armadurai</td>
-      <td>WR</td>
-      <td>15.60</td>
-      <td>59.0</td>
-      <td>-6.55</td>
-      <td>-8.85</td>
-      <td>-6.55</td>
-    </tr>
-    <tr>
-      <th>144</th>
-      <td>6801</td>
-      <td>Tee Higgins</td>
-      <td>ChinkTownBois</td>
-      <td>WR</td>
-      <td>25.80</td>
-      <td>26.0</td>
-      <td>-1.45</td>
-      <td>-3.75</td>
-      <td>-6.85</td>
-    </tr>
-    <tr>
-      <th>135</th>
-      <td>4666</td>
-      <td>Younghoe Koo</td>
-      <td>aaggarwal22</td>
-      <td>K</td>
-      <td>11.00</td>
-      <td>21.0</td>
-      <td>-7.00</td>
-      <td>-3.50</td>
-      <td>-7.00</td>
-    </tr>
-    <tr>
-      <th>122</th>
-      <td>1992</td>
-      <td>Allen Robinson</td>
-      <td>anantjindani</td>
-      <td>WR</td>
-      <td>15.90</td>
-      <td>57.0</td>
-      <td>-6.40</td>
-      <td>-8.70</td>
-      <td>-7.45</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>3294</td>
-      <td>Dak Prescott</td>
-      <td>dmethi</td>
-      <td>QB</td>
-      <td>34.90</td>
-      <td>17.0</td>
-      <td>-7.47</td>
-      <td>-3.39</td>
-      <td>-7.47</td>
-    </tr>
-    <tr>
-      <th>56</th>
-      <td>7593</td>
-      <td>Trey Sermon</td>
-      <td>scboom5</td>
-      <td>RB</td>
-      <td>0.80</td>
-      <td>87.0</td>
-      <td>-7.70</td>
-      <td>-13.45</td>
-      <td>-7.85</td>
-    </tr>
-    <tr>
-      <th>82</th>
-      <td>2747</td>
-      <td>Jason Myers</td>
-      <td>plumsmuggler99</td>
-      <td>K</td>
-      <td>9.00</td>
-      <td>27.0</td>
-      <td>-8.00</td>
-      <td>-4.50</td>
-      <td>-8.00</td>
-    </tr>
-    <tr>
-      <th>75</th>
-      <td>4984</td>
-      <td>Josh Allen</td>
-      <td>plumsmuggler99</td>
-      <td>QB</td>
-      <td>32.86</td>
-      <td>18.0</td>
-      <td>-8.49</td>
-      <td>-4.41</td>
-      <td>-8.49</td>
-    </tr>
-    <tr>
-      <th>72</th>
-      <td>5917</td>
-      <td>Mecole Hardman</td>
-      <td>plumsmuggler99</td>
-      <td>WR</td>
-      <td>11.40</td>
-      <td>73.0</td>
-      <td>-8.65</td>
-      <td>-10.95</td>
-      <td>-8.65</td>
-    </tr>
-    <tr>
-      <th>57</th>
-      <td>7525</td>
-      <td>DeVonta Smith</td>
-      <td>scboom5</td>
-      <td>WR</td>
-      <td>18.70</td>
-      <td>45.0</td>
-      <td>-5.00</td>
-      <td>-7.30</td>
-      <td>-9.00</td>
-    </tr>
-    <tr>
-      <th>63</th>
-      <td>5859</td>
-      <td>A.J. Brown</td>
-      <td>scboom5</td>
-      <td>WR</td>
-      <td>18.70</td>
-      <td>46.0</td>
-      <td>-5.00</td>
-      <td>-7.30</td>
-      <td>-9.00</td>
-    </tr>
-    <tr>
-      <th>58</th>
-      <td>7523</td>
-      <td>Trevor Lawrence</td>
-      <td>scboom5</td>
-      <td>QB</td>
-      <td>30.90</td>
-      <td>23.0</td>
-      <td>-9.47</td>
-      <td>-5.39</td>
-      <td>-9.47</td>
-    </tr>
-    <tr>
-      <th>150</th>
-      <td>5119</td>
-      <td>Jason Sanders</td>
-      <td>ChinkTownBois</td>
-      <td>K</td>
-      <td>6.00</td>
-      <td>30.0</td>
-      <td>-9.50</td>
-      <td>-6.00</td>
-      <td>-9.50</td>
-    </tr>
-    <tr>
-      <th>141</th>
-      <td>947</td>
-      <td>Julio Jones</td>
-      <td>ChinkTownBois</td>
-      <td>WR</td>
-      <td>20.20</td>
-      <td>41.0</td>
-      <td>-4.25</td>
-      <td>-6.55</td>
-      <td>-9.65</td>
-    </tr>
-    <tr>
-      <th>126</th>
-      <td>96</td>
-      <td>Aaron Rodgers</td>
-      <td>aaggarwal22</td>
-      <td>QB</td>
-      <td>30.12</td>
-      <td>24.0</td>
-      <td>-9.86</td>
-      <td>-5.78</td>
-      <td>-9.86</td>
-    </tr>
-    <tr>
-      <th>34</th>
-      <td>6797</td>
-      <td>Justin Herbert</td>
-      <td>aditya22</td>
-      <td>QB</td>
-      <td>30.10</td>
-      <td>25.0</td>
-      <td>-9.87</td>
-      <td>-5.79</td>
-      <td>-9.87</td>
-    </tr>
-    <tr>
-      <th>59</th>
-      <td>6886</td>
-      <td>Chase Claypool</td>
-      <td>scboom5</td>
-      <td>WR</td>
-      <td>16.70</td>
-      <td>55.0</td>
-      <td>-6.00</td>
-      <td>-8.30</td>
-      <td>-10.00</td>
-    </tr>
-    <tr>
-      <th>29</th>
-      <td>1049</td>
-      <td>Ryan Tannehill</td>
-      <td>armadurai</td>
-      <td>QB</td>
-      <td>26.76</td>
-      <td>26.0</td>
-      <td>-11.54</td>
-      <td>-7.46</td>
-      <td>-11.54</td>
-    </tr>
-    <tr>
-      <th>152</th>
-      <td>4217</td>
-      <td>George Kittle</td>
-      <td>ChinkTownBois</td>
-      <td>TE</td>
-      <td>12.50</td>
-      <td>14.0</td>
-      <td>-2.95</td>
-      <td>-1.00</td>
-      <td>-15.20</td>
+      <th id="T_e2e3a_level0_row0" class="row_heading level0 row0" >21</th>
+      <td id="T_e2e3a_row0_col0" class="data row0 col0" >3198</td>
+      <td id="T_e2e3a_row0_col1" class="data row0 col1" >Derrick Henry</td>
+      <td id="T_e2e3a_row0_col2" class="data row0 col2" >armadurai</td>
+      <td id="T_e2e3a_row0_col3" class="data row0 col3" >RB</td>
+      <td id="T_e2e3a_row0_col4" class="data row0 col4" >53.900000</td>
+      <td id="T_e2e3a_row0_col5" class="data row0 col5" >1.000000</td>
+      <td id="T_e2e3a_row0_col6" class="data row0 col6" >18.85</td>
+      <td id="T_e2e3a_row0_col7" class="data row0 col7" >13.10</td>
+      <td id="T_e2e3a_row0_col8" class="data row0 col8" >13.05</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row1" class="row_heading level0 row1" >69</th>
+      <td id="T_e2e3a_row1_col0" class="data row1 col0" >1466</td>
+      <td id="T_e2e3a_row1_col1" class="data row1 col1" >Travis Kelce</td>
+      <td id="T_e2e3a_row1_col2" class="data row1 col2" >scboom5</td>
+      <td id="T_e2e3a_row1_col3" class="data row1 col3" >TE</td>
+      <td id="T_e2e3a_row1_col4" class="data row1 col4" >43.000000</td>
+      <td id="T_e2e3a_row1_col5" class="data row1 col5" >1.000000</td>
+      <td id="T_e2e3a_row1_col6" class="data row1 col6" >12.30</td>
+      <td id="T_e2e3a_row1_col7" class="data row1 col7" >14.25</td>
+      <td id="T_e2e3a_row1_col8" class="data row1 col8" >12.30</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row2" class="row_heading level0 row2" >77</th>
+      <td id="T_e2e3a_row2_col0" class="data row2 col0" >4199</td>
+      <td id="T_e2e3a_row2_col1" class="data row2 col1" >Aaron Jones</td>
+      <td id="T_e2e3a_row2_col2" class="data row2 col2" >plumsmuggler99</td>
+      <td id="T_e2e3a_row2_col3" class="data row2 col3" >RB</td>
+      <td id="T_e2e3a_row2_col4" class="data row2 col4" >41.700000</td>
+      <td id="T_e2e3a_row2_col5" class="data row2 col5" >3.000000</td>
+      <td id="T_e2e3a_row2_col6" class="data row2 col6" >12.75</td>
+      <td id="T_e2e3a_row2_col7" class="data row2 col7" >7.00</td>
+      <td id="T_e2e3a_row2_col8" class="data row2 col8" >12.15</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row3" class="row_heading level0 row3" >37</th>
+      <td id="T_e2e3a_row3_col0" class="data row3 col0" >4039</td>
+      <td id="T_e2e3a_row3_col1" class="data row3 col1" >Cooper Kupp</td>
+      <td id="T_e2e3a_row3_col2" class="data row3 col2" >aditya22</td>
+      <td id="T_e2e3a_row3_col3" class="data row3 col3" >WR</td>
+      <td id="T_e2e3a_row3_col4" class="data row3 col4" >52.600000</td>
+      <td id="T_e2e3a_row3_col5" class="data row3 col5" >1.000000</td>
+      <td id="T_e2e3a_row3_col6" class="data row3 col6" >11.95</td>
+      <td id="T_e2e3a_row3_col7" class="data row3 col7" >9.65</td>
+      <td id="T_e2e3a_row3_col8" class="data row3 col8" >11.95</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row4" class="row_heading level0 row4" >25</th>
+      <td id="T_e2e3a_row4_col0" class="data row4 col0" >2374</td>
+      <td id="T_e2e3a_row4_col1" class="data row4 col1" >Tyler Lockett</td>
+      <td id="T_e2e3a_row4_col2" class="data row4 col2" >armadurai</td>
+      <td id="T_e2e3a_row4_col3" class="data row4 col3" >WR</td>
+      <td id="T_e2e3a_row4_col4" class="data row4 col4" >51.800000</td>
+      <td id="T_e2e3a_row4_col5" class="data row4 col5" >2.000000</td>
+      <td id="T_e2e3a_row4_col6" class="data row4 col6" >11.55</td>
+      <td id="T_e2e3a_row4_col7" class="data row4 col7" >9.25</td>
+      <td id="T_e2e3a_row4_col8" class="data row4 col8" >11.55</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row5" class="row_heading level0 row5" >116</th>
+      <td id="T_e2e3a_row5_col0" class="data row5 col0" >5844</td>
+      <td id="T_e2e3a_row5_col1" class="data row5 col1" >T.J. Hockenson</td>
+      <td id="T_e2e3a_row5_col2" class="data row5 col2" >anantjindani</td>
+      <td id="T_e2e3a_row5_col3" class="data row5 col3" >TE</td>
+      <td id="T_e2e3a_row5_col4" class="data row5 col4" >38.300000</td>
+      <td id="T_e2e3a_row5_col5" class="data row5 col5" >3.000000</td>
+      <td id="T_e2e3a_row5_col6" class="data row5 col6" >9.95</td>
+      <td id="T_e2e3a_row5_col7" class="data row5 col7" >11.90</td>
+      <td id="T_e2e3a_row5_col8" class="data row5 col8" >9.95</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row6" class="row_heading level0 row6" >148</th>
+      <td id="T_e2e3a_row6_col0" class="data row6 col0" >5849</td>
+      <td id="T_e2e3a_row6_col1" class="data row6 col1" >Kyler Murray</td>
+      <td id="T_e2e3a_row6_col2" class="data row6 col2" >ChinkTownBois</td>
+      <td id="T_e2e3a_row6_col3" class="data row6 col3" >QB</td>
+      <td id="T_e2e3a_row6_col4" class="data row6 col4" >69.660000</td>
+      <td id="T_e2e3a_row6_col5" class="data row6 col5" >1.000000</td>
+      <td id="T_e2e3a_row6_col6" class="data row6 col6" >9.91</td>
+      <td id="T_e2e3a_row6_col7" class="data row6 col7" >13.99</td>
+      <td id="T_e2e3a_row6_col8" class="data row6 col8" >9.91</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row7" class="row_heading level0 row7" >10</th>
+      <td id="T_e2e3a_row7_col0" class="data row7 col0" >4034</td>
+      <td id="T_e2e3a_row7_col1" class="data row7 col1" >Christian McCaffrey</td>
+      <td id="T_e2e3a_row7_col2" class="data row7 col2" >dmethi</td>
+      <td id="T_e2e3a_row7_col3" class="data row7 col3" >RB</td>
+      <td id="T_e2e3a_row7_col4" class="data row7 col4" >45.400000</td>
+      <td id="T_e2e3a_row7_col5" class="data row7 col5" >2.000000</td>
+      <td id="T_e2e3a_row7_col6" class="data row7 col6" >14.60</td>
+      <td id="T_e2e3a_row7_col7" class="data row7 col7" >8.85</td>
+      <td id="T_e2e3a_row7_col8" class="data row7 col8" >8.65</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row8" class="row_heading level0 row8" >108</th>
+      <td id="T_e2e3a_row8_col0" class="data row8 col0" >4029</td>
+      <td id="T_e2e3a_row8_col1" class="data row8 col1" >Dalvin Cook</td>
+      <td id="T_e2e3a_row8_col2" class="data row8 col2" >YouSmellLikeDaal</td>
+      <td id="T_e2e3a_row8_col3" class="data row8 col3" >RB</td>
+      <td id="T_e2e3a_row8_col4" class="data row8 col4" >32.200000</td>
+      <td id="T_e2e3a_row8_col5" class="data row8 col5" >5.000000</td>
+      <td id="T_e2e3a_row8_col6" class="data row8 col6" >8.00</td>
+      <td id="T_e2e3a_row8_col7" class="data row8 col7" >2.25</td>
+      <td id="T_e2e3a_row8_col8" class="data row8 col8" >8.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row9" class="row_heading level0 row9" >40</th>
+      <td id="T_e2e3a_row9_col0" class="data row9 col0" >2505</td>
+      <td id="T_e2e3a_row9_col1" class="data row9 col1" >Darren Waller</td>
+      <td id="T_e2e3a_row9_col2" class="data row9 col2" >aditya22</td>
+      <td id="T_e2e3a_row9_col3" class="data row9 col3" >TE</td>
+      <td id="T_e2e3a_row9_col4" class="data row9 col4" >30.500000</td>
+      <td id="T_e2e3a_row9_col5" class="data row9 col5" >4.000000</td>
+      <td id="T_e2e3a_row9_col6" class="data row9 col6" >6.05</td>
+      <td id="T_e2e3a_row9_col7" class="data row9 col7" >8.00</td>
+      <td id="T_e2e3a_row9_col8" class="data row9 col8" >6.05</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row10" class="row_heading level0 row10" >153</th>
+      <td id="T_e2e3a_row10_col0" class="data row10 col0" >4018</td>
+      <td id="T_e2e3a_row10_col1" class="data row10 col1" >Joe Mixon</td>
+      <td id="T_e2e3a_row10_col2" class="data row10 col2" >ChinkTownBois</td>
+      <td id="T_e2e3a_row10_col3" class="data row10 col3" >RB</td>
+      <td id="T_e2e3a_row10_col4" class="data row10 col4" >30.600000</td>
+      <td id="T_e2e3a_row10_col5" class="data row10 col5" >7.000000</td>
+      <td id="T_e2e3a_row10_col6" class="data row10 col6" >7.20</td>
+      <td id="T_e2e3a_row10_col7" class="data row10 col7" >1.45</td>
+      <td id="T_e2e3a_row10_col8" class="data row10 col8" >5.80</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row11" class="row_heading level0 row11" >62</th>
+      <td id="T_e2e3a_row11_col0" class="data row11 col0" >5892</td>
+      <td id="T_e2e3a_row11_col1" class="data row11 col1" >David Montgomery</td>
+      <td id="T_e2e3a_row11_col2" class="data row11 col2" >scboom5</td>
+      <td id="T_e2e3a_row11_col3" class="data row11 col3" >RB</td>
+      <td id="T_e2e3a_row11_col4" class="data row11 col4" >27.700000</td>
+      <td id="T_e2e3a_row11_col5" class="data row11 col5" >12.000000</td>
+      <td id="T_e2e3a_row11_col6" class="data row11 col6" >5.75</td>
+      <td id="T_e2e3a_row11_col7" class="data row11 col7" >0.00</td>
+      <td id="T_e2e3a_row11_col8" class="data row11 col8" >5.60</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row12" class="row_heading level0 row12" >49</th>
+      <td id="T_e2e3a_row12_col0" class="data row12 col0" >4988</td>
+      <td id="T_e2e3a_row12_col1" class="data row12 col1" >Nick Chubb</td>
+      <td id="T_e2e3a_row12_col2" class="data row12 col2" >varunagarwal</td>
+      <td id="T_e2e3a_row12_col3" class="data row12 col3" >RB</td>
+      <td id="T_e2e3a_row12_col4" class="data row12 col4" >36.400000</td>
+      <td id="T_e2e3a_row12_col5" class="data row12 col5" >4.000000</td>
+      <td id="T_e2e3a_row12_col6" class="data row12 col6" >10.10</td>
+      <td id="T_e2e3a_row12_col7" class="data row12 col7" >4.35</td>
+      <td id="T_e2e3a_row12_col8" class="data row12 col8" >4.60</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row13" class="row_heading level0 row13" >106</th>
+      <td id="T_e2e3a_row13_col0" class="data row13 col0" >4273</td>
+      <td id="T_e2e3a_row13_col1" class="data row13 col1" >Chris Carson</td>
+      <td id="T_e2e3a_row13_col2" class="data row13 col2" >YouSmellLikeDaal</td>
+      <td id="T_e2e3a_row13_col3" class="data row13 col3" >RB</td>
+      <td id="T_e2e3a_row13_col4" class="data row13 col4" >25.300000</td>
+      <td id="T_e2e3a_row13_col5" class="data row13 col5" >16.000000</td>
+      <td id="T_e2e3a_row13_col6" class="data row13 col6" >4.55</td>
+      <td id="T_e2e3a_row13_col7" class="data row13 col7" >-1.20</td>
+      <td id="T_e2e3a_row13_col8" class="data row13 col8" >4.55</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row14" class="row_heading level0 row14" >41</th>
+      <td id="T_e2e3a_row14_col0" class="data row14 col0" >1689</td>
+      <td id="T_e2e3a_row14_col1" class="data row14 col1" >Adam Thielen</td>
+      <td id="T_e2e3a_row14_col2" class="data row14 col2" >aditya22</td>
+      <td id="T_e2e3a_row14_col3" class="data row14 col3" >WR</td>
+      <td id="T_e2e3a_row14_col4" class="data row14 col4" >37.600000</td>
+      <td id="T_e2e3a_row14_col5" class="data row14 col5" >4.000000</td>
+      <td id="T_e2e3a_row14_col6" class="data row14 col6" >4.45</td>
+      <td id="T_e2e3a_row14_col7" class="data row14 col7" >2.15</td>
+      <td id="T_e2e3a_row14_col8" class="data row14 col8" >4.45</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row15" class="row_heading level0 row15" >163</th>
+      <td id="T_e2e3a_row15_col0" class="data row15 col0" >4046</td>
+      <td id="T_e2e3a_row15_col1" class="data row15 col1" >Patrick Mahomes</td>
+      <td id="T_e2e3a_row15_col2" class="data row15 col2" >ramen005</td>
+      <td id="T_e2e3a_row15_col3" class="data row15 col3" >QB</td>
+      <td id="T_e2e3a_row15_col4" class="data row15 col4" >58.300000</td>
+      <td id="T_e2e3a_row15_col5" class="data row15 col5" >2.000000</td>
+      <td id="T_e2e3a_row15_col6" class="data row15 col6" >4.23</td>
+      <td id="T_e2e3a_row15_col7" class="data row15 col7" >8.31</td>
+      <td id="T_e2e3a_row15_col8" class="data row15 col8" >4.23</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row16" class="row_heading level0 row16" >83</th>
+      <td id="T_e2e3a_row16_col0" class="data row16 col0" >1426</td>
+      <td id="T_e2e3a_row16_col1" class="data row16 col1" >DeAndre Hopkins</td>
+      <td id="T_e2e3a_row16_col2" class="data row16 col2" >plumsmuggler99</td>
+      <td id="T_e2e3a_row16_col3" class="data row16 col3" >WR</td>
+      <td id="T_e2e3a_row16_col4" class="data row16 col4" >36.700000</td>
+      <td id="T_e2e3a_row16_col5" class="data row16 col5" >6.000000</td>
+      <td id="T_e2e3a_row16_col6" class="data row16 col6" >4.00</td>
+      <td id="T_e2e3a_row16_col7" class="data row16 col7" >1.70</td>
+      <td id="T_e2e3a_row16_col8" class="data row16 col8" >4.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row17" class="row_heading level0 row17" >111</th>
+      <td id="T_e2e3a_row17_col0" class="data row17 col0" >167</td>
+      <td id="T_e2e3a_row17_col1" class="data row17 col1" >Tom Brady</td>
+      <td id="T_e2e3a_row17_col2" class="data row17 col2" >YouSmellLikeDaal</td>
+      <td id="T_e2e3a_row17_col3" class="data row17 col3" >QB</td>
+      <td id="T_e2e3a_row17_col4" class="data row17 col4" >57.800000</td>
+      <td id="T_e2e3a_row17_col5" class="data row17 col5" >3.000000</td>
+      <td id="T_e2e3a_row17_col6" class="data row17 col6" >3.98</td>
+      <td id="T_e2e3a_row17_col7" class="data row17 col7" >8.06</td>
+      <td id="T_e2e3a_row17_col8" class="data row17 col8" >3.98</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row18" class="row_heading level0 row18" >13</th>
+      <td id="T_e2e3a_row18_col0" class="data row18 col0" >2309</td>
+      <td id="T_e2e3a_row18_col1" class="data row18 col1" >Amari Cooper</td>
+      <td id="T_e2e3a_row18_col2" class="data row18 col2" >dmethi</td>
+      <td id="T_e2e3a_row18_col3" class="data row18 col3" >WR</td>
+      <td id="T_e2e3a_row18_col4" class="data row18 col4" >36.300000</td>
+      <td id="T_e2e3a_row18_col5" class="data row18 col5" >8.000000</td>
+      <td id="T_e2e3a_row18_col6" class="data row18 col6" >3.80</td>
+      <td id="T_e2e3a_row18_col7" class="data row18 col7" >1.50</td>
+      <td id="T_e2e3a_row18_col8" class="data row18 col8" >3.80</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row19" class="row_heading level0 row19" >79</th>
+      <td id="T_e2e3a_row19_col0" class="data row19 col0" >3321</td>
+      <td id="T_e2e3a_row19_col1" class="data row19 col1" >Tyreek Hill</td>
+      <td id="T_e2e3a_row19_col2" class="data row19 col2" >plumsmuggler99</td>
+      <td id="T_e2e3a_row19_col3" class="data row19 col3" >WR</td>
+      <td id="T_e2e3a_row19_col4" class="data row19 col4" >36.000000</td>
+      <td id="T_e2e3a_row19_col5" class="data row19 col5" >9.000000</td>
+      <td id="T_e2e3a_row19_col6" class="data row19 col6" >3.65</td>
+      <td id="T_e2e3a_row19_col7" class="data row19 col7" >1.35</td>
+      <td id="T_e2e3a_row19_col8" class="data row19 col8" >3.65</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row20" class="row_heading level0 row20" >89</th>
+      <td id="T_e2e3a_row20_col0" class="data row20 col0" >4663</td>
+      <td id="T_e2e3a_row20_col1" class="data row20 col1" >Austin Ekeler</td>
+      <td id="T_e2e3a_row20_col2" class="data row20 col2" >ishanchakravarty</td>
+      <td id="T_e2e3a_row20_col3" class="data row20 col3" >RB</td>
+      <td id="T_e2e3a_row20_col4" class="data row20 col4" >29.700000</td>
+      <td id="T_e2e3a_row20_col5" class="data row20 col5" >9.000000</td>
+      <td id="T_e2e3a_row20_col6" class="data row20 col6" >6.75</td>
+      <td id="T_e2e3a_row20_col7" class="data row20 col7" >1.00</td>
+      <td id="T_e2e3a_row20_col8" class="data row20 col8" >2.55</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row21" class="row_heading level0 row21" >157</th>
+      <td id="T_e2e3a_row21_col0" class="data row21 col0" >6790</td>
+      <td id="T_e2e3a_row21_col1" class="data row21 col1" >D'Andre Swift</td>
+      <td id="T_e2e3a_row21_col2" class="data row21 col2" >ramen005</td>
+      <td id="T_e2e3a_row21_col3" class="data row21 col3" >RB</td>
+      <td id="T_e2e3a_row21_col4" class="data row21 col4" >30.200000</td>
+      <td id="T_e2e3a_row21_col5" class="data row21 col5" >8.000000</td>
+      <td id="T_e2e3a_row21_col6" class="data row21 col6" >7.00</td>
+      <td id="T_e2e3a_row21_col7" class="data row21 col7" >1.25</td>
+      <td id="T_e2e3a_row21_col8" class="data row21 col8" >2.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row22" class="row_heading level0 row22" >45</th>
+      <td id="T_e2e3a_row22_col0" class="data row22 col0" >5916</td>
+      <td id="T_e2e3a_row22_col1" class="data row22 col1" >Darrell Henderson</td>
+      <td id="T_e2e3a_row22_col2" class="data row22 col2" >varunagarwal</td>
+      <td id="T_e2e3a_row22_col3" class="data row22 col3" >RB</td>
+      <td id="T_e2e3a_row22_col4" class="data row22 col4" >30.900000</td>
+      <td id="T_e2e3a_row22_col5" class="data row22 col5" >6.000000</td>
+      <td id="T_e2e3a_row22_col6" class="data row22 col6" >7.35</td>
+      <td id="T_e2e3a_row22_col7" class="data row22 col7" >1.60</td>
+      <td id="T_e2e3a_row22_col8" class="data row22 col8" >1.85</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row23" class="row_heading level0 row23" >137</th>
+      <td id="T_e2e3a_row23_col0" class="data row23 col0" >4037</td>
+      <td id="T_e2e3a_row23_col1" class="data row23 col1" >Chris Godwin</td>
+      <td id="T_e2e3a_row23_col2" class="data row23 col2" >aaggarwal22</td>
+      <td id="T_e2e3a_row23_col3" class="data row23 col3" >WR</td>
+      <td id="T_e2e3a_row23_col4" class="data row23 col4" >32.200000</td>
+      <td id="T_e2e3a_row23_col5" class="data row23 col5" >13.000000</td>
+      <td id="T_e2e3a_row23_col6" class="data row23 col6" >1.75</td>
+      <td id="T_e2e3a_row23_col7" class="data row23 col7" >-0.55</td>
+      <td id="T_e2e3a_row23_col8" class="data row23 col8" >1.75</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row24" class="row_heading level0 row24" >33</th>
+      <td id="T_e2e3a_row24_col0" class="data row24 col0" >6813</td>
+      <td id="T_e2e3a_row24_col1" class="data row24 col1" >Jonathan Taylor</td>
+      <td id="T_e2e3a_row24_col2" class="data row24 col2" >aditya22</td>
+      <td id="T_e2e3a_row24_col3" class="data row24 col3" >RB</td>
+      <td id="T_e2e3a_row24_col4" class="data row24 col4" >20.400000</td>
+      <td id="T_e2e3a_row24_col5" class="data row24 col5" >27.000000</td>
+      <td id="T_e2e3a_row24_col6" class="data row24 col6" >2.10</td>
+      <td id="T_e2e3a_row24_col7" class="data row24 col7" >-3.65</td>
+      <td id="T_e2e3a_row24_col8" class="data row24 col8" >1.70</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row25" class="row_heading level0 row25" >115</th>
+      <td id="T_e2e3a_row25_col0" class="data row25 col0" >6151</td>
+      <td id="T_e2e3a_row25_col1" class="data row25 col1" >Miles Sanders</td>
+      <td id="T_e2e3a_row25_col2" class="data row25 col2" >anantjindani</td>
+      <td id="T_e2e3a_row25_col3" class="data row25 col3" >RB</td>
+      <td id="T_e2e3a_row25_col4" class="data row25 col4" >21.700000</td>
+      <td id="T_e2e3a_row25_col5" class="data row25 col5" >23.000000</td>
+      <td id="T_e2e3a_row25_col6" class="data row25 col6" >2.75</td>
+      <td id="T_e2e3a_row25_col7" class="data row25 col7" >-3.00</td>
+      <td id="T_e2e3a_row25_col8" class="data row25 col8" >1.55</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row26" class="row_heading level0 row26" >19</th>
+      <td id="T_e2e3a_row26_col0" class="data row26 col0" >5095</td>
+      <td id="T_e2e3a_row26_col1" class="data row26 col1" >Daniel Carlson</td>
+      <td id="T_e2e3a_row26_col2" class="data row26 col2" >armadurai</td>
+      <td id="T_e2e3a_row26_col3" class="data row26 col3" >K</td>
+      <td id="T_e2e3a_row26_col4" class="data row26 col4" >28.000000</td>
+      <td id="T_e2e3a_row26_col5" class="data row26 col5" >1.000000</td>
+      <td id="T_e2e3a_row26_col6" class="data row26 col6" >1.50</td>
+      <td id="T_e2e3a_row26_col7" class="data row26 col7" >5.00</td>
+      <td id="T_e2e3a_row26_col8" class="data row26 col8" >1.50</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row27" class="row_heading level0 row27" >162</th>
+      <td id="T_e2e3a_row27_col0" class="data row27 col0" >4068</td>
+      <td id="T_e2e3a_row27_col1" class="data row27 col1" >Mike Williams</td>
+      <td id="T_e2e3a_row27_col2" class="data row27 col2" >ramen005</td>
+      <td id="T_e2e3a_row27_col3" class="data row27 col3" >WR</td>
+      <td id="T_e2e3a_row27_col4" class="data row27 col4" >36.800000</td>
+      <td id="T_e2e3a_row27_col5" class="data row27 col5" >5.000000</td>
+      <td id="T_e2e3a_row27_col6" class="data row27 col6" >4.05</td>
+      <td id="T_e2e3a_row27_col7" class="data row27 col7" >1.75</td>
+      <td id="T_e2e3a_row27_col8" class="data row27 col8" >1.40</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row28" class="row_heading level0 row28" >114</th>
+      <td id="T_e2e3a_row28_col0" class="data row28 col0" >6786</td>
+      <td id="T_e2e3a_row28_col1" class="data row28 col1" >CeeDee Lamb</td>
+      <td id="T_e2e3a_row28_col2" class="data row28 col2" >anantjindani</td>
+      <td id="T_e2e3a_row28_col3" class="data row28 col3" >WR</td>
+      <td id="T_e2e3a_row28_col4" class="data row28 col4" >33.300000</td>
+      <td id="T_e2e3a_row28_col5" class="data row28 col5" >12.000000</td>
+      <td id="T_e2e3a_row28_col6" class="data row28 col6" >2.30</td>
+      <td id="T_e2e3a_row28_col7" class="data row28 col7" >0.00</td>
+      <td id="T_e2e3a_row28_col8" class="data row28 col8" >1.25</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row29" class="row_heading level0 row29" >46</th>
+      <td id="T_e2e3a_row29_col0" class="data row29 col0" >5857</td>
+      <td id="T_e2e3a_row29_col1" class="data row29 col1" >Noah Fant</td>
+      <td id="T_e2e3a_row29_col2" class="data row29 col2" >varunagarwal</td>
+      <td id="T_e2e3a_row29_col3" class="data row29 col3" >TE</td>
+      <td id="T_e2e3a_row29_col4" class="data row29 col4" >20.500000</td>
+      <td id="T_e2e3a_row29_col5" class="data row29 col5" >5.000000</td>
+      <td id="T_e2e3a_row29_col6" class="data row29 col6" >1.05</td>
+      <td id="T_e2e3a_row29_col7" class="data row29 col7" >3.00</td>
+      <td id="T_e2e3a_row29_col8" class="data row29 col8" >1.05</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row30" class="row_heading level0 row30" >35</th>
+      <td id="T_e2e3a_row30_col0" class="data row30 col0" >5927</td>
+      <td id="T_e2e3a_row30_col1" class="data row30 col1" >Terry McLaurin</td>
+      <td id="T_e2e3a_row30_col2" class="data row30 col2" >aditya22</td>
+      <td id="T_e2e3a_row30_col3" class="data row30 col3" >WR</td>
+      <td id="T_e2e3a_row30_col4" class="data row30 col4" >30.400000</td>
+      <td id="T_e2e3a_row30_col5" class="data row30 col5" >17.000000</td>
+      <td id="T_e2e3a_row30_col6" class="data row30 col6" >0.85</td>
+      <td id="T_e2e3a_row30_col7" class="data row30 col7" >-1.45</td>
+      <td id="T_e2e3a_row30_col8" class="data row30 col8" >0.85</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row31" class="row_heading level0 row31" >133</th>
+      <td id="T_e2e3a_row31_col0" class="data row31 col0" >4983</td>
+      <td id="T_e2e3a_row31_col1" class="data row31 col1" >D.J. Moore</td>
+      <td id="T_e2e3a_row31_col2" class="data row31 col2" >aaggarwal22</td>
+      <td id="T_e2e3a_row31_col3" class="data row31 col3" >WR</td>
+      <td id="T_e2e3a_row31_col4" class="data row31 col4" >30.300000</td>
+      <td id="T_e2e3a_row31_col5" class="data row31 col5" >18.000000</td>
+      <td id="T_e2e3a_row31_col6" class="data row31 col6" >0.80</td>
+      <td id="T_e2e3a_row31_col7" class="data row31 col7" >-1.50</td>
+      <td id="T_e2e3a_row31_col8" class="data row31 col8" >0.80</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row32" class="row_heading level0 row32" >104</th>
+      <td id="T_e2e3a_row32_col0" class="data row32 col0" >4950</td>
+      <td id="T_e2e3a_row32_col1" class="data row32 col1" >Christian Kirk</td>
+      <td id="T_e2e3a_row32_col2" class="data row32 col2" >YouSmellLikeDaal</td>
+      <td id="T_e2e3a_row32_col3" class="data row32 col3" >WR</td>
+      <td id="T_e2e3a_row32_col4" class="data row32 col4" >29.500000</td>
+      <td id="T_e2e3a_row32_col5" class="data row32 col5" >19.000000</td>
+      <td id="T_e2e3a_row32_col6" class="data row32 col6" >0.40</td>
+      <td id="T_e2e3a_row32_col7" class="data row32 col7" >-1.90</td>
+      <td id="T_e2e3a_row32_col8" class="data row32 col8" >0.40</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row33" class="row_heading level0 row33" >125</th>
+      <td id="T_e2e3a_row33_col0" class="data row33 col0" >1234</td>
+      <td id="T_e2e3a_row33_col1" class="data row33 col1" >Russell Wilson</td>
+      <td id="T_e2e3a_row33_col2" class="data row33 col2" >anantjindani</td>
+      <td id="T_e2e3a_row33_col3" class="data row33 col3" >QB</td>
+      <td id="T_e2e3a_row33_col4" class="data row33 col4" >50.380000</td>
+      <td id="T_e2e3a_row33_col5" class="data row33 col5" >4.000000</td>
+      <td id="T_e2e3a_row33_col6" class="data row33 col6" >0.27</td>
+      <td id="T_e2e3a_row33_col7" class="data row33 col7" >4.35</td>
+      <td id="T_e2e3a_row33_col8" class="data row33 col8" >0.27</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row34" class="row_heading level0 row34" >39</th>
+      <td id="T_e2e3a_row34_col0" class="data row34 col0" >3242</td>
+      <td id="T_e2e3a_row34_col1" class="data row34 col1" >Kenyan Drake</td>
+      <td id="T_e2e3a_row34_col2" class="data row34 col2" >aditya22</td>
+      <td id="T_e2e3a_row34_col3" class="data row34 col3" >RB</td>
+      <td id="T_e2e3a_row34_col4" class="data row34 col4" >17.500000</td>
+      <td id="T_e2e3a_row34_col5" class="data row34 col5" >32.000000</td>
+      <td id="T_e2e3a_row34_col6" class="data row34 col6" >0.65</td>
+      <td id="T_e2e3a_row34_col7" class="data row34 col7" >-5.10</td>
+      <td id="T_e2e3a_row34_col8" class="data row34 col8" >0.25</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row35" class="row_heading level0 row35" >127</th>
+      <td id="T_e2e3a_row35_col0" class="data row35 col0" >7561</td>
+      <td id="T_e2e3a_row35_col1" class="data row35 col1" >Elijah Mitchell</td>
+      <td id="T_e2e3a_row35_col2" class="data row35 col2" >aaggarwal22</td>
+      <td id="T_e2e3a_row35_col3" class="data row35 col3" >RB</td>
+      <td id="T_e2e3a_row35_col4" class="data row35 col4" >22.700000</td>
+      <td id="T_e2e3a_row35_col5" class="data row35 col5" >18.000000</td>
+      <td id="T_e2e3a_row35_col6" class="data row35 col6" >3.25</td>
+      <td id="T_e2e3a_row35_col7" class="data row35 col7" >-2.50</td>
+      <td id="T_e2e3a_row35_col8" class="data row35 col8" >0.05</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row36" class="row_heading level0 row36" >155</th>
+      <td id="T_e2e3a_row36_col0" class="data row36 col0" >7098</td>
+      <td id="T_e2e3a_row36_col1" class="data row36 col1" >Ty'Son Williams</td>
+      <td id="T_e2e3a_row36_col2" class="data row36 col2" >ramen005</td>
+      <td id="T_e2e3a_row36_col3" class="data row36 col3" >RB</td>
+      <td id="T_e2e3a_row36_col4" class="data row36 col4" >26.200000</td>
+      <td id="T_e2e3a_row36_col5" class="data row36 col5" >15.000000</td>
+      <td id="T_e2e3a_row36_col6" class="data row36 col6" >5.00</td>
+      <td id="T_e2e3a_row36_col7" class="data row36 col7" >-0.75</td>
+      <td id="T_e2e3a_row36_col8" class="data row36 col8" >0.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row37" class="row_heading level0 row37" >121</th>
+      <td id="T_e2e3a_row37_col0" class="data row37 col0" >2431</td>
+      <td id="T_e2e3a_row37_col1" class="data row37 col1" >Mike Davis</td>
+      <td id="T_e2e3a_row37_col2" class="data row37 col2" >anantjindani</td>
+      <td id="T_e2e3a_row37_col3" class="data row37 col3" >RB</td>
+      <td id="T_e2e3a_row37_col4" class="data row37 col4" >18.500000</td>
+      <td id="T_e2e3a_row37_col5" class="data row37 col5" >30.000000</td>
+      <td id="T_e2e3a_row37_col6" class="data row37 col6" >1.15</td>
+      <td id="T_e2e3a_row37_col7" class="data row37 col7" >-4.60</td>
+      <td id="T_e2e3a_row37_col8" class="data row37 col8" >-0.05</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row38" class="row_heading level0 row38" >165</th>
+      <td id="T_e2e3a_row38_col0" class="data row38 col0" >3200</td>
+      <td id="T_e2e3a_row38_col1" class="data row38 col1" >Sterling Shepard</td>
+      <td id="T_e2e3a_row38_col2" class="data row38 col2" >ramen005</td>
+      <td id="T_e2e3a_row38_col3" class="data row38 col3" >WR</td>
+      <td id="T_e2e3a_row38_col4" class="data row38 col4" >33.800000</td>
+      <td id="T_e2e3a_row38_col5" class="data row38 col5" >11.000000</td>
+      <td id="T_e2e3a_row38_col6" class="data row38 col6" >2.55</td>
+      <td id="T_e2e3a_row38_col7" class="data row38 col7" >0.25</td>
+      <td id="T_e2e3a_row38_col8" class="data row38 col8" >-0.10</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row39" class="row_heading level0 row39" >50</th>
+      <td id="T_e2e3a_row39_col0" class="data row39 col0" >4881</td>
+      <td id="T_e2e3a_row39_col1" class="data row39 col1" >Lamar Jackson</td>
+      <td id="T_e2e3a_row39_col2" class="data row39 col2" >varunagarwal</td>
+      <td id="T_e2e3a_row39_col3" class="data row39 col3" >QB</td>
+      <td id="T_e2e3a_row39_col4" class="data row39 col4" >49.260000</td>
+      <td id="T_e2e3a_row39_col5" class="data row39 col5" >6.000000</td>
+      <td id="T_e2e3a_row39_col6" class="data row39 col6" >-0.29</td>
+      <td id="T_e2e3a_row39_col7" class="data row39 col7" >3.79</td>
+      <td id="T_e2e3a_row39_col8" class="data row39 col8" >-0.29</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row40" class="row_heading level0 row40" >71</th>
+      <td id="T_e2e3a_row40_col0" class="data row40 col0" >5980</td>
+      <td id="T_e2e3a_row40_col1" class="data row40 col1" >Myles Gaskin</td>
+      <td id="T_e2e3a_row40_col2" class="data row40 col2" >plumsmuggler99</td>
+      <td id="T_e2e3a_row40_col3" class="data row40 col3" >RB</td>
+      <td id="T_e2e3a_row40_col4" class="data row40 col4" >16.700000</td>
+      <td id="T_e2e3a_row40_col5" class="data row40 col5" >36.000000</td>
+      <td id="T_e2e3a_row40_col6" class="data row40 col6" >0.25</td>
+      <td id="T_e2e3a_row40_col7" class="data row40 col7" >-5.50</td>
+      <td id="T_e2e3a_row40_col8" class="data row40 col8" >-0.35</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row41" class="row_heading level0 row41" >94</th>
+      <td id="T_e2e3a_row41_col0" class="data row41 col0" >2251</td>
+      <td id="T_e2e3a_row41_col1" class="data row41 col1" >Logan Thomas</td>
+      <td id="T_e2e3a_row41_col2" class="data row41 col2" >ishanchakravarty</td>
+      <td id="T_e2e3a_row41_col3" class="data row41 col3" >TE</td>
+      <td id="T_e2e3a_row41_col4" class="data row41 col4" >17.500000</td>
+      <td id="T_e2e3a_row41_col5" class="data row41 col5" >7.000000</td>
+      <td id="T_e2e3a_row41_col6" class="data row41 col6" >-0.45</td>
+      <td id="T_e2e3a_row41_col7" class="data row41 col7" >1.50</td>
+      <td id="T_e2e3a_row41_col8" class="data row41 col8" >-0.45</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row42" class="row_heading level0 row42" >138</th>
+      <td id="T_e2e3a_row42_col0" class="data row42 col0" >4035</td>
+      <td id="T_e2e3a_row42_col1" class="data row42 col1" >Alvin Kamara</td>
+      <td id="T_e2e3a_row42_col2" class="data row42 col2" >aaggarwal22</td>
+      <td id="T_e2e3a_row42_col3" class="data row42 col3" >RB</td>
+      <td id="T_e2e3a_row42_col4" class="data row42 col4" >21.600000</td>
+      <td id="T_e2e3a_row42_col5" class="data row42 col5" >25.000000</td>
+      <td id="T_e2e3a_row42_col6" class="data row42 col6" >2.70</td>
+      <td id="T_e2e3a_row42_col7" class="data row42 col7" >-3.05</td>
+      <td id="T_e2e3a_row42_col8" class="data row42 col8" >-0.50</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row43" class="row_heading level0 row43" >9</th>
+      <td id="T_e2e3a_row43_col0" class="data row43 col0" >4036</td>
+      <td id="T_e2e3a_row43_col1" class="data row43 col1" >Corey Davis</td>
+      <td id="T_e2e3a_row43_col2" class="data row43 col2" >dmethi</td>
+      <td id="T_e2e3a_row43_col3" class="data row43 col3" >WR</td>
+      <td id="T_e2e3a_row43_col4" class="data row43 col4" >26.000000</td>
+      <td id="T_e2e3a_row43_col5" class="data row43 col5" >24.000000</td>
+      <td id="T_e2e3a_row43_col6" class="data row43 col6" >-1.35</td>
+      <td id="T_e2e3a_row43_col7" class="data row43 col7" >-3.65</td>
+      <td id="T_e2e3a_row43_col8" class="data row43 col8" >-1.35</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row44" class="row_heading level0 row44" >132</th>
+      <td id="T_e2e3a_row44_col0" class="data row44 col0" >5022</td>
+      <td id="T_e2e3a_row44_col1" class="data row44 col1" >Dallas Goedert</td>
+      <td id="T_e2e3a_row44_col2" class="data row44 col2" >aaggarwal22</td>
+      <td id="T_e2e3a_row44_col3" class="data row44 col3" >TE</td>
+      <td id="T_e2e3a_row44_col4" class="data row44 col4" >15.600000</td>
+      <td id="T_e2e3a_row44_col5" class="data row44 col5" >9.000000</td>
+      <td id="T_e2e3a_row44_col6" class="data row44 col6" >-1.40</td>
+      <td id="T_e2e3a_row44_col7" class="data row44 col7" >0.55</td>
+      <td id="T_e2e3a_row44_col8" class="data row44 col8" >-1.40</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row45" class="row_heading level0 row45" >110</th>
+      <td id="T_e2e3a_row45_col0" class="data row45 col0" >2216</td>
+      <td id="T_e2e3a_row45_col1" class="data row45 col1" >Mike Evans</td>
+      <td id="T_e2e3a_row45_col2" class="data row45 col2" >YouSmellLikeDaal</td>
+      <td id="T_e2e3a_row45_col3" class="data row45 col3" >WR</td>
+      <td id="T_e2e3a_row45_col4" class="data row45 col4" >25.900000</td>
+      <td id="T_e2e3a_row45_col5" class="data row45 col5" >25.000000</td>
+      <td id="T_e2e3a_row45_col6" class="data row45 col6" >-1.40</td>
+      <td id="T_e2e3a_row45_col7" class="data row45 col7" >-3.70</td>
+      <td id="T_e2e3a_row45_col8" class="data row45 col8" >-1.40</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row46" class="row_heading level0 row46" >97</th>
+      <td id="T_e2e3a_row46_col0" class="data row46 col0" >1433</td>
+      <td id="T_e2e3a_row46_col1" class="data row46 col1" >Brandon McManus</td>
+      <td id="T_e2e3a_row46_col2" class="data row46 col2" >ishanchakravarty</td>
+      <td id="T_e2e3a_row46_col3" class="data row46 col3" >K</td>
+      <td id="T_e2e3a_row46_col4" class="data row46 col4" >22.000000</td>
+      <td id="T_e2e3a_row46_col5" class="data row46 col5" >5.000000</td>
+      <td id="T_e2e3a_row46_col6" class="data row46 col6" >-1.50</td>
+      <td id="T_e2e3a_row46_col7" class="data row46 col7" >2.00</td>
+      <td id="T_e2e3a_row46_col8" class="data row46 col8" >-1.50</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row47" class="row_heading level0 row47" >101</th>
+      <td id="T_e2e3a_row47_col0" class="data row47 col0" >6794</td>
+      <td id="T_e2e3a_row47_col1" class="data row47 col1" >Justin Jefferson</td>
+      <td id="T_e2e3a_row47_col2" class="data row47 col2" >YouSmellLikeDaal</td>
+      <td id="T_e2e3a_row47_col3" class="data row47 col3" >WR</td>
+      <td id="T_e2e3a_row47_col4" class="data row47 col4" >25.540000</td>
+      <td id="T_e2e3a_row47_col5" class="data row47 col5" >28.000000</td>
+      <td id="T_e2e3a_row47_col6" class="data row47 col6" >-1.58</td>
+      <td id="T_e2e3a_row47_col7" class="data row47 col7" >-3.88</td>
+      <td id="T_e2e3a_row47_col8" class="data row47 col8" >-1.58</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row48" class="row_heading level0 row48" >99</th>
+      <td id="T_e2e3a_row48_col0" class="data row48 col0" >7553</td>
+      <td id="T_e2e3a_row48_col1" class="data row48 col1" >Kyle Pitts</td>
+      <td id="T_e2e3a_row48_col2" class="data row48 col2" >YouSmellLikeDaal</td>
+      <td id="T_e2e3a_row48_col3" class="data row48 col3" >TE</td>
+      <td id="T_e2e3a_row48_col4" class="data row48 col4" >14.900000</td>
+      <td id="T_e2e3a_row48_col5" class="data row48 col5" >10.000000</td>
+      <td id="T_e2e3a_row48_col6" class="data row48 col6" >-1.75</td>
+      <td id="T_e2e3a_row48_col7" class="data row48 col7" >0.20</td>
+      <td id="T_e2e3a_row48_col8" class="data row48 col8" >-1.75</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row49" class="row_heading level0 row49" >76</th>
+      <td id="T_e2e3a_row49_col0" class="data row49 col0" >4602</td>
+      <td id="T_e2e3a_row49_col1" class="data row49 col1" >Robert Tonyan</td>
+      <td id="T_e2e3a_row49_col2" class="data row49 col2" >plumsmuggler99</td>
+      <td id="T_e2e3a_row49_col3" class="data row49 col3" >TE</td>
+      <td id="T_e2e3a_row49_col4" class="data row49 col4" >14.500000</td>
+      <td id="T_e2e3a_row49_col5" class="data row49 col5" >12.000000</td>
+      <td id="T_e2e3a_row49_col6" class="data row49 col6" >-1.95</td>
+      <td id="T_e2e3a_row49_col7" class="data row49 col7" >0.00</td>
+      <td id="T_e2e3a_row49_col8" class="data row49 col8" >-1.95</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row50" class="row_heading level0 row50" >158</th>
+      <td id="T_e2e3a_row50_col0" class="data row50 col0" >6083</td>
+      <td id="T_e2e3a_row50_col1" class="data row50 col1" >Matt Gay</td>
+      <td id="T_e2e3a_row50_col2" class="data row50 col2" >ramen005</td>
+      <td id="T_e2e3a_row50_col3" class="data row50 col3" >K</td>
+      <td id="T_e2e3a_row50_col4" class="data row50 col4" >21.000000</td>
+      <td id="T_e2e3a_row50_col5" class="data row50 col5" >6.000000</td>
+      <td id="T_e2e3a_row50_col6" class="data row50 col6" >-2.00</td>
+      <td id="T_e2e3a_row50_col7" class="data row50 col7" >1.50</td>
+      <td id="T_e2e3a_row50_col8" class="data row50 col8" >-2.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row51" class="row_heading level0 row51" >154</th>
+      <td id="T_e2e3a_row51_col0" class="data row51 col0" >7528</td>
+      <td id="T_e2e3a_row51_col1" class="data row51 col1" >Najee Harris</td>
+      <td id="T_e2e3a_row51_col2" class="data row51 col2" >ramen005</td>
+      <td id="T_e2e3a_row51_col3" class="data row51 col3" >RB</td>
+      <td id="T_e2e3a_row51_col4" class="data row51 col4" >22.000000</td>
+      <td id="T_e2e3a_row51_col5" class="data row51 col5" >22.000000</td>
+      <td id="T_e2e3a_row51_col6" class="data row51 col6" >2.90</td>
+      <td id="T_e2e3a_row51_col7" class="data row51 col7" >-2.85</td>
+      <td id="T_e2e3a_row51_col8" class="data row51 col8" >-2.10</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row52" class="row_heading level0 row52" >123</th>
+      <td id="T_e2e3a_row52_col0" class="data row52 col0" >1479</td>
+      <td id="T_e2e3a_row52_col1" class="data row52 col1" >Keenan Allen</td>
+      <td id="T_e2e3a_row52_col2" class="data row52 col2" >anantjindani</td>
+      <td id="T_e2e3a_row52_col3" class="data row52 col3" >WR</td>
+      <td id="T_e2e3a_row52_col4" class="data row52 col4" >26.300000</td>
+      <td id="T_e2e3a_row52_col5" class="data row52 col5" >23.000000</td>
+      <td id="T_e2e3a_row52_col6" class="data row52 col6" >-1.20</td>
+      <td id="T_e2e3a_row52_col7" class="data row52 col7" >-3.50</td>
+      <td id="T_e2e3a_row52_col8" class="data row52 col8" >-2.25</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row53" class="row_heading level0 row53" >26</th>
+      <td id="T_e2e3a_row53_col0" class="data row53 col0" >2133</td>
+      <td id="T_e2e3a_row53_col1" class="data row53 col1" >Davante Adams</td>
+      <td id="T_e2e3a_row53_col2" class="data row53 col2" >armadurai</td>
+      <td id="T_e2e3a_row53_col3" class="data row53 col3" >WR</td>
+      <td id="T_e2e3a_row53_col4" class="data row53 col4" >24.200000</td>
+      <td id="T_e2e3a_row53_col5" class="data row53 col5" >31.000000</td>
+      <td id="T_e2e3a_row53_col6" class="data row53 col6" >-2.25</td>
+      <td id="T_e2e3a_row53_col7" class="data row53 col7" >-4.55</td>
+      <td id="T_e2e3a_row53_col8" class="data row53 col8" >-2.25</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row54" class="row_heading level0 row54" >48</th>
+      <td id="T_e2e3a_row54_col0" class="data row54 col0" >5000</td>
+      <td id="T_e2e3a_row54_col1" class="data row54 col1" >Chase Edmonds</td>
+      <td id="T_e2e3a_row54_col2" class="data row54 col2" >varunagarwal</td>
+      <td id="T_e2e3a_row54_col3" class="data row54 col3" >RB</td>
+      <td id="T_e2e3a_row54_col4" class="data row54 col4" >22.600000</td>
+      <td id="T_e2e3a_row54_col5" class="data row54 col5" >19.000000</td>
+      <td id="T_e2e3a_row54_col6" class="data row54 col6" >3.20</td>
+      <td id="T_e2e3a_row54_col7" class="data row54 col7" >-2.55</td>
+      <td id="T_e2e3a_row54_col8" class="data row54 col8" >-2.30</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row55" class="row_heading level0 row55" >93</th>
+      <td id="T_e2e3a_row55_col0" class="data row55 col0" >2449</td>
+      <td id="T_e2e3a_row55_col1" class="data row55 col1" >Stefon Diggs</td>
+      <td id="T_e2e3a_row55_col2" class="data row55 col2" >ishanchakravarty</td>
+      <td id="T_e2e3a_row55_col3" class="data row55 col3" >WR</td>
+      <td id="T_e2e3a_row55_col4" class="data row55 col4" >25.400000</td>
+      <td id="T_e2e3a_row55_col5" class="data row55 col5" >29.000000</td>
+      <td id="T_e2e3a_row55_col6" class="data row55 col6" >-1.65</td>
+      <td id="T_e2e3a_row55_col7" class="data row55 col7" >-3.95</td>
+      <td id="T_e2e3a_row55_col8" class="data row55 col8" >-2.60</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row56" class="row_heading level0 row56" >5</th>
+      <td id="T_e2e3a_row56_col0" class="data row56 col0" >5890</td>
+      <td id="T_e2e3a_row56_col1" class="data row56 col1" >Damien Harris</td>
+      <td id="T_e2e3a_row56_col2" class="data row56 col2" >dmethi</td>
+      <td id="T_e2e3a_row56_col3" class="data row56 col3" >RB</td>
+      <td id="T_e2e3a_row56_col4" class="data row56 col4" >22.600000</td>
+      <td id="T_e2e3a_row56_col5" class="data row56 col5" >20.000000</td>
+      <td id="T_e2e3a_row56_col6" class="data row56 col6" >3.20</td>
+      <td id="T_e2e3a_row56_col7" class="data row56 col7" >-2.55</td>
+      <td id="T_e2e3a_row56_col8" class="data row56 col8" >-2.75</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row57" class="row_heading level0 row57" >164</th>
+      <td id="T_e2e3a_row57_col0" class="data row57 col0" >367</td>
+      <td id="T_e2e3a_row57_col1" class="data row57 col1" >Jared Cook</td>
+      <td id="T_e2e3a_row57_col2" class="data row57 col2" >ramen005</td>
+      <td id="T_e2e3a_row57_col3" class="data row57 col3" >TE</td>
+      <td id="T_e2e3a_row57_col4" class="data row57 col4" >12.400000</td>
+      <td id="T_e2e3a_row57_col5" class="data row57 col5" >15.000000</td>
+      <td id="T_e2e3a_row57_col6" class="data row57 col6" >-3.00</td>
+      <td id="T_e2e3a_row57_col7" class="data row57 col7" >-1.05</td>
+      <td id="T_e2e3a_row57_col8" class="data row57 col8" >-3.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row58" class="row_heading level0 row58" >66</th>
+      <td id="T_e2e3a_row58_col0" class="data row58 col0" >49</td>
+      <td id="T_e2e3a_row58_col1" class="data row58 col1" >Robbie Gould</td>
+      <td id="T_e2e3a_row58_col2" class="data row58 col2" >scboom5</td>
+      <td id="T_e2e3a_row58_col3" class="data row58 col3" >K</td>
+      <td id="T_e2e3a_row58_col4" class="data row58 col4" >19.000000</td>
+      <td id="T_e2e3a_row58_col5" class="data row58 col5" >10.000000</td>
+      <td id="T_e2e3a_row58_col6" class="data row58 col6" >-3.00</td>
+      <td id="T_e2e3a_row58_col7" class="data row58 col7" >0.50</td>
+      <td id="T_e2e3a_row58_col8" class="data row58 col8" >-3.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row59" class="row_heading level0 row59" >42</th>
+      <td id="T_e2e3a_row59_col0" class="data row59 col0" >1266</td>
+      <td id="T_e2e3a_row59_col1" class="data row59 col1" >Greg Zuerlein</td>
+      <td id="T_e2e3a_row59_col2" class="data row59 col2" >aditya22</td>
+      <td id="T_e2e3a_row59_col3" class="data row59 col3" >K</td>
+      <td id="T_e2e3a_row59_col4" class="data row59 col4" >19.000000</td>
+      <td id="T_e2e3a_row59_col5" class="data row59 col5" >7.000000</td>
+      <td id="T_e2e3a_row59_col6" class="data row59 col6" >-3.00</td>
+      <td id="T_e2e3a_row59_col7" class="data row59 col7" >0.50</td>
+      <td id="T_e2e3a_row59_col8" class="data row59 col8" >-3.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row60" class="row_heading level0 row60" >22</th>
+      <td id="T_e2e3a_row60_col0" class="data row60 col0" >3164</td>
+      <td id="T_e2e3a_row60_col1" class="data row60 col1" >Ezekiel Elliott</td>
+      <td id="T_e2e3a_row60_col2" class="data row60 col2" >armadurai</td>
+      <td id="T_e2e3a_row60_col3" class="data row60 col3" >RB</td>
+      <td id="T_e2e3a_row60_col4" class="data row60 col4" >21.600000</td>
+      <td id="T_e2e3a_row60_col5" class="data row60 col5" >24.000000</td>
+      <td id="T_e2e3a_row60_col6" class="data row60 col6" >2.70</td>
+      <td id="T_e2e3a_row60_col7" class="data row60 col7" >-3.05</td>
+      <td id="T_e2e3a_row60_col8" class="data row60 col8" >-3.10</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row61" class="row_heading level0 row61" >7</th>
+      <td id="T_e2e3a_row61_col0" class="data row61 col0" >5012</td>
+      <td id="T_e2e3a_row61_col1" class="data row61 col1" >Mark Andrews</td>
+      <td id="T_e2e3a_row61_col2" class="data row61 col2" >dmethi</td>
+      <td id="T_e2e3a_row61_col3" class="data row61 col3" >TE</td>
+      <td id="T_e2e3a_row61_col4" class="data row61 col4" >11.700000</td>
+      <td id="T_e2e3a_row61_col5" class="data row61 col5" >17.000000</td>
+      <td id="T_e2e3a_row61_col6" class="data row61 col6" >-3.35</td>
+      <td id="T_e2e3a_row61_col7" class="data row61 col7" >-1.40</td>
+      <td id="T_e2e3a_row61_col8" class="data row61 col8" >-3.35</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row62" class="row_heading level0 row62" >124</th>
+      <td id="T_e2e3a_row62_col0" class="data row62 col0" >1264</td>
+      <td id="T_e2e3a_row62_col1" class="data row62 col1" >Justin Tucker</td>
+      <td id="T_e2e3a_row62_col2" class="data row62 col2" >anantjindani</td>
+      <td id="T_e2e3a_row62_col3" class="data row62 col3" >K</td>
+      <td id="T_e2e3a_row62_col4" class="data row62 col4" >18.000000</td>
+      <td id="T_e2e3a_row62_col5" class="data row62 col5" >12.000000</td>
+      <td id="T_e2e3a_row62_col6" class="data row62 col6" >-3.50</td>
+      <td id="T_e2e3a_row62_col7" class="data row62 col7" >0.00</td>
+      <td id="T_e2e3a_row62_col8" class="data row62 col8" >-3.50</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row63" class="row_heading level0 row63" >87</th>
+      <td id="T_e2e3a_row63_col0" class="data row63 col0" >4981</td>
+      <td id="T_e2e3a_row63_col1" class="data row63 col1" >Calvin Ridley</td>
+      <td id="T_e2e3a_row63_col2" class="data row63 col2" >ishanchakravarty</td>
+      <td id="T_e2e3a_row63_col3" class="data row63 col3" >WR</td>
+      <td id="T_e2e3a_row63_col4" class="data row63 col4" >23.400000</td>
+      <td id="T_e2e3a_row63_col5" class="data row63 col5" >32.000000</td>
+      <td id="T_e2e3a_row63_col6" class="data row63 col6" >-2.65</td>
+      <td id="T_e2e3a_row63_col7" class="data row63 col7" >-4.95</td>
+      <td id="T_e2e3a_row63_col8" class="data row63 col8" >-3.60</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row64" class="row_heading level0 row64" >151</th>
+      <td id="T_e2e3a_row64_col0" class="data row64 col0" >4866</td>
+      <td id="T_e2e3a_row64_col1" class="data row64 col1" >Saquon Barkley</td>
+      <td id="T_e2e3a_row64_col2" class="data row64 col2" >ChinkTownBois</td>
+      <td id="T_e2e3a_row64_col3" class="data row64 col3" >RB</td>
+      <td id="T_e2e3a_row64_col4" class="data row64 col4" >11.100000</td>
+      <td id="T_e2e3a_row64_col5" class="data row64 col5" >46.000000</td>
+      <td id="T_e2e3a_row64_col6" class="data row64 col6" >-2.55</td>
+      <td id="T_e2e3a_row64_col7" class="data row64 col7" >-8.30</td>
+      <td id="T_e2e3a_row64_col8" class="data row64 col8" >-3.95</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row65" class="row_heading level0 row65" >85</th>
+      <td id="T_e2e3a_row65_col0" class="data row65 col0" >6945</td>
+      <td id="T_e2e3a_row65_col1" class="data row65 col1" >Antonio Gibson</td>
+      <td id="T_e2e3a_row65_col2" class="data row65 col2" >ishanchakravarty</td>
+      <td id="T_e2e3a_row65_col3" class="data row65 col3" >RB</td>
+      <td id="T_e2e3a_row65_col4" class="data row65 col4" >16.600000</td>
+      <td id="T_e2e3a_row65_col5" class="data row65 col5" >37.000000</td>
+      <td id="T_e2e3a_row65_col6" class="data row65 col6" >0.20</td>
+      <td id="T_e2e3a_row65_col7" class="data row65 col7" >-5.55</td>
+      <td id="T_e2e3a_row65_col8" class="data row65 col8" >-4.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row66" class="row_heading level0 row66" >95</th>
+      <td id="T_e2e3a_row66_col0" class="data row66 col0" >2152</td>
+      <td id="T_e2e3a_row66_col1" class="data row66 col1" >Teddy Bridgewater</td>
+      <td id="T_e2e3a_row66_col2" class="data row66 col2" >ishanchakravarty</td>
+      <td id="T_e2e3a_row66_col3" class="data row66 col3" >QB</td>
+      <td id="T_e2e3a_row66_col4" class="data row66 col4" >41.680000</td>
+      <td id="T_e2e3a_row66_col5" class="data row66 col5" >12.000000</td>
+      <td id="T_e2e3a_row66_col6" class="data row66 col6" >-4.08</td>
+      <td id="T_e2e3a_row66_col7" class="data row66 col7" >0.00</td>
+      <td id="T_e2e3a_row66_col8" class="data row66 col8" >-4.08</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row67" class="row_heading level0 row67" >15</th>
+      <td id="T_e2e3a_row67_col0" class="data row67 col0" >1352</td>
+      <td id="T_e2e3a_row67_col1" class="data row67 col1" >Robert Woods</td>
+      <td id="T_e2e3a_row67_col2" class="data row67 col2" >dmethi</td>
+      <td id="T_e2e3a_row67_col3" class="data row67 col3" >WR</td>
+      <td id="T_e2e3a_row67_col4" class="data row67 col4" >20.400000</td>
+      <td id="T_e2e3a_row67_col5" class="data row67 col5" >40.000000</td>
+      <td id="T_e2e3a_row67_col6" class="data row67 col6" >-4.15</td>
+      <td id="T_e2e3a_row67_col7" class="data row67 col7" >-6.45</td>
+      <td id="T_e2e3a_row67_col8" class="data row67 col8" >-4.15</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row68" class="row_heading level0 row68" >47</th>
+      <td id="T_e2e3a_row68_col0" class="data row68 col0" >5846</td>
+      <td id="T_e2e3a_row68_col1" class="data row68 col1" >D.K. Metcalf</td>
+      <td id="T_e2e3a_row68_col2" class="data row68 col2" >varunagarwal</td>
+      <td id="T_e2e3a_row68_col3" class="data row68 col3" >WR</td>
+      <td id="T_e2e3a_row68_col4" class="data row68 col4" >22.300000</td>
+      <td id="T_e2e3a_row68_col5" class="data row68 col5" >35.000000</td>
+      <td id="T_e2e3a_row68_col6" class="data row68 col6" >-3.20</td>
+      <td id="T_e2e3a_row68_col7" class="data row68 col7" >-5.50</td>
+      <td id="T_e2e3a_row68_col8" class="data row68 col8" >-4.20</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row69" class="row_heading level0 row69" >107</th>
+      <td id="T_e2e3a_row69_col0" class="data row69 col0" >4227</td>
+      <td id="T_e2e3a_row69_col1" class="data row69 col1" >Harrison Butker</td>
+      <td id="T_e2e3a_row69_col2" class="data row69 col2" >YouSmellLikeDaal</td>
+      <td id="T_e2e3a_row69_col3" class="data row69 col3" >K</td>
+      <td id="T_e2e3a_row69_col4" class="data row69 col4" >15.000000</td>
+      <td id="T_e2e3a_row69_col5" class="data row69 col5" >17.000000</td>
+      <td id="T_e2e3a_row69_col6" class="data row69 col6" >-5.00</td>
+      <td id="T_e2e3a_row69_col7" class="data row69 col7" >-1.50</td>
+      <td id="T_e2e3a_row69_col8" class="data row69 col8" >-5.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row70" class="row_heading level0 row70" >0</th>
+      <td id="T_e2e3a_row70_col0" class="data row70 col0" >7042</td>
+      <td id="T_e2e3a_row70_col1" class="data row70 col1" >Tyler Bass</td>
+      <td id="T_e2e3a_row70_col2" class="data row70 col2" >dmethi</td>
+      <td id="T_e2e3a_row70_col3" class="data row70 col3" >K</td>
+      <td id="T_e2e3a_row70_col4" class="data row70 col4" >15.000000</td>
+      <td id="T_e2e3a_row70_col5" class="data row70 col5" >18.000000</td>
+      <td id="T_e2e3a_row70_col6" class="data row70 col6" >-5.00</td>
+      <td id="T_e2e3a_row70_col7" class="data row70 col7" >-1.50</td>
+      <td id="T_e2e3a_row70_col8" class="data row70 col8" >-5.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row71" class="row_heading level0 row71" >51</th>
+      <td id="T_e2e3a_row71_col0" class="data row71 col0" >4040</td>
+      <td id="T_e2e3a_row71_col1" class="data row71 col1" >JuJu Smith-Schuster</td>
+      <td id="T_e2e3a_row71_col2" class="data row71 col2" >varunagarwal</td>
+      <td id="T_e2e3a_row71_col3" class="data row71 col3" >WR</td>
+      <td id="T_e2e3a_row71_col4" class="data row71 col4" >20.600000</td>
+      <td id="T_e2e3a_row71_col5" class="data row71 col5" >39.000000</td>
+      <td id="T_e2e3a_row71_col6" class="data row71 col6" >-4.05</td>
+      <td id="T_e2e3a_row71_col7" class="data row71 col7" >-6.35</td>
+      <td id="T_e2e3a_row71_col8" class="data row71 col8" >-5.05</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row72" class="row_heading level0 row72" >17</th>
+      <td id="T_e2e3a_row72_col0" class="data row72 col0" >6826</td>
+      <td id="T_e2e3a_row72_col1" class="data row72 col1" >Cole Kmet</td>
+      <td id="T_e2e3a_row72_col2" class="data row72 col2" >armadurai</td>
+      <td id="T_e2e3a_row72_col3" class="data row72 col3" >TE</td>
+      <td id="T_e2e3a_row72_col4" class="data row72 col4" >7.200000</td>
+      <td id="T_e2e3a_row72_col5" class="data row72 col5" >35.000000</td>
+      <td id="T_e2e3a_row72_col6" class="data row72 col6" >-5.60</td>
+      <td id="T_e2e3a_row72_col7" class="data row72 col7" >-3.65</td>
+      <td id="T_e2e3a_row72_col8" class="data row72 col8" >-5.60</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row73" class="row_heading level0 row73" >129</th>
+      <td id="T_e2e3a_row73_col0" class="data row73 col0" >6820</td>
+      <td id="T_e2e3a_row73_col1" class="data row73 col1" >Clyde Edwards-Helaire</td>
+      <td id="T_e2e3a_row73_col2" class="data row73 col2" >aaggarwal22</td>
+      <td id="T_e2e3a_row73_col3" class="data row73 col3" >RB</td>
+      <td id="T_e2e3a_row73_col4" class="data row73 col4" >10.300000</td>
+      <td id="T_e2e3a_row73_col5" class="data row73 col5" >48.000000</td>
+      <td id="T_e2e3a_row73_col6" class="data row73 col6" >-2.95</td>
+      <td id="T_e2e3a_row73_col7" class="data row73 col7" >-8.70</td>
+      <td id="T_e2e3a_row73_col8" class="data row73 col8" >-6.15</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row74" class="row_heading level0 row74" >146</th>
+      <td id="T_e2e3a_row74_col0" class="data row74 col0" >5937</td>
+      <td id="T_e2e3a_row74_col1" class="data row74 col1" >Diontae Johnson</td>
+      <td id="T_e2e3a_row74_col2" class="data row74 col2" >ChinkTownBois</td>
+      <td id="T_e2e3a_row74_col3" class="data row74 col3" >WR</td>
+      <td id="T_e2e3a_row74_col4" class="data row74 col4" >27.100000</td>
+      <td id="T_e2e3a_row74_col5" class="data row74 col5" >22.000000</td>
+      <td id="T_e2e3a_row74_col6" class="data row74 col6" >-0.80</td>
+      <td id="T_e2e3a_row74_col7" class="data row74 col7" >-3.10</td>
+      <td id="T_e2e3a_row74_col8" class="data row74 col8" >-6.20</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row75" class="row_heading level0 row75" >52</th>
+      <td id="T_e2e3a_row75_col0" class="data row75 col0" >391</td>
+      <td id="T_e2e3a_row75_col1" class="data row75 col1" >Ryan Succop</td>
+      <td id="T_e2e3a_row75_col2" class="data row75 col2" >varunagarwal</td>
+      <td id="T_e2e3a_row75_col3" class="data row75 col3" >K</td>
+      <td id="T_e2e3a_row75_col4" class="data row75 col4" >12.000000</td>
+      <td id="T_e2e3a_row75_col5" class="data row75 col5" >20.000000</td>
+      <td id="T_e2e3a_row75_col6" class="data row75 col6" >-6.50</td>
+      <td id="T_e2e3a_row75_col7" class="data row75 col7" >-3.00</td>
+      <td id="T_e2e3a_row75_col8" class="data row75 col8" >-6.50</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row76" class="row_heading level0 row76" >92</th>
+      <td id="T_e2e3a_row76_col0" class="data row76 col0" >3423</td>
+      <td id="T_e2e3a_row76_col1" class="data row76 col1" >Robby Anderson</td>
+      <td id="T_e2e3a_row76_col2" class="data row76 col2" >ishanchakravarty</td>
+      <td id="T_e2e3a_row76_col3" class="data row76 col3" >WR</td>
+      <td id="T_e2e3a_row76_col4" class="data row76 col4" >17.500000</td>
+      <td id="T_e2e3a_row76_col5" class="data row76 col5" >52.000000</td>
+      <td id="T_e2e3a_row76_col6" class="data row76 col6" >-5.60</td>
+      <td id="T_e2e3a_row76_col7" class="data row76 col7" >-7.90</td>
+      <td id="T_e2e3a_row76_col8" class="data row76 col8" >-6.55</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row77" class="row_heading level0 row77" >28</th>
+      <td id="T_e2e3a_row77_col0" class="data row77 col0" >1144</td>
+      <td id="T_e2e3a_row77_col1" class="data row77 col1" >Cole Beasley</td>
+      <td id="T_e2e3a_row77_col2" class="data row77 col2" >armadurai</td>
+      <td id="T_e2e3a_row77_col3" class="data row77 col3" >WR</td>
+      <td id="T_e2e3a_row77_col4" class="data row77 col4" >15.600000</td>
+      <td id="T_e2e3a_row77_col5" class="data row77 col5" >59.000000</td>
+      <td id="T_e2e3a_row77_col6" class="data row77 col6" >-6.55</td>
+      <td id="T_e2e3a_row77_col7" class="data row77 col7" >-8.85</td>
+      <td id="T_e2e3a_row77_col8" class="data row77 col8" >-6.55</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row78" class="row_heading level0 row78" >144</th>
+      <td id="T_e2e3a_row78_col0" class="data row78 col0" >6801</td>
+      <td id="T_e2e3a_row78_col1" class="data row78 col1" >Tee Higgins</td>
+      <td id="T_e2e3a_row78_col2" class="data row78 col2" >ChinkTownBois</td>
+      <td id="T_e2e3a_row78_col3" class="data row78 col3" >WR</td>
+      <td id="T_e2e3a_row78_col4" class="data row78 col4" >25.800000</td>
+      <td id="T_e2e3a_row78_col5" class="data row78 col5" >26.000000</td>
+      <td id="T_e2e3a_row78_col6" class="data row78 col6" >-1.45</td>
+      <td id="T_e2e3a_row78_col7" class="data row78 col7" >-3.75</td>
+      <td id="T_e2e3a_row78_col8" class="data row78 col8" >-6.85</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row79" class="row_heading level0 row79" >135</th>
+      <td id="T_e2e3a_row79_col0" class="data row79 col0" >4666</td>
+      <td id="T_e2e3a_row79_col1" class="data row79 col1" >Younghoe Koo</td>
+      <td id="T_e2e3a_row79_col2" class="data row79 col2" >aaggarwal22</td>
+      <td id="T_e2e3a_row79_col3" class="data row79 col3" >K</td>
+      <td id="T_e2e3a_row79_col4" class="data row79 col4" >11.000000</td>
+      <td id="T_e2e3a_row79_col5" class="data row79 col5" >21.000000</td>
+      <td id="T_e2e3a_row79_col6" class="data row79 col6" >-7.00</td>
+      <td id="T_e2e3a_row79_col7" class="data row79 col7" >-3.50</td>
+      <td id="T_e2e3a_row79_col8" class="data row79 col8" >-7.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row80" class="row_heading level0 row80" >122</th>
+      <td id="T_e2e3a_row80_col0" class="data row80 col0" >1992</td>
+      <td id="T_e2e3a_row80_col1" class="data row80 col1" >Allen Robinson</td>
+      <td id="T_e2e3a_row80_col2" class="data row80 col2" >anantjindani</td>
+      <td id="T_e2e3a_row80_col3" class="data row80 col3" >WR</td>
+      <td id="T_e2e3a_row80_col4" class="data row80 col4" >15.900000</td>
+      <td id="T_e2e3a_row80_col5" class="data row80 col5" >57.000000</td>
+      <td id="T_e2e3a_row80_col6" class="data row80 col6" >-6.40</td>
+      <td id="T_e2e3a_row80_col7" class="data row80 col7" >-8.70</td>
+      <td id="T_e2e3a_row80_col8" class="data row80 col8" >-7.45</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row81" class="row_heading level0 row81" >11</th>
+      <td id="T_e2e3a_row81_col0" class="data row81 col0" >3294</td>
+      <td id="T_e2e3a_row81_col1" class="data row81 col1" >Dak Prescott</td>
+      <td id="T_e2e3a_row81_col2" class="data row81 col2" >dmethi</td>
+      <td id="T_e2e3a_row81_col3" class="data row81 col3" >QB</td>
+      <td id="T_e2e3a_row81_col4" class="data row81 col4" >34.900000</td>
+      <td id="T_e2e3a_row81_col5" class="data row81 col5" >17.000000</td>
+      <td id="T_e2e3a_row81_col6" class="data row81 col6" >-7.47</td>
+      <td id="T_e2e3a_row81_col7" class="data row81 col7" >-3.39</td>
+      <td id="T_e2e3a_row81_col8" class="data row81 col8" >-7.47</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row82" class="row_heading level0 row82" >56</th>
+      <td id="T_e2e3a_row82_col0" class="data row82 col0" >7593</td>
+      <td id="T_e2e3a_row82_col1" class="data row82 col1" >Trey Sermon</td>
+      <td id="T_e2e3a_row82_col2" class="data row82 col2" >scboom5</td>
+      <td id="T_e2e3a_row82_col3" class="data row82 col3" >RB</td>
+      <td id="T_e2e3a_row82_col4" class="data row82 col4" >0.800000</td>
+      <td id="T_e2e3a_row82_col5" class="data row82 col5" >87.000000</td>
+      <td id="T_e2e3a_row82_col6" class="data row82 col6" >-7.70</td>
+      <td id="T_e2e3a_row82_col7" class="data row82 col7" >-13.45</td>
+      <td id="T_e2e3a_row82_col8" class="data row82 col8" >-7.85</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row83" class="row_heading level0 row83" >82</th>
+      <td id="T_e2e3a_row83_col0" class="data row83 col0" >2747</td>
+      <td id="T_e2e3a_row83_col1" class="data row83 col1" >Jason Myers</td>
+      <td id="T_e2e3a_row83_col2" class="data row83 col2" >plumsmuggler99</td>
+      <td id="T_e2e3a_row83_col3" class="data row83 col3" >K</td>
+      <td id="T_e2e3a_row83_col4" class="data row83 col4" >9.000000</td>
+      <td id="T_e2e3a_row83_col5" class="data row83 col5" >27.000000</td>
+      <td id="T_e2e3a_row83_col6" class="data row83 col6" >-8.00</td>
+      <td id="T_e2e3a_row83_col7" class="data row83 col7" >-4.50</td>
+      <td id="T_e2e3a_row83_col8" class="data row83 col8" >-8.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row84" class="row_heading level0 row84" >75</th>
+      <td id="T_e2e3a_row84_col0" class="data row84 col0" >4984</td>
+      <td id="T_e2e3a_row84_col1" class="data row84 col1" >Josh Allen</td>
+      <td id="T_e2e3a_row84_col2" class="data row84 col2" >plumsmuggler99</td>
+      <td id="T_e2e3a_row84_col3" class="data row84 col3" >QB</td>
+      <td id="T_e2e3a_row84_col4" class="data row84 col4" >32.860000</td>
+      <td id="T_e2e3a_row84_col5" class="data row84 col5" >18.000000</td>
+      <td id="T_e2e3a_row84_col6" class="data row84 col6" >-8.49</td>
+      <td id="T_e2e3a_row84_col7" class="data row84 col7" >-4.41</td>
+      <td id="T_e2e3a_row84_col8" class="data row84 col8" >-8.49</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row85" class="row_heading level0 row85" >72</th>
+      <td id="T_e2e3a_row85_col0" class="data row85 col0" >5917</td>
+      <td id="T_e2e3a_row85_col1" class="data row85 col1" >Mecole Hardman</td>
+      <td id="T_e2e3a_row85_col2" class="data row85 col2" >plumsmuggler99</td>
+      <td id="T_e2e3a_row85_col3" class="data row85 col3" >WR</td>
+      <td id="T_e2e3a_row85_col4" class="data row85 col4" >11.400000</td>
+      <td id="T_e2e3a_row85_col5" class="data row85 col5" >73.000000</td>
+      <td id="T_e2e3a_row85_col6" class="data row85 col6" >-8.65</td>
+      <td id="T_e2e3a_row85_col7" class="data row85 col7" >-10.95</td>
+      <td id="T_e2e3a_row85_col8" class="data row85 col8" >-8.65</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row86" class="row_heading level0 row86" >57</th>
+      <td id="T_e2e3a_row86_col0" class="data row86 col0" >7525</td>
+      <td id="T_e2e3a_row86_col1" class="data row86 col1" >DeVonta Smith</td>
+      <td id="T_e2e3a_row86_col2" class="data row86 col2" >scboom5</td>
+      <td id="T_e2e3a_row86_col3" class="data row86 col3" >WR</td>
+      <td id="T_e2e3a_row86_col4" class="data row86 col4" >18.700000</td>
+      <td id="T_e2e3a_row86_col5" class="data row86 col5" >45.000000</td>
+      <td id="T_e2e3a_row86_col6" class="data row86 col6" >-5.00</td>
+      <td id="T_e2e3a_row86_col7" class="data row86 col7" >-7.30</td>
+      <td id="T_e2e3a_row86_col8" class="data row86 col8" >-9.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row87" class="row_heading level0 row87" >63</th>
+      <td id="T_e2e3a_row87_col0" class="data row87 col0" >5859</td>
+      <td id="T_e2e3a_row87_col1" class="data row87 col1" >A.J. Brown</td>
+      <td id="T_e2e3a_row87_col2" class="data row87 col2" >scboom5</td>
+      <td id="T_e2e3a_row87_col3" class="data row87 col3" >WR</td>
+      <td id="T_e2e3a_row87_col4" class="data row87 col4" >18.700000</td>
+      <td id="T_e2e3a_row87_col5" class="data row87 col5" >46.000000</td>
+      <td id="T_e2e3a_row87_col6" class="data row87 col6" >-5.00</td>
+      <td id="T_e2e3a_row87_col7" class="data row87 col7" >-7.30</td>
+      <td id="T_e2e3a_row87_col8" class="data row87 col8" >-9.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row88" class="row_heading level0 row88" >58</th>
+      <td id="T_e2e3a_row88_col0" class="data row88 col0" >7523</td>
+      <td id="T_e2e3a_row88_col1" class="data row88 col1" >Trevor Lawrence</td>
+      <td id="T_e2e3a_row88_col2" class="data row88 col2" >scboom5</td>
+      <td id="T_e2e3a_row88_col3" class="data row88 col3" >QB</td>
+      <td id="T_e2e3a_row88_col4" class="data row88 col4" >30.900000</td>
+      <td id="T_e2e3a_row88_col5" class="data row88 col5" >23.000000</td>
+      <td id="T_e2e3a_row88_col6" class="data row88 col6" >-9.47</td>
+      <td id="T_e2e3a_row88_col7" class="data row88 col7" >-5.39</td>
+      <td id="T_e2e3a_row88_col8" class="data row88 col8" >-9.47</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row89" class="row_heading level0 row89" >150</th>
+      <td id="T_e2e3a_row89_col0" class="data row89 col0" >5119</td>
+      <td id="T_e2e3a_row89_col1" class="data row89 col1" >Jason Sanders</td>
+      <td id="T_e2e3a_row89_col2" class="data row89 col2" >ChinkTownBois</td>
+      <td id="T_e2e3a_row89_col3" class="data row89 col3" >K</td>
+      <td id="T_e2e3a_row89_col4" class="data row89 col4" >6.000000</td>
+      <td id="T_e2e3a_row89_col5" class="data row89 col5" >30.000000</td>
+      <td id="T_e2e3a_row89_col6" class="data row89 col6" >-9.50</td>
+      <td id="T_e2e3a_row89_col7" class="data row89 col7" >-6.00</td>
+      <td id="T_e2e3a_row89_col8" class="data row89 col8" >-9.50</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row90" class="row_heading level0 row90" >141</th>
+      <td id="T_e2e3a_row90_col0" class="data row90 col0" >947</td>
+      <td id="T_e2e3a_row90_col1" class="data row90 col1" >Julio Jones</td>
+      <td id="T_e2e3a_row90_col2" class="data row90 col2" >ChinkTownBois</td>
+      <td id="T_e2e3a_row90_col3" class="data row90 col3" >WR</td>
+      <td id="T_e2e3a_row90_col4" class="data row90 col4" >20.200000</td>
+      <td id="T_e2e3a_row90_col5" class="data row90 col5" >41.000000</td>
+      <td id="T_e2e3a_row90_col6" class="data row90 col6" >-4.25</td>
+      <td id="T_e2e3a_row90_col7" class="data row90 col7" >-6.55</td>
+      <td id="T_e2e3a_row90_col8" class="data row90 col8" >-9.65</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row91" class="row_heading level0 row91" >126</th>
+      <td id="T_e2e3a_row91_col0" class="data row91 col0" >96</td>
+      <td id="T_e2e3a_row91_col1" class="data row91 col1" >Aaron Rodgers</td>
+      <td id="T_e2e3a_row91_col2" class="data row91 col2" >aaggarwal22</td>
+      <td id="T_e2e3a_row91_col3" class="data row91 col3" >QB</td>
+      <td id="T_e2e3a_row91_col4" class="data row91 col4" >30.120000</td>
+      <td id="T_e2e3a_row91_col5" class="data row91 col5" >24.000000</td>
+      <td id="T_e2e3a_row91_col6" class="data row91 col6" >-9.86</td>
+      <td id="T_e2e3a_row91_col7" class="data row91 col7" >-5.78</td>
+      <td id="T_e2e3a_row91_col8" class="data row91 col8" >-9.86</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row92" class="row_heading level0 row92" >34</th>
+      <td id="T_e2e3a_row92_col0" class="data row92 col0" >6797</td>
+      <td id="T_e2e3a_row92_col1" class="data row92 col1" >Justin Herbert</td>
+      <td id="T_e2e3a_row92_col2" class="data row92 col2" >aditya22</td>
+      <td id="T_e2e3a_row92_col3" class="data row92 col3" >QB</td>
+      <td id="T_e2e3a_row92_col4" class="data row92 col4" >30.100000</td>
+      <td id="T_e2e3a_row92_col5" class="data row92 col5" >25.000000</td>
+      <td id="T_e2e3a_row92_col6" class="data row92 col6" >-9.87</td>
+      <td id="T_e2e3a_row92_col7" class="data row92 col7" >-5.79</td>
+      <td id="T_e2e3a_row92_col8" class="data row92 col8" >-9.87</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row93" class="row_heading level0 row93" >59</th>
+      <td id="T_e2e3a_row93_col0" class="data row93 col0" >6886</td>
+      <td id="T_e2e3a_row93_col1" class="data row93 col1" >Chase Claypool</td>
+      <td id="T_e2e3a_row93_col2" class="data row93 col2" >scboom5</td>
+      <td id="T_e2e3a_row93_col3" class="data row93 col3" >WR</td>
+      <td id="T_e2e3a_row93_col4" class="data row93 col4" >16.700000</td>
+      <td id="T_e2e3a_row93_col5" class="data row93 col5" >55.000000</td>
+      <td id="T_e2e3a_row93_col6" class="data row93 col6" >-6.00</td>
+      <td id="T_e2e3a_row93_col7" class="data row93 col7" >-8.30</td>
+      <td id="T_e2e3a_row93_col8" class="data row93 col8" >-10.00</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row94" class="row_heading level0 row94" >29</th>
+      <td id="T_e2e3a_row94_col0" class="data row94 col0" >1049</td>
+      <td id="T_e2e3a_row94_col1" class="data row94 col1" >Ryan Tannehill</td>
+      <td id="T_e2e3a_row94_col2" class="data row94 col2" >armadurai</td>
+      <td id="T_e2e3a_row94_col3" class="data row94 col3" >QB</td>
+      <td id="T_e2e3a_row94_col4" class="data row94 col4" >26.760000</td>
+      <td id="T_e2e3a_row94_col5" class="data row94 col5" >26.000000</td>
+      <td id="T_e2e3a_row94_col6" class="data row94 col6" >-11.54</td>
+      <td id="T_e2e3a_row94_col7" class="data row94 col7" >-7.46</td>
+      <td id="T_e2e3a_row94_col8" class="data row94 col8" >-11.54</td>
+    </tr>
+    <tr>
+      <th id="T_e2e3a_level0_row95" class="row_heading level0 row95" >152</th>
+      <td id="T_e2e3a_row95_col0" class="data row95 col0" >4217</td>
+      <td id="T_e2e3a_row95_col1" class="data row95 col1" >George Kittle</td>
+      <td id="T_e2e3a_row95_col2" class="data row95 col2" >ChinkTownBois</td>
+      <td id="T_e2e3a_row95_col3" class="data row95 col3" >TE</td>
+      <td id="T_e2e3a_row95_col4" class="data row95 col4" >12.500000</td>
+      <td id="T_e2e3a_row95_col5" class="data row95 col5" >14.000000</td>
+      <td id="T_e2e3a_row95_col6" class="data row95 col6" >-2.95</td>
+      <td id="T_e2e3a_row95_col7" class="data row95 col7" >-1.00</td>
+      <td id="T_e2e3a_row95_col8" class="data row95 col8" >-15.20</td>
     </tr>
   </tbody>
 </table>
