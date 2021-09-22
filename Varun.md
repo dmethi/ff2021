@@ -11,3 +11,5 @@ Record | Sleeper Rank | Power Rank
 {% include_relative week2/varunagarwal_results.html %}
 
 {% include_relative week2/varunagarwal_polar.html %}
+
+{% include_relative week2/varunagarwal_filtered.html %}
