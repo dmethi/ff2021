@@ -9,6 +9,7 @@
 
 ### Projected / Actual / Optimal Points
 {% include_relative week2/horitontal_plot.html %}
-* **Projected Points** -- this is the points that an owner would've received if they started the optimal lineup based on FantasyPros expert projections. 
-* **Actual Points** -- this is the points that an owner has actually scored through 2 weeks. 
-* **Optimal Points** -- this is the points that an owner would've scored if they started the perfect lineup possible and left zero points on their bench. 
+* **Projected Points** -- points that an owner would've received if they started the optimal lineup based on FantasyPros expert projections. 
+* **Actual Points** -- points that an owner has actually scored through 2 weeks. 
+* **Optimal Points** -- points that an owner would've scored if they started the perfect lineup possible and left zero points on their bench. 
+* Interpretation -- Shivang is horrible at making start / sit decisions (his projected lineup points is way higher than his actual lineup points), while I have made solid start/sit decisions. Somehow, Akshay's lineup has the most upside since he has the highest optimal points in the league. 
