@@ -2,8 +2,8 @@
 
 ## Weekly Overview
 ![Overview Table](/week2/table.png)
-* **Sleeper Rank** -- your league rank
-* **Power Rank + Power Rank Value** -- your power ranking, based on a composite of your points scored, your optimal points (as a gauge for overall roster strength), and your 3-week average (to factor in recent form). Clearly, lot of differences between the Sleeper Rank and the Power Rank after this week, Power Rank more or less reflects who I'm most scared of facing.
+* **Sleeper Rank** -- Rour league rank
+* **Power Rank + Power Rank Value** -- Rour power ranking, based on a composite of your points scored, your optimal points (as a gauge for overall roster strength), and your 3-week average (to factor in recent form). Clearly, lot of differences between the Sleeper Rank and the Power Rank after this week, Power Rank more or less reflects who I'm most scared of facing.
 * **Gut Points** -- Your points gained or lost based on making start/sit decisions that go against the optimal lineup suggested by FantasyPros. Most people have a score near 0 since most starting lineups have just been the projected best starting lineups. 
 * **Self Inflicted Losses** -- Losses in which a team's projected starting lineup score (best one as suggested by FantasyPros) outscores their opponent's score, but they still lose since their actual starting lineup failed to outscore their opponent's score. Shivang and Kishan have already racked up one of those losses each, ouch. 
 * **Potential Wins** -- Losses in which a team's optimal starting lineup outscores their opponent's score, but their actual starting lineup fails to do so. This stings a bit less since those owners would've had to make a gutsy call in starting a player projected to do worse. Unfortunately both of Varun's losses fall into this category. 
@@ -17,9 +17,9 @@
 
 ## Projected / Actual / Optimal Points
 {% include_relative week2/horitontal_plot.html %}
-* **Projected Points** -- points that an owner would've received if they started the optimal lineup based on FantasyPros expert projections. 
-* **Actual Points** -- points that an owner has actually scored through 2 weeks. 
-* **Optimal Points** -- points that an owner would've scored if they started the perfect lineup possible and left zero points on their bench. 
+* **Projected Points** -- Points that an owner would've received if they started the optimal lineup based on FantasyPros expert projections. 
+* **Actual Points** -- Points that an owner has actually scored through 2 weeks. 
+* **Optimal Points** -- Points that an owner would've scored if they started the perfect lineup possible and left zero points on their bench. 
 * **Interpretation** -- Shivang is horrible at making start / sit decisions (his projected lineup points is way higher than his actual lineup points), while I have made solid start/sit decisions (since my actual lineup points are higher than my projected lineup points). Somehow, Akshay's lineup has the most upside since he has the highest optimal points in the league. 
 
 ## Luck Rating
