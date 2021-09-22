@@ -12,3 +12,5 @@ Record | Sleeper Rank | Power Rank
 
 {% include_relative week2/dmethi_polar.html %}
 
+{% include_relative week2/dmethi_filtered.html %}
+
