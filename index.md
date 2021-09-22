@@ -29,3 +29,5 @@
 
 ## Player Values
 {% include_relative week2/values.html %}
+* **Value Over Replacement Starter (VORS)** -- Points per game over a baseline starter at each position. For QB, that's QB12 on the season, for RB, that's RB30 on the season, for WR, that's WR30 on the season, for TE, that's TE12 on the season, and for K, that's K12 on the season.
+* **Value Over Replacement Player (VORP)** -- Points per game over the next best available waiver wire pick at each position. 
