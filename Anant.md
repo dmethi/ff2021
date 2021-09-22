@@ -11,3 +11,5 @@ Record | Sleeper Rank | Power Rank
 {% include_relative week2/anantjindani_results.html %}
 
 {% include_relative week2/anantjindani_polar.html %}
+
+{% include_relative week2/anantjindani_filtered.html %}
