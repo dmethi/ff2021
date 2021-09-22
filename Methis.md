@@ -1,8 +1,5 @@
 ---
 layout: page
 title: Methis
-permalink: /methis/
+permalink: /Methis/
 ---
-
-# Test
-Test 1234
