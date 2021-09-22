@@ -4,7 +4,7 @@ title: Weekly Overview
 ---
 
 <figure class="content-large">
-  <img src="/week2/table.png"/>
+  <img src="/week2/table.png" class="img-responsive"/>
 </figure>
 * **Sleeper Rank** -- Your league rank
 * **Power Rank + Power Rank Value** -- Your power ranking, based on a composite of your points scored, your optimal points (as a gauge for overall roster strength), and your 3-week average (to factor in recent form). Clearly, lot of differences between the Sleeper Rank and the Power Rank after this week, Power Rank more or less reflects who I'm most scared of facing.
