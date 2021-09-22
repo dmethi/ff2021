@@ -3,3 +3,7 @@ layout: page
 title: Varun
 permalink: /Varun/
 ---
+
+Record | Sleeper Rank | Power Rank               
+:--: | :--: | :--:
+0-2 | 10th | 5th   
