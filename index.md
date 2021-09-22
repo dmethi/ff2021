@@ -4,7 +4,7 @@ title: Weekly Overview
 ---
 
  ![Week Overview](/week2/table.png)
-* **Sleeper Rank** -- Your league rank
+* **Sleeper Rank** -- Your league rank.
 * **Power Rank + Power Rank Value** -- Your power ranking, based on a composite of your points scored, your optimal points (as a gauge for overall roster strength), and your 3-week average (to factor in recent form). Clearly, lot of differences between the Sleeper Rank and the Power Rank after this week, Power Rank more or less reflects who I'm most scared of facing.
 * **Gut Points** -- Your points gained or lost based on making start/sit decisions that go against the optimal lineup suggested by FantasyPros. Most people have a score near 0 since most starting lineups have just been the projected best starting lineups. 
 * **Self Inflicted Losses** -- Losses in which a team's projected starting lineup score (best one as suggested by FantasyPros) outscores their opponent's score, but they still lose since their actual starting lineup failed to outscore their opponent's score. Shivang and Kishan have already racked up one of those losses each, ouch. 
