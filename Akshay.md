@@ -11,3 +11,5 @@ Record | Sleeper Rank | Power Rank
 {% include_relative week2/ramen005_results.html %}
 
 {% include_relative week2/ramen005_polar.html %}
+
+{% include_relative week2/ramen005_filtered.html %}
