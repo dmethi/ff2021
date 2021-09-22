@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 # Week 2 -- Season Stats
 
 ## Weekly Overview
