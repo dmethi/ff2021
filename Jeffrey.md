@@ -11,3 +11,5 @@ Record | Sleeper Rank | Power Rank
 {% include_relative week2/ChinkTownBois_results.html %}
 
 {% include_relative week2/ChinkTownBois_polar.html %}
+
+{% include_relative week2/ChinkTownBois_filtered.html %}
