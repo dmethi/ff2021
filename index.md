@@ -2,6 +2,10 @@
 
 ## Weekly Overview
 {% include_relative week2/overview.html %}
+* **Wins** -- self explanatory
+* **Sleeper Rank** -- your league rank
+* **Power Rank + Power Rank Value** -- your power ranking, based on a composite of your points scored, your optimal points (as a gauge for overall roster strength), and your 3-week average (to factor in recent form)
+* 
 
 ## Positional Points Breakdown
 {% include_relative week2/stacked_bar.html %}
