@@ -6,13 +6,13 @@ permalink: /Sitarams/
 
 Record | Sleeper Rank | Power Rank               
 :--: | :--: | :--:
-1-1 | 4th | 1st   
+2-1 | 3rd | 1st   
 
 #### Results
-{% include_relative week2/aditya22_results.html %}
+{% include_relative week3/aditya22_results.html %}
 
 #### Positional Points Breakdown
-{% include_relative week2/aditya22_polar.html %}
+{% include_relative week3/aditya22_polar.html %}
 
 #### Roster Breakdown
-{% include_relative week2/aditya22_filtered.html %}
+{% include_relative week3/aditya22_filtered.html %}
