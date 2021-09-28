@@ -6,13 +6,13 @@ permalink: /Jeffrey/
 
 Record | Sleeper Rank | Power Rank               
 :--: | :--: | :--:
-2-0 | 3rd | 8th   
+2-1 | 5th | 7th   
 
 #### Results
-{% include_relative week2/ChinkTownBois_results.html %}
+{% include_relative week3/ChinkTownBois_results.html %}
 
 #### Positional Points Breakdown
-{% include_relative week2/ChinkTownBois_polar.html %}
+{% include_relative week3/ChinkTownBois_polar.html %}
 
 #### Roster Breakdown
-{% include_relative week2/ChinkTownBois_filtered.html %}
+{% include_relative week3/ChinkTownBois_filtered.html %}
