@@ -6,13 +6,13 @@ permalink: /Kishan/
 
 Record | Sleeper Rank | Power Rank               
 :--: | :--: | :--:
-0-2 | 11th | 7th   
+0-3 | 12th | 10th   
 
 #### Results
-{% include_relative week2/plumsmuggler99_results.html %}
+{% include_relative week3/plumsmuggler99_results.html %}
 
 #### Positional Points Breakdown
-{% include_relative week2/plumsmuggler99_polar.html %}
+{% include_relative week3/plumsmuggler99_polar.html %}
 
 #### Roster Breakdown
-{% include_relative week2/plumsmuggler99_filtered.html %}
+{% include_relative week3/plumsmuggler99_filtered.html %}
