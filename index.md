@@ -7,6 +7,8 @@ title: Weekly Overview
 * **Sleeper Rank** -- Your league rank.
 * **Power Rank + Power Rank Value** -- Your power ranking, based on a composite of your points scored, your optimal points (as a gauge for overall roster strength), and your 3-week average (to factor in recent form). 
 * **Gut Points** -- Your points gained or lost based on making start/sit decisions that go against the optimal lineup suggested by FantasyPros. 
+* **Projected Lineup Points** -- The points you would've scored if you started the projected optimal lineup suggested by FantasyPros.
+* **Optimal Points** -- The points you would've scored if you started your optimal lineup.
 * **Self Inflicted Losses** -- Losses in which a team's projected starting lineup score (best one as suggested by FantasyPros) outscores their opponent's score, but they still lose since their actual starting lineup failed to outscore their opponent's score.
 * **Potential Wins** -- Losses in which a team's optimal starting lineup outscores their opponent's score, but their actual starting lineup fails to do so. This stings a bit less since those owners would've had to make a gutsy call in starting a player projected to do worse. Unfortunately both of Varun's losses fall into this category. 
 
