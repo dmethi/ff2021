@@ -15,7 +15,7 @@ Record | Sleeper Rank | Power Rank
 {% include_relative week3/aditya22_score.html %}
 
 #### Positional Scoring
-{% include_relative week3/aditya22.html %}
+{% include_relative week3/aditya22_positional.html %}
 
 #### League Ranks
 {% include_relative week3/aditya22_polar.html %}
