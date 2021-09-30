@@ -12,7 +12,7 @@ Record | Sleeper Rank | Power Rank
 {% include_relative week3/armadurai_results.html %}
 
 #### Scoring
-{% include_relative week3/armadurai_results.html %}
+{% include_relative week3/armadurai_score.html %}
 
 #### Positional Points Breakdown
 {% include_relative week3/armadurai_polar.html %}
