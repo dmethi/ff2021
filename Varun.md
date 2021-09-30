@@ -12,7 +12,7 @@ Record | Sleeper Rank | Power Rank
 {% include_relative week3/varunagarwal_results.html %}
 
 #### Scoring
-{% include_relative week3/varunagarwal_results.html %}
+{% include_relative week3/varunagarwal_score.html %}
 
 #### Positional Points Breakdown
 {% include_relative week3/varunagarwal_polar.html %}
