@@ -11,6 +11,9 @@ Record | Sleeper Rank | Power Rank
 #### Results
 {% include_relative week3/scboom5_results.html %}
 
+#### Scoring
+{% include_relative week3/scboom5_score.html %}
+
 #### Positional Points Breakdown
 {% include_relative week3/scboom5_polar.html %}
 
