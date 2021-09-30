@@ -14,7 +14,7 @@ Record | Sleeper Rank | Power Rank
 #### Scoring
 {% include_relative week3/ramen005_score.html %}
 
-### Positional Scoring
+#### Positional Scoring
 {% include_relative week3/ramen005_positional.html %}
 
 #### League Ranks
