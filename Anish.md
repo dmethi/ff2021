@@ -11,6 +11,9 @@ Record | Sleeper Rank | Power Rank
 #### Results
 {% include_relative week3/aaggarwal22_results.html %}
 
+#### Scoring
+{% include_relative week3/aaggarwal22_score.html %}
+
 #### Positional Points Breakdown
 {% include_relative week3/aaggarwal22_polar.html %}
 
