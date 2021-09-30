@@ -11,6 +11,9 @@ Record | Sleeper Rank | Power Rank
 #### Results
 {% include_relative week3/YouSmellLikeDaal_results.html %}
 
+#### Scoring
+{% include_relative week3/YouSmellLikeDaal_score.html %}
+
 #### Positional Points Breakdown
 {% include_relative week3/YouSmellLikeDaal_polar.html %}
 
