@@ -15,7 +15,7 @@ Record | Sleeper Rank | Power Rank
 {% include_relative week3/dmethi_score.html %}
 
 #### Positional Scoring
-{% include_relative week3/dmethi.html %}
+{% include_relative week3/dmethi_positional.html %}
 
 #### League Ranks
 {% include_relative week3/dmethi_polar.html %}
