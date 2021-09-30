@@ -12,6 +12,7 @@ title: Weekly Overview
 * **Methis vs Aman** -- My starting lineup just makes me sad. With the wave of injuries that our team has faced, the goal this week is just to get to 100 points and build some positive mojo going forward. Little to no chance Aman loses this week coming off of his dominant performances the last two weeks. 
 * **Shivang vs Kishan** -- A fight between the manager who doesn't check fantasy versus the guy who might as well not check fantasy, I'm still gonna give the edge to Kishan over Shivang who's team is (should be?) in the middle of a major rebuild. 
 
+## Season Review
  ![Week Overview](/week3/week3.png)
 * **Sleeper Rank** -- Your league rank.
 * **Power Rank + Power Rank Value** -- Your power ranking, based on a composite of your points scored, your optimal points (as a gauge for overall roster strength), and your 3-week average (to factor in recent form). 
