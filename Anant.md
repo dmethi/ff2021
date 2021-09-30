@@ -11,6 +11,9 @@ Record | Sleeper Rank | Power Rank
 #### Results
 {% include_relative week3/anantjindani_results.html %}
 
+#### Scoring
+{% include_relative week3/anantjindani_score.html %}
+
 #### Positional Points Breakdown
 {% include_relative week3/anantjindani_polar.html %}
 
