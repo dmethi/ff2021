@@ -14,7 +14,10 @@ Record | Sleeper Rank | Power Rank
 #### Scoring
 {% include_relative week3/ChinkTownBois_score.html %}
 
-#### Positional Points Breakdown
+#### Positional Scoring
+{% include_relative week3/ChinkTownBois_positional.html %}
+
+#### League Ranks
 {% include_relative week3/ChinkTownBois_polar.html %}
 
 #### Roster Breakdown
