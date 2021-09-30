@@ -14,7 +14,7 @@ Record | Sleeper Rank | Power Rank
 #### Scoring
 {% include_relative week3/YouSmellLikeDaal_score.html %}
 
-### Positional Scoring
+#### Positional Scoring
 {% include_relative week3/YouSmellLikeDaal_positional.html %}
 
 #### League Ranks
