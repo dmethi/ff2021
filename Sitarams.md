@@ -12,7 +12,7 @@ Record | Sleeper Rank | Power Rank
 {% include_relative week3/aditya22_results.html %}
 
 #### Scoring
-{% include_relative week3/aditya22_results.html %}
+{% include_relative week3/aditya22_score.html %}
 
 #### Positional Points Breakdown
 {% include_relative week3/aditya22_polar.html %}
