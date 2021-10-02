@@ -17,6 +17,12 @@ Record | Sleeper Rank | Power Rank
 #### Positional Scoring
 {% include_relative week3/anantjindani_positional.html %}
 
+#### Sleeper Rank
+{% include_relative week3/anantjindani_sleeper_rank.html %}
+
+#### Power Rank
+{% include_relative week3/anantjindani_power_rank.html %}
+
 #### League Ranks
 {% include_relative week3/anantjindani_polar.html %}
 
