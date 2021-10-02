@@ -17,6 +17,12 @@ Record | Sleeper Rank | Power Rank
 #### Positional Scoring
 {% include_relative week3/ishanchakravarty_positional.html %}
 
+#### Sleeper Rank
+{% include_relative week3/ishanchakravarty_sleeper_rank.html %}
+
+#### Power Rank
+{% include_relative week3/ishanchakravarty_power_rank.html %}
+
 #### League Ranks
 {% include_relative week3/ishanchakravarty_polar.html %}
 
