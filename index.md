@@ -23,7 +23,7 @@ Coming on Thursday, October 7th.
 ## Projected / Actual / Optimal Points
 {% include_relative week4/horitontal_plot.html %}
 * **Projected Points** -- Points that an owner would've received if they started the optimal lineup based on FantasyPros expert projections. 
-* **Actual Points** -- Points that an owner has actually scored through 2 weeks. 
+* **Actual Points** -- Points that an owner has actually scored. 
 * **Optimal Points** -- Points that an owner would've scored if they started the perfect lineup possible and left zero points on their bench. 
 
 ## Luck Rating
