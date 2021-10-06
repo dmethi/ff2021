@@ -18,7 +18,9 @@ Coming on Thursday, October 7th.
 * **Potential Wins** -- Losses in which a team's optimal starting lineup outscores their opponent's score, but their actual starting lineup fails to do so. This stings a bit less since those owners would've had to make a gutsy call in starting a player projected to do worse. Unfortunately both of Varun's losses fall into this category. 
 
 ## Positional Points Breakdown
+<figure class='content-large'>
 {% include_relative week4/stacked_bar.html %}
+ </figure>
 
 ## Projected / Actual / Optimal Points
 {% include_relative week4/horitontal_plot.html %}
