@@ -23,16 +23,22 @@ Coming on Thursday, October 7th.
  </figure>
 
 ## Projected / Actual / Optimal Points
+<figure class='content-large'>
 {% include_relative week4/horitontal_plot.html %}
+ </figure>
 * **Projected Points** -- Points that an owner would've received if they started the optimal lineup based on FantasyPros expert projections. 
 * **Actual Points** -- Points that an owner has actually scored. 
 * **Optimal Points** -- Points that an owner would've scored if they started the perfect lineup possible and left zero points on their bench. 
 
 ## Luck Rating
+<figure class='content-large'>
 {% include_relative week4/luck.html %}
+ </figure>
 
 ## Player Values
+<figure class='content-large'>
 {% include_relative week4/values.html %}
+ </figure>
 * **Rank** -- Player's positional rank this far into the season.
 * **Value Over Replacement Starter (VORS)** -- Points per game over a baseline starter at each position. For QB, that's QB12 on the season, for RB, that's RB30 on the season, for WR, that's WR30 on the season, for TE, that's TE12 on the season, and for K, that's K12 on the season.
 * **Value Over Replacement Player (VORP)** -- Points per game over the next best available waiver wire pick at each position. 
