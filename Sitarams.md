@@ -6,25 +6,25 @@ permalink: /Sitarams/
 
 Record | Sleeper Rank | Power Rank               
 :--: | :--: | :--:
-2-1 | 3rd | 1st   
+3-1 | 2nd | 1st   
 
 #### Results
-{% include_relative week3/aditya22_results.html %}
+{% include_relative week4/aditya22_results.html %}
 
 #### Scoring
-{% include_relative week3/aditya22_score.html %}
+{% include_relative week4/aditya22_score.html %}
 
 #### Positional Scoring
-{% include_relative week3/aditya22_positional.html %}
+{% include_relative week4/aditya22_positional.html %}
 
 #### Sleeper Rank
-{% include_relative week3/aditya22_sleeper_rank.html %}
+{% include_relative week4/aditya22_sleeper_rank.html %}
 
 #### Power Rank
-{% include_relative week3/aditya22_power_rank.html %}
+{% include_relative week4/aditya22_power_rank.html %}
 
 #### League Ranks
-{% include_relative week3/aditya22_polar.html %}
+{% include_relative week4/aditya22_polar.html %}
 
 #### Roster Breakdown
-{% include_relative week3/aditya22_filtered.html %}
+{% include_relative week4/aditya22_filtered.html %}
