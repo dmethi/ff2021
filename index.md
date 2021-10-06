@@ -6,6 +6,8 @@ title: Weekly Overview
 ## Week 5 Preview
 Coming on Thursday, October 7th. 
 
+## Week 4 Recap
+You can read the recap here[[https://houserealest.substack.com/p/week-4-recap?justPublished=true]].
 
 ## Season Review
  ![Week Overview](/week4/week4.png)
