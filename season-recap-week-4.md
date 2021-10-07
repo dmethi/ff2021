@@ -13,6 +13,20 @@ permalink: /season-recap-week-4/
 
 **Team MVP:** Patrick Mahomes - Even during a time that QBs have become more commoditized and less valued in fantasy, Patrick Mahomes is proving to be one of the most valuable players in Fantasy Football, scoring an insane 8.4 points per game more than the QB12 on the year. Considering the fact that Akshay's margin of victory over the first 3 weeks of the season was less than 8.4 points each week, Mahomes has been a gamechanger for Akshay and is as set and forget as they come.
 
+**Schedule Analysis:**
+
+If he had other teams schedules:
+
+4-0 | 3-1 | 2-2 | 1-3 | 0-4               
+:--: | :--: | :--: | :--: | :--:
+4 | 4 | 1 | 3 | 0   
+
+If other teams had his schedule:
+
+4-0 | 3-1 | 2-2 | 1-3 | 0-4               
+:--: | :--: | :--: | :--: | :--:
+1 | 2 | 3 | 6 | 0  
+
 ### 2. Sitarams
 
 {% include_relative recap4/aditya22_record.html %}
