@@ -449,3 +449,14 @@ If other teams had his schedule:
 Definitely a victim of a brutal schedule, no one would've had a winning record with Kishan's draw. 
 
 > Kishan declined to comment.
+
+### Additional Charts
+
+ ![Positional Value](/recap4/pos_plot.png)
+This chart shows people's positional strengths/weaknesses above league average. It's just the per owner numbers shown above thrown into one plot divided by the positions. This illustrates positional value - RB/WR are clearly the two most important positions (since we see the most variance - both advantages and disadvantages) while TE, K, and DEF don't really move the needle that much (only a couple points of difference between owners). QB is an interesting one, didn't expect there to be a higher variance for QB than for TE - this year it really pays to have a rock solid QB. 
+
+![Win Points](/recap4/win_plot.png)
+This chart shows the distribution of scores in wins versus losses. Looks like ~110 points is the inflection point where you're more likely to lose vs win. >120 points virtually guarantees a win, while <90 virtually guarantees a loss.
+
+![MOV](/recap4/mov_plot.png)
+This chart shows the distribution of margins of victory. Most matches are decided by 20 points or less with a few blowouts mixed in.
