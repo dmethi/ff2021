@@ -171,6 +171,18 @@ If other teams had our schedule:
 
 We've done fine for ourselves despite this schedule as only 3 teams would've had a better record than us with our schedule.  
 
+> __Up and down season has you at 2-2 on the year, with 2 sensational perforances and a couple of duds. How would you assess your season so far?__
+> 
+> Bit of a mixed bag to start the year, but we have plenty of reason to be excited about the near future. We've overcome injuries to Mostert, McCaffrey, and Jeudy and poor picks in Aiyuk and Woods and still have shown the potential to put tons of points on the board on the backs of surprise players.
+> 
+> __Solid depth throughout the roster but you're getting killed at WR, sitting at second to last in the league at the position. How would you assess your roster?__
+> 
+> Yeah no doubt WR has been a position of pain with the inconsistency of Amari Cooper and duds everywhere else. Krish and I still believe in our ability to identify WR talent, and help is on the way with Josh Gordon making his debut this week. We love the rest of our roster and don't feel much pressure to make any moves.
+> 
+> __What's the plan to get to the top of the leaderboard and put yourself in strong position for the playoffs?__
+> 
+> Sticking to the gameplan. Krish and I have a rock solid roster, and as long as we continue to stay active on the waiver wire and keep making smart start/sit decisions, we'll be in great shape. 
+
 ### 6. Varun
 
 {% include_relative recap4/varunagarwal_record.html %}
