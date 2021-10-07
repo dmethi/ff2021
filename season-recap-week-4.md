@@ -1,6 +1,6 @@
 ---
 layout: page_2
-title: Season Recap -- Week 4
+title: Season Recap - Week 4
 permalink: /season-recap-week-4/
 ---
 
