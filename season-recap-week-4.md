@@ -31,7 +31,17 @@ If other teams had his schedule:
 
 Damn Akshay's low key had a brutal schedule to start the year, he's the only team that would've been undefeated with his schedule and only 2 other teams would have a winning record. 
 
-> Akshay declined to comment.
+> __Unbelievable start to the season has you at the top of the league undefeated at 4-0. Obviously a resounding success so far - how would you assess your season to this point?__
+> 
+> The season has so far surpassed my expectations. My goal is to not finish last but that doesn’t mean I don’t have my sights set on more. I’ll just keep rolling and trust the process and my team.
+> 
+> __A well-balanced roster has you middle of the pack at every position with no glaring weaknesses. What’s the plan for the roster moving forward - do you like the balance or will you try to invest in elite talent to get to the top of the league at one or two positions?__
+> 
+> As of now, I like my team a lot. At 4-0 , I feel like I have little need to change things up too much but I’ll evaluate as the season moves on see if any blockbuster moves are needed.
+> 
+> __You’ve failed to hit the 5-win threshold in either of the last two years, but heading into week 5, you’re already on the brink of breaking that barrier. How do you capitalize on this amazing start and ensure that you not only secure that elusive fifth win but also a high seed in the playoffs?__
+> 
+> I just have to stay grounded. I can’t make any stupid trades or rash decisions. I’ll need to stay active on the waiver wire and keep monitoring my team. I’ll also keep an eye out for good trade opportunities and just keep up with key injuries or other notable information around the league.
 
 ### 2. Sitarams
 
