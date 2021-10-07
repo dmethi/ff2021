@@ -154,7 +154,7 @@ Jeffrey's had a softer schedule to start the year, as no one in the league would
 > 
 > __What’s the gameplan to capitalizing on this 3-1 start and securing a position in the actual playoffs and not the toilet bowl for the first time in several years?__
 > 
-> Don’t trade my stars away. Every season i always try to make some trades happen and my team always ends up worse for it. I’m going to try and keep my team as it is and let the algo do the work.
+> Don’t trade my stars away. Every season I always try to make some trades happen and my team always ends up worse for it. I’m going to try and keep my team as it is and let the algo do the work.
 
 ### 5. Methis
 
