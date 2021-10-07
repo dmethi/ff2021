@@ -4,7 +4,7 @@ title: Weekly Overview
 ---
 
 ## Season Recap
-You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: site.url }}/season-recap-week-4/)
+You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: site.url }}/season-recap-week-4/).
 
 ## Week 5 Preview
 Coming on Thursday, October 7th. 
