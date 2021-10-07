@@ -37,7 +37,7 @@ Damn Akshay's low key had a brutal schedule to start the year, he's the only tea
 > 
 > __A well-balanced roster has you middle of the pack at every position with no glaring weaknesses. What’s the plan for the roster moving forward - do you like the balance or will you try to invest in elite talent to get to the top of the league at one or two positions?__
 > 
-> As of now, I like my team a lot. At 4-0 , I feel like I have little need to change things up too much but I’ll evaluate as the season moves on see if any blockbuster moves are needed.
+> As of now, I like my team a lot. At 4-0, I feel like I have little need to change things up too much but I’ll evaluate as the season moves on see if any blockbuster moves are needed.
 > 
 > __You’ve failed to hit the 5-win threshold in either of the last two years, but heading into week 5, you’re already on the brink of breaking that barrier. How do you capitalize on this amazing start and ensure that you not only secure that elusive fifth win but also a high seed in the playoffs?__
 > 
