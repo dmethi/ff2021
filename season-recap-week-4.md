@@ -31,6 +31,8 @@ If other teams had his schedule:
 
 Damn Akshay's low key had a brutal schedule to start the year, he's the only team that would've been undefeated with his schedule and only 2 other teams would have a winning record. 
 
+> Akshay declined to comment.
+
 ### 2. Sitarams
 
 {% include_relative recap4/aditya22_record.html %}
