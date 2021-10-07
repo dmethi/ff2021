@@ -93,6 +93,18 @@ If other teams had their schedule:
 
 Generous schedule so far for the Madurais as most teams in the league would be 3-1 with their schedule, and only 1 team would have a losing record with his schedule. 
 
+> __Very strong start to the season has you at 3-1 with your only loss coming to another league juggernaut the Sitarams. How would you assess your season so far?__
+> 
+> Season is going well! We are happy that our strategy is panning out for the most part. 
+> 
+> __Your roster is very top-heavy - currently top-4 at WR, RB, and K, but bottom-3 at QB, TE, and DEF. What’s the plan for the roster moving forward - are you planning to continue leaning on your studs or diversifying the roster a bit?__
+> 
+> Yes, the roster is very top heavy. Hopefully we get some support from the waiver wire, our top fantasy players,  and from our bottom tier positions.
+> 
+> __How do you capitalize on this solid start and securing the playoff spot?__
+> 
+> We capitalize by pushing. 3-1 ain’t shit. Long season ahead- can’t get complacent.
+
 ### 4. Jeffrey
 
 {% include_relative recap4/ChinkTownBois_record.html %}
@@ -119,6 +131,18 @@ If other teams had his schedule:
 0 | 4 | 8 | 0 | 0  
 
 Jeffrey's had a softer schedule to start the year, as no one in the league would have a losing record with Jeffrey's schedule. 
+
+> __After somehow making your way to a 2-1 record after an underwhelming start to the season, your team finally blew up last week to get you to 3-1. How would you assess your season so far?__
+> 
+> What can I say, my play was WR depth from the get go, all I needed was for my star RBs to show out. Saquads is finally looking like his pre ACL form so I think my team is looking strong from here. Have a couple injuries in my WR/TE position but I have depth to cover them. Only thing I’m concerned about is my RB2 slot rn.
+> 
+> __You’re at or above average at pretty much every position besides Kicker, but injury concerns threaten to derail this strong start. What’s your plan for your roster moving forward - are you going to ride with your high injury risk guys or try to reduce the risk?__
+> 
+> I’m trying to acquire another RB, because I have depth at both TE and WR, but pretty much no startable backup RB. But honestly if I have to play some duds at RB so be it. As long as I have my stars healthy for the playoffs.
+> 
+> __What’s the gameplan to capitalizing on this 3-1 start and securing a position in the actual playoffs and not the toilet bowl for the first time in several years?__
+> 
+> Don’t trade my stars away. Every season i always try to make some trades happen and my team always ends up worse for it. I’m going to try and keep my team as it is and let the algo do the work.
 
 ### 5. Methis
 
@@ -174,6 +198,18 @@ If other teams had his schedule:
 
 Looks like most people would be a little bit better than Varun if they had his schedule, again highlighting that he hasn't been one of the stronger teams in the  league to start the year. 
 
+> __Solid recovery the past couple of weeks has seen you climb to 2-2 after an 0-2 start, how would you assess your season so far?__
+> 
+> I would like to view myself as the rightful king of the league. I wanted to give the other teams some cushion before I demolished them for the year. I have the best team in the league and it’s just too easy.
+> 
+> __You’re at or above average at every position except WR, in which you’re dead last. How’re you liking your roster so far - feel the need to make any changes?__
+> 
+> I don’t think I need any wide receivers. OBJ about to go coo and that’s that. 
+> 
+> __How do you plan to continue riding this momentum and secure a playoff spot?__
+> 
+> I plan on securing a playoff spot with my long term history of appearing in the playoffs. History repeats himself and I know what it takes to be in the playoffs year to year. 
+
 ### 7. Aman
 
 {% include_relative recap4/YouSmellLikeDaal_record.html %}
@@ -200,6 +236,18 @@ If other teams had his schedule:
 0 | 2 | 3 | 4 | 3  
 
 Wow only 3 teams would've had a winning record with his schedule, and yet Aman has emerged 2-2. Yet another positive sign for Aman's team.  
+
+> __Up and down start to the season has you at 2-2 on the year, how would you assess your season so far?__
+> 
+> Inconsistent - have a solid group of core players but when they don’t show up it’s a sorry showing.
+> 
+> __You’re currently only above league average at the QB position, and pretty middle of the pack everywhere else - how do you like your roster moving forward? Are you going to stick with your guys or try changing things up?__
+> 
+> Need more depth - I’ll be on the lookout for players to add/acquire.
+> 
+> __What’s the gameplan to capitalizing on a .500 start and securing a playoff spot?__
+> 
+> Pray that Bucs and Vikings are amazing on offense every week - heartbeat of my team.
 
 ### 8. Shivang
 
@@ -228,6 +276,14 @@ If other teams had his schedule:
 
 Tough look for Shivang here as all but 2 other teams would've had a better record than Shivang with his schedule. He's had by far the easiest draw.
 
+> __Despite having the lowest points scored in the league, you sit at 2-2 on the back of a very friendly schedule. How would you assess the start to the season?__
+> 
+> It’s been a shaky start to say the least. Fantasy is no guarantee, though. Week-to-week lots can change. In years past I have had solid rocks who have faded. This year i’ve been forced to adapt and improvise from the jump. I look forward to the continued challenge and hope my team can continue to perform the way it did last week. 
+> 
+> __Your only real position of strength is TE, but besides that, you’re bottom-4 in the league everywhere else. What’s the gameplan to improving your roster and getting back to the top of the league?__
+> 
+> Last week was wild. Despite TE being my main perceived area of strength, it was the other positions which carried me. I’m just gonna continue to stay locked in and focus on setting the best possible lineup week-to-week.
+
 ### 9. Anant
 
 {% include_relative recap4/anantjindani_record.html %}
@@ -254,6 +310,18 @@ If other teams had his schedule:
 0 | 2 | 2 | 7 | 1  
 
 Yes Anant's struggling, but damn he's had a brutal schedule to start the year - only 4 teams would have a better record with his schedule. 
+
+> __Difficult start to the season has seen you slip to 1-3 after starting the year with a bang - what’s gone wrong?__
+> 
+> Considering the last 3 teams we faced each put up at least 122 points, there’s not much you can do. Given the nature of fantasy, poor performances are inevitable for any team. so the way I see it is that we may as well get the bad games out early against high scoring opponents. 
+> 
+> __Your weakness at RB is well documented, but your WR trio has also disappointed as you’re only 5th in the league at scoring from that position. What’s the plan to improving at these critical positions?__
+> 
+> Obviously underperformances across the board are worrisome, and as a result we are currently engaged in trade talks with many teams across the league. I’m not ready to completely give up on my guys, but we’re definitely looking to change things up. 
+> 
+> __What’s the gameplan to getting back to the top of the league?__
+> 
+> Moving forward, we just gotta take it week by week. It’s a long season. extra game this year. We’ll be back in contention. Positive regression baby.
 
 ### 10. Ishan
 
@@ -282,6 +350,14 @@ If other teams had his schedule:
 
 Not the best look for Ishan as 6 teams would have had a winning record with Ishan's schedule, yet he sits at 1-3. 
 
+> __Disappointing start to the season slipping to 1-3 on the year - what’s gone wrong so far?__
+> 
+> Nothing has gone wrong with my team… just close losses that could swing either way. Injuries also probably ruined my season.
+> 
+> __You currently sit near the bottom of the league in both QB and TE scoring - what’s the plan to improve these positions and getting back to the top of the league?__
+> 
+> Nothing too different will be done to my team. Just being patient with my players and riding the hot hand for QB.
+
 ### 11. Anish
 
 {% include_relative recap4/aaggarwal22_record.html %}
@@ -308,6 +384,18 @@ If other teams had his schedule:
 0 | 1 | 3 | 6 | 2  
 
 Like with Anant, despite starting the year pretty poorly, Anish has definitely been the victim of a brutal schedule, as only 1 person would've had a winning record with his schedule.  
+
+> __Brutal start to the year for you as you have yet to clear the 105 points threshold. What’s gone wrong so far?__
+> 
+> The main thing that’s gone wrong has been inconsistent performance, especially from the bottom half of the roster. With virtually no contribution on a weekly basis from kicker/Def, its been tough. Also, getting having all my depth destroyed by injury has been annoying (Ettiene, Landry, Chark..)
+> 
+> __Currently, you sit near the bottom of the league in points scored from your TE, K, DEF, and QB. What’s the plan to improve these positions - do you believe in your guys or do you have roster changes planned?__
+> 
+> I believe in my guys, we’ll see what happens. Kickers and Def’s are streaky so hopefully get some good luck.
+> 
+> __What’s your gameplan for climbing up to the top of the league?__
+> 
+> Planning on riding out the season, it has only been a short time. I’m down to make moves and I’ll look to do anything to improve the competitiveness of the roster.
 
 ### 12. Kishan
 
@@ -336,3 +424,4 @@ If other teams had his schedule:
 
 Definitely a victim of a brutal schedule, no one would've had a winning record with Kishan's draw. 
 
+> Kishan declined to comment.
