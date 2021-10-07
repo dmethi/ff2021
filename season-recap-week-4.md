@@ -452,6 +452,14 @@ Definitely a victim of a brutal schedule, no one would've had a winning record w
 
 ### Additional Charts
 
+**Positional Points above League Average - Leaders**
+{% include_relative recap4/above_avg.html %}
+Jeffrey's the only one on here twice, impressive. 
+
+**Positional Points above League Average - Laggards**
+{% include_relative recap4/below_avg.html %}
+Shivang and Kishan are both on her twice, yikes.
+
  ![Positional Value](/recap4/pos_plot.png)
 This chart shows people's positional strengths/weaknesses above league average. It's just the per owner numbers shown above thrown into one plot divided by the positions. This illustrates positional value - RB/WR are clearly the two most important positions (since we see the most variance - both advantages and disadvantages) while TE, K, and DEF don't really move the needle that much (only a couple points of difference between owners). QB is an interesting one, didn't expect there to be a higher variance for QB than for TE - this year it really pays to have a rock solid QB. 
 
