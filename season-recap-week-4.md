@@ -58,6 +58,11 @@ If other teams had their schedule:
 
 Only 3 other teams would've had a winning record to start the season with the Sitarams schedule. 
 
+> __Phenomenal start to the year has you at 3-1 with the highest points scored in the league and your only loss coming at the hands of the only undefeated team in the league. How do you assess your season so far?__ 
+>  I think we’ve had a solid start so far, been very consistent but our RB 1 and QB consistency is an area that needs to be cleaned up for us. I feel like this season is off to a great start as our team has consistently been among the highest scorers every week and the highest scorer so far this year.
+>  __Your roster does seem to be pretty top-heavy with top-2 WR/TE groups but bottom-5 everywhere else. What’s the plan for the roster moving forward - are you trying to spread the wealth a little to the other positions or riding your starts at WR/TE? How do you capitalize on this start and ensure a spot in the playoffs?__
+>  Well we expect moderate regression from our WRs, Waller is playing exactly how we expect if not slightly worse. We also expect an uptick in Taylor’s production especially his red zone efficiency. At the end of the day we can only hope these factors even out and we continue playing at a similar level. Although top heavy rn, we feel like our roster has the tools to be the most well rounded team as the season carries on. Herbert has been that top tier QB the past 2 weeks, and JT has showed the RB1 flashes last week. Add that to an overqualified RB2, the best WR group in the league, and a top 2 tight end - we feel as though we are in a comfortable place in terms of making it to the playoffs this year. 
+
 ### 3. Madurais
 
 {% include_relative recap4/armadurai_record.html %}
