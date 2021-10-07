@@ -3,13 +3,14 @@ layout: page
 title: Weekly Overview
 ---
 
+## Season Recap
+You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: site.url }}/season-recap-week-4/)
+
 ## Week 5 Preview
 Coming on Thursday, October 7th. 
 
 ## Week 4 Recap
 You can read the recap [here](https://houserealest.substack.com/p/week-4-recap?justPublished=true).
-
-[Methis]{% post_url Methis %}
 
 ## Season Review
  ![Week Overview](/week4/week4.png)
