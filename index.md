@@ -9,6 +9,8 @@ Coming on Thursday, October 7th.
 ## Week 4 Recap
 You can read the recap [here](https://houserealest.substack.com/p/week-4-recap?justPublished=true).
 
+{% post_url Methis %}
+
 ## Season Review
  ![Week Overview](/week4/week4.png)
 * **Sleeper Rank** -- Your league rank.
