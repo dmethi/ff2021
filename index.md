@@ -3,14 +3,14 @@ layout: page
 title: Weekly Overview
 ---
 
-## Season Recap
-You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: site.url }}/season-recap-week-4/).
-
 ## Week 6 Preview
 Will be coming by Thursday, October 14th. 
 
 ## Week 5 Recap
 Will be coming later tonight (October 12th).
+
+## Season Recap
+You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: site.url }}/season-recap-week-4/).
 
 ## Season Review
  ![Week Overview](/week5/week5.png)
