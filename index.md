@@ -22,6 +22,9 @@ Will be coming later tonight (October 12th).
 * **Self Inflicted Losses** -- Losses in which a team's projected starting lineup score (best one as suggested by FantasyPros) outscores their opponent's score, but they still lose since their actual starting lineup failed to outscore their opponent's score.
 * **Potential Wins** -- Losses in which a team's optimal starting lineup outscores their opponent's score, but their actual starting lineup fails to do so. This stings a bit less since those owners would've had to make a gutsy call in starting a player projected to do worse. Unfortunately both of Varun's losses fall into this category. 
 
+## Playoff Odds
+{% include_relative week5/playoff_odds.html %}
+
 ## Positional Points Breakdown
 {% include_relative week5/stacked_bar.html %}
 
