@@ -3,13 +3,10 @@ layout: page
 title: Weekly Overview
 ---
 
-## Week 6 Preview
-Will be coming by Thursday, October 14th. 
+Week 6 Preview will be coming by Thursday, October 14th. 
 
-## Week 5 Recap
-Will be coming later tonight (October 12th).
+You can read the Week 5 Recap [here](https://houserealest.substack.com/p/week-5-recap?justPublished=true). 
 
-## Season Recap
 You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: site.url }}/season-recap-week-4/).
 
 ## Season Review
