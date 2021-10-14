@@ -4,7 +4,7 @@ title: Weekly Overview
 ---
 
 ## Week 6 Preview
-{% include_relative week6/matchups.html %}
+{% include_relative week6/matchups.html %}{:overflow-x: scroll}
 
 * **Methis vs Madurais** - 2nd highest scoring projected matchup of the week, this should be an exciting one as both teams are carrying strong momentum heading into this week even though it doesn't carry the highest playoff implications in this one since both of our teams are well positioned to this point. While Akhil's team is at full strength, I'm a little shorthanded coming into this one with Cordarelle and Corey Davis on bye and CMC and Harris both questionable to play with injury concerns. That's why I'm thinking the Madurais are pretty likely to win this one, especially with no signs pointing to any of Zeke, Henry, or Adams slowing down any time soon. 
 * **Kishan vs Ishan** - This matchup offers the lowest intrigue in terms of playoff implications with Kishan almost out of it already, and it's probably one of the last chances Kishan will have to spark his team and turn his season around. It's projected to be a close matchup, and all eyes will be on the Kansas City - Washington matchup with 5 players across the two teams playing in that game (Heinecke, Tyreek, Mecole, Gibson, and the Chiefs Defense (yikes....!!)). I'm favoring Ishan in this matchup, but a blowup game by any one of Allen / Hill / Jones / DHop can easily turn the tables and get Kishan his first win of the year. 
