@@ -18,6 +18,7 @@ You can read the Week 5 Recap [here](https://houserealest.substack.com/p/week-5-
 You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: site.url }}/season-recap-week-4/).
 
 ## Season Review
+{% include_relative week5/overview.html %}{:overflow-x: scroll}
  ![Week Overview](/week5/week5.png)
 * **Sleeper Rank** -- Your league rank.
 * **Power Rank + Power Rank Value** -- Your power ranking, based on a composite of your points scored, your optimal points (as a gauge for overall roster strength), and your 3-week average (to factor in recent form). 
