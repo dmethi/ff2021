@@ -3,7 +3,7 @@ layout: page
 title: Weekly Overview
 ---
 
-## Week 6 Preview
+## Week 7 Preview
 Coming on Thursday, October 21st.
 
 You can read the Week 5 Recap [here](https://houserealest.substack.com/p/week-5-recap?justPublished=true). 
