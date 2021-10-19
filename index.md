@@ -6,7 +6,7 @@ title: Weekly Overview
 ## Week 7 Preview
 Coming on Thursday, October 21st.
 
-You can read the Week 5 Recap [here](https://houserealest.substack.com/p/week-5-recap?justPublished=true). 
+You can read the Week 6 Recap [here](https://houserealest.substack.com/p/week-6-recap?justPublished=true). 
 
 You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: site.url }}/season-recap-week-4/).
 
