@@ -6,25 +6,25 @@ permalink: /Akshay/
 
 Record | Sleeper Rank | Power Rank               
 :--: | :--: | :--:
-4-2 | 3rd | 4th   
+4-3 | 4th | 7th   
 
 #### Results
-{% include_relative week6/ramen005_results.html %}
+{% include_relative week7/ramen005_results.html %}
 
 #### Scoring
-{% include_relative week6/ramen005_score.html %}
+{% include_relative week7/ramen005_score.html %}
 
 #### Positional Scoring
-{% include_relative week6/ramen005_positional.html %}
+{% include_relative week7/ramen005_positional.html %}
 
 #### Sleeper Rank
-{% include_relative week6/ramen005_sleeper_rank.html %}
+{% include_relative week7/ramen005_sleeper_rank.html %}
 
 #### Power Rank
-{% include_relative week6/ramen005_power_rank.html %}
+{% include_relative week7/ramen005_power_rank.html %}
 
 #### League Ranks
-{% include_relative week6/ramen005_polar.html %}
+{% include_relative week7/ramen005_polar.html %}
 
 #### Roster Breakdown
-{% include_relative week6/ramen005_filtered.html %}
+{% include_relative week7/ramen005_filtered.html %}
