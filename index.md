@@ -3,7 +3,9 @@ layout: page
 title: Weekly Overview
 ---
 
-Week 7 preview is coming on Thursday, October 21st.
+Week 8 preview is coming on Thursday, October 28th.
+
+Week 7 recap will be hopefully coming tonight, October 26th.
 
 You can read the Week 6 Recap [here](https://houserealest.substack.com/p/week-6-recap?justPublished=true). 
 
