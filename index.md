@@ -20,7 +20,7 @@ You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: si
 * **Potential Wins** -- Losses in which a team's optimal starting lineup outscores their opponent's score, but their actual starting lineup fails to do so. This stings a bit less since those owners would've had to make a gutsy call in starting a player projected to do worse. Unfortunately both of Varun's losses fall into this category. 
 
 ## Playoff Odds
-![Playoff Odds](/week7/week7.png)
+![Playoff Odds](/week7/week7odds.png)
 
 ## Positional Points Breakdown
 {% include_relative week7/stacked_bar.html %}
