@@ -6,25 +6,25 @@ permalink: /Anant/
 
 Record | Sleeper Rank | Power Rank               
 :--: | :--: | :--:
-2-4 | 9th | 10th   
+3-4 | 8th | 4th   
 
 #### Results
-{% include_relative week6/anantjindani_results.html %}
+{% include_relative week7/anantjindani_results.html %}
 
 #### Scoring
-{% include_relative week6/anantjindani_score.html %}
+{% include_relative week7/anantjindani_score.html %}
 
 #### Positional Scoring
-{% include_relative week6/anantjindani_positional.html %}
+{% include_relative week7/anantjindani_positional.html %}
 
 #### Sleeper Rank
-{% include_relative week6/anantjindani_sleeper_rank.html %}
+{% include_relative week7/anantjindani_sleeper_rank.html %}
 
 #### Power Rank
-{% include_relative week6/anantjindani_power_rank.html %}
+{% include_relative week7/anantjindani_power_rank.html %}
 
 #### League Ranks
-{% include_relative week6/anantjindani_polar.html %}
+{% include_relative week7/anantjindani_polar.html %}
 
 #### Roster Breakdown
-{% include_relative week6/anantjindani_filtered.html %}
+{% include_relative week7/anantjindani_filtered.html %}
