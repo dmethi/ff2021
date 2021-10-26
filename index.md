@@ -5,9 +5,7 @@ title: Weekly Overview
 
 Week 8 preview is coming on Thursday, October 28th.
 
-Week 7 recap will be hopefully coming tonight, October 26th.
-
-You can read the Week 6 Recap [here](https://houserealest.substack.com/p/week-6-recap?justPublished=true). 
+You can read the Week 7 Recap [here](https://houserealest.substack.com/p/week-7-recap?justPublished=true). 
 
 You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: site.url }}/season-recap-week-4/).
 
