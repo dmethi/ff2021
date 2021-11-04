@@ -10,7 +10,7 @@ You can read the Week 7 Recap [here](https://houserealest.substack.com/p/week-7-
 You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: site.url }}/season-recap-week-4/).
 
 ## Season Review
-![Week Overview](/week7/week7.png)
+![Week Overview](/week8/week8.png)
 * **Sleeper Rank** -- Your league rank.
 * **Power Rank + Power Rank Value** -- Your power ranking, based on a composite of your points scored, your optimal points (as a gauge for overall roster strength), and your 3-week average (to factor in recent form). 
 * **Gut Points** -- Your points gained or lost based on making start/sit decisions that go against the optimal lineup suggested by FantasyPros. 
