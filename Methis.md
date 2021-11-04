@@ -6,26 +6,26 @@ permalink: /Methis/
 
 Record | Sleeper Rank | Power Rank               
 :--: | :--: | :--:
-4-3 | 3rd | 3rd
+5-3 | 3rd | 4th
 
 #### Results
-{% include_relative week7/dmethi_results.html %}
+{% include_relative week8/dmethi_results.html %}
 
 #### Scoring
-{% include_relative week7/dmethi_score.html %}
+{% include_relative week8/dmethi_score.html %}
 
 #### Positional Scoring
-{% include_relative week7/dmethi_positional.html %}
+{% include_relative week8/dmethi_positional.html %}
 
 #### Sleeper Rank
-{% include_relative week7/dmethi_sleeper_rank.html %}
+{% include_relative week8/dmethi_sleeper_rank.html %}
 
 #### Power Rank
-{% include_relative week7/dmethi_power_rank.html %}
+{% include_relative week8/dmethi_power_rank.html %}
 
 #### League Ranks
-{% include_relative week7/dmethi_polar.html %}
+{% include_relative week8/dmethi_polar.html %}
 
 #### Roster Breakdown
-{% include_relative week7/dmethi_filtered.html %}
+{% include_relative week8/dmethi_filtered.html %}
 
