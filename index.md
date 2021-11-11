@@ -24,7 +24,7 @@ You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: si
 {% include_relative week9/stacked_bar.html %}
 
 ## Projected / Actual / Optimal Points
-{% include_relative week8/horitontal_plot.html %}
+{% include_relative week9/horitontal_plot.html %}
 * **Projected Points** -- Points that an owner would've received if they started the optimal lineup based on FantasyPros expert projections. 
 * **Actual Points** -- Points that an owner has actually scored. 
 * **Optimal Points** -- Points that an owner would've scored if they started the perfect lineup possible and left zero points on their bench. 
