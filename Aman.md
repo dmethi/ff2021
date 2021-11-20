@@ -6,25 +6,25 @@ permalink: /Aman/
 
 Record | Sleeper Rank | Power Rank               
 :--: | :--: | :--:
-5-4 | 6th | 7th   
+6-4 | 5th | 9th   
 
 #### Results
-{% include_relative week9/YouSmellLikeDaal_results.html %}
+{% include_relative week10/YouSmellLikeDaal_results.html %}
 
 #### Scoring
-{% include_relative week9/YouSmellLikeDaal_score.html %}
+{% include_relative week10/YouSmellLikeDaal_score.html %}
 
 #### Positional Scoring
-{% include_relative week9/YouSmellLikeDaal_positional.html %}
+{% include_relative week10/YouSmellLikeDaal_positional.html %}
 
 #### Sleeper Rank
-{% include_relative week9/YouSmellLikeDaal_sleeper_rank.html %}
+{% include_relative week10/YouSmellLikeDaal_sleeper_rank.html %}
 
 #### Power Rank
-{% include_relative week9/YouSmellLikeDaal_power_rank.html %}
+{% include_relative week10/YouSmellLikeDaal_power_rank.html %}
 
 #### League Ranks
-{% include_relative week9/YouSmellLikeDaal_polar.html %}
+{% include_relative week10/YouSmellLikeDaal_polar.html %}
 
 #### Roster Breakdown
-{% include_relative week9/YouSmellLikeDaal_filtered.html %}
+{% include_relative week10/YouSmellLikeDaal_filtered.html %}
