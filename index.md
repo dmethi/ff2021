@@ -3,7 +3,7 @@ layout: page
 title: Weekly Overview
 ---
 
-You can read the Week 10 Recap [here](https://houserealest.substack.com/p/week-10-recap?justPublished=true). 
+You can read the Week 11 Recap [here](https://houserealest.substack.com/p/week-11-recap?justPublished=true). 
 
 You can find the season recap (thru week 4) [here]({{ site.baseurl | prepend: site.url }}/season-recap-week-4/).
 
