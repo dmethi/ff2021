@@ -6,25 +6,25 @@ permalink: /Ishan/
 
 Record | Sleeper Rank | Power Rank               
 :--: | :--: | :--:
-4-8 | 9th | 4th   
+5-9 | 9th | 7th   
 
 #### Results
-{% include_relative week12/ishanchakravarty_results.html %}
+{% include_relative week14/ishanchakravarty_results.html %}
 
 #### Scoring
-{% include_relative week12/ishanchakravarty_score.html %}
+{% include_relative week14/ishanchakravarty_score.html %}
 
 #### Positional Scoring
-{% include_relative week12/ishanchakravarty_positional.html %}
+{% include_relative week14/ishanchakravarty_positional.html %}
 
 #### Sleeper Rank
-{% include_relative week12/ishanchakravarty_sleeper_rank.html %}
+{% include_relative week14/ishanchakravarty_sleeper_rank.html %}
 
 #### Power Rank
-{% include_relative week12/ishanchakravarty_power_rank.html %}
+{% include_relative week14/ishanchakravarty_power_rank.html %}
 
 #### League Ranks
-{% include_relative week12/ishanchakravarty_polar.html %}
+{% include_relative week14/ishanchakravarty_polar.html %}
 
 #### Roster Breakdown
-{% include_relative week12/ishanchakravarty_filtered.html %}
+{% include_relative week14/ishanchakravarty_filtered.html %}
