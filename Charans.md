@@ -6,25 +6,25 @@ permalink: /Charans/
 
 Record | Sleeper Rank | Power Rank               
 :--: | :--: | :--:
-4-8 | 11th | 12th   
+6-8 | 8th | 10th   
 
 #### Results
-{% include_relative week12/scboom5_results.html %}
+{% include_relative week14/scboom5_results.html %}
 
 #### Scoring
-{% include_relative week12/scboom5_score.html %}
+{% include_relative week14/scboom5_score.html %}
 
 #### Positional Scoring
-{% include_relative week12/scboom5_positional.html %}
+{% include_relative week14/scboom5_positional.html %}
 
 #### Sleeper Rank
-{% include_relative week12/scboom5_sleeper_rank.html %}
+{% include_relative week14/scboom5_sleeper_rank.html %}
 
 #### Power Rank
-{% include_relative week12/scboom5_power_rank.html %}
+{% include_relative week14/scboom5_power_rank.html %}
 
 #### League Ranks
-{% include_relative week12/scboom5_polar.html %}
+{% include_relative week14/scboom5_polar.html %}
 
 #### Roster Breakdown
-{% include_relative week12/scboom5_filtered.html %}
+{% include_relative week14/scboom5_filtered.html %}
